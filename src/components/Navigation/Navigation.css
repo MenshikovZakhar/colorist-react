@@ -23,12 +23,6 @@
     align-items: baseline;
 }
 
-.nav__colorist {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .nav__link {
     text-decoration: none;
     color: rgb(255, 255, 255);

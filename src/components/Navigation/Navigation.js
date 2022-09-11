@@ -32,7 +32,7 @@ function Navigation() {
                         Обо мне
                     </NavLink>
                 </div>
-                <div className='nav__movie'>
+                <div className='nav__colorist'>
                     <NavLink
                         to='/saved-movies'
                         className={({ isActive }) =>
@@ -42,7 +42,7 @@ function Navigation() {
                         Услуги
                     </NavLink>
                 </div>
-                <div className='nav__movie'>
+                <div className='nav__colorist'>
                     <NavLink
                         to='/saved-movies'
                         className={({ isActive }) =>
@@ -52,7 +52,7 @@ function Navigation() {
                         Стоимость
                     </NavLink>
                 </div>
-                <div className='nav__movie'>
+                <div className='nav__colorist'>
                     <NavLink
                         to='/about'
                         className={({ isActive }) =>
@@ -62,7 +62,7 @@ function Navigation() {
                         Портфолио
                     </NavLink>
                 </div>
-                <div className='nav__movie'>
+                <div className='nav__colorist'>
                     <NavLink
                         to='/saved-movies'
                         className={({ isActive }) =>

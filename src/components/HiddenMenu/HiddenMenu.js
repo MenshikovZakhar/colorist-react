@@ -1,5 +1,6 @@
 import { NavLink, Link } from 'react-router-dom';
 import './HiddenMenu.css';
+import logo from '../../images/logo_2.png';
 
 function HiddenMenu({ onClickCloseMenu }) {
   return (
@@ -7,6 +8,9 @@ function HiddenMenu({ onClickCloseMenu }) {
       <nav className='nav-movie__menu_adapt'>
         <div className='nav-menu__close' onClick={onClickCloseMenu}></div>
         <div className='nav-movie__movie_adapt'>
+          <Link to='/' className='header__link'>
+            <img className='header__logo' src={logo} alt='logo' />
+          </Link>
           <Link
             to='/'
             className='nav-movie__link-adapt'
@@ -15,7 +19,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             Главная
           </Link>
           <NavLink
-            to='/movies'
+            to='/about'
             className={({ isActive }) =>
               isActive
                 ? 'nav-movie__link-adapt active-adapt'
@@ -23,10 +27,10 @@ function HiddenMenu({ onClickCloseMenu }) {
             }
             onClick={onClickCloseMenu}
           >
-            Фильмы
+            Обо мне
           </NavLink>
           <NavLink
-            to='/saved-movies'
+            to='/services'
             className={({ isActive }) =>
               isActive
                 ? 'nav-movie__link-adapt active-adapt'
@@ -34,14 +38,40 @@ function HiddenMenu({ onClickCloseMenu }) {
             }
             onClick={onClickCloseMenu}
           >
-            Сохранённые фильмы
+            Услуги
           </NavLink>
-        </div>
-
-        <div className='nav__link'>
-          <NavLink to='/profile' className='navigation__profile-link'>
-            Аккаунт
-            <div className='navigation__user-icon' />
+          <NavLink
+            to='/price'
+            className={({ isActive }) =>
+              isActive
+                ? 'nav-movie__link-adapt active-adapt'
+                : 'nav-movie__link-adapt'
+            }
+            onClick={onClickCloseMenu}
+          >
+            Стоимость
+          </NavLink>
+          <NavLink
+            to='/portfolio'
+            className={({ isActive }) =>
+              isActive
+                ? 'nav-movie__link-adapt active-adapt'
+                : 'nav-movie__link-adapt'
+            }
+            onClick={onClickCloseMenu}
+          >
+            Портфолио
+          </NavLink>
+          <NavLink
+            to='/contacts'
+            className={({ isActive }) =>
+              isActive
+                ? 'nav-movie__link-adapt active-adapt'
+                : 'nav-movie__link-adapt'
+            }
+            onClick={onClickCloseMenu}
+          >
+            Контакты
           </NavLink>
         </div>
       </nav>

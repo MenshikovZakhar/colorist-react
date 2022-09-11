@@ -37,11 +37,10 @@
 }
 
 .nav-movie__movie_adapt {
-    margin-top: 159px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
 }
 
 .nav-movie__link-adapt {
@@ -88,7 +87,7 @@
     }
 
     .nav-movie__movie_adapt {
-        margin-top: 144px;
+        margin-top: 40px;
     }
 
     .nav-movie__link-adapt {

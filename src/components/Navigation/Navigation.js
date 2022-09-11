@@ -21,8 +21,8 @@ function Navigation() {
             ) : (
                 <HiddenMenu onClickCloseMenu={onClickCloseMenu} />
             )}
-            <nav className='nav-movie__menu'>
-                <div className='nav-movie__movie'>
+            <nav className='nav__menu'>
+                <div className='nav__colorist'>
                     <NavLink
                         to='/about'
                         className={({ isActive }) =>
@@ -32,7 +32,7 @@ function Navigation() {
                         Обо мне
                     </NavLink>
                 </div>
-                <div className='nav-movie__movie'>
+                <div className='nav__movie'>
                     <NavLink
                         to='/saved-movies'
                         className={({ isActive }) =>
@@ -42,13 +42,33 @@ function Navigation() {
                         Услуги
                     </NavLink>
                 </div>
-                <div className='nav__link'>
-                    <NavLink to='/profile' className='navigation__profile-link'>
+                <div className='nav__movie'>
+                    <NavLink
+                        to='/saved-movies'
+                        className={({ isActive }) =>
+                            isActive ? 'nav__link active' : 'nav__link'
+                        }
+                    >
+                        Стоимость
+                    </NavLink>
+                </div>
+                <div className='nav__movie'>
+                    <NavLink
+                        to='/about'
+                        className={({ isActive }) =>
+                            isActive ? 'nav__link active' : 'nav__link'
+                        }
+                    >
                         Портфолио
                     </NavLink>
                 </div>
-                <div className='nav__link'>
-                    <NavLink to='/profile' className='navigation__profile-link'>
+                <div className='nav__movie'>
+                    <NavLink
+                        to='/saved-movies'
+                        className={({ isActive }) =>
+                            isActive ? 'nav__link active' : 'nav__link'
+                        }
+                    >
                         Контакты
                     </NavLink>
                 </div>

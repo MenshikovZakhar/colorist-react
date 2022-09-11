@@ -34,7 +34,7 @@ function Navigation() {
                 </div>
                 <div className='nav__colorist'>
                     <NavLink
-                        to='/saved-movies'
+                        to='/services'
                         className={({ isActive }) =>
                             isActive ? 'nav__link active' : 'nav__link'
                         }
@@ -44,7 +44,7 @@ function Navigation() {
                 </div>
                 <div className='nav__colorist'>
                     <NavLink
-                        to='/saved-movies'
+                        to='/price'
                         className={({ isActive }) =>
                             isActive ? 'nav__link active' : 'nav__link'
                         }
@@ -54,7 +54,7 @@ function Navigation() {
                 </div>
                 <div className='nav__colorist'>
                     <NavLink
-                        to='/about'
+                        to='/portfolio'
                         className={({ isActive }) =>
                             isActive ? 'nav__link active' : 'nav__link'
                         }
@@ -64,7 +64,7 @@ function Navigation() {
                 </div>
                 <div className='nav__colorist'>
                     <NavLink
-                        to='/saved-movies'
+                        to='/contacts'
                         className={({ isActive }) =>
                             isActive ? 'nav__link active' : 'nav__link'
                         }

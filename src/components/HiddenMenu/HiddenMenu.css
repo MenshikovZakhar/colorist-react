@@ -35,7 +35,7 @@
     margin-top: 10px;
 }
 
-.nav-movie__menu_adapt {
+.nav__menu_adapt {
     width: 68%;
     height: 100vh;
     background-color: #fff;
@@ -103,7 +103,7 @@
         background: unset;
     }
 
-    .nav-movie__menu_adapt {
+    .nav__menu_adapt {
         width: 100%;
     }
 

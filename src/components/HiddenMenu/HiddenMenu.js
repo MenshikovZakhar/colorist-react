@@ -16,7 +16,7 @@ function HiddenMenu({ onClickCloseMenu }) {
           </Link>
           <Link
             to='/'
-            className='nav-movie__link-adapt'
+            className='nav__link-adapt'
             onClick={onClickCloseMenu}
           >
             Главная

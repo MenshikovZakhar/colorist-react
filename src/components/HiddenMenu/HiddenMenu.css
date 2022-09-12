@@ -15,6 +15,16 @@
     margin-bottom: 20px;
 }
 
+.iqons__logo {
+    width: 45px;
+    margin: 15px;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+}
+
 .hidden-menu__title {
     font-size: 25px;
     line-height: 32px;

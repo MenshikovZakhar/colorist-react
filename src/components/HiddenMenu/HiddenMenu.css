@@ -11,6 +11,20 @@
     width: 100vw;
 }
 
+.header__logo-hiddenMenu {
+    margin-bottom: 20px;
+}
+
+.hidden-menu__title {
+    font-size: 25px;
+    line-height: 32px;
+    line-height: 40px;
+    color: black;
+    opacity: 0.9;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
 .nav-movie__menu_adapt {
     width: 68%;
     height: 100vh;
@@ -50,6 +64,8 @@
     font-size: 18px;
     line-height: 22px;
     padding-bottom: 8px;
+    font-weight: 900;
+    opacity: 0.6;
 }
 
 .active-adapt {

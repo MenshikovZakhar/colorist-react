@@ -9,7 +9,7 @@ function HiddenMenu({ onClickCloseMenu }) {
         <div className='nav-menu__close' onClick={onClickCloseMenu}></div>
         <div className='nav-movie__movie_adapt'>
           <Link to='/' className='header__link'>
-            <img className='header__logo' src={logo} alt='logo' />
+            <img className='header__logo header__logo-hiddenMenu' src={logo} alt='logo' />
           </Link>
           <Link
             to='/'
@@ -73,6 +73,9 @@ function HiddenMenu({ onClickCloseMenu }) {
           >
             Контакты
           </NavLink>
+        </div>
+        <h1 class="hidden-menu__title">Cвязаться со мной</h1>
+        <div>
         </div>
       </nav>
     </section>

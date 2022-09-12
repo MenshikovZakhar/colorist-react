@@ -4,7 +4,7 @@ import './Header.css';
 import logo from '../../images/logo_1.png';
 import Navigation from '../Navigation/Navigation';
 
-function Header({ loggedIn }) {
+function Header() {
     return (
         <header className='header'>
             <Link to='/' className='header__link'>

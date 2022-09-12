@@ -8,7 +8,7 @@ import phone from '../../images/phone.svg';
 function HiddenMenu({ onClickCloseMenu }) {
   return (
     <section className='hidden-menu'>
-      <nav className='nav-movie__menu_adapt'>
+      <nav className='nav__menu_adapt'>
         <div className='nav-menu__close' onClick={onClickCloseMenu}></div>
         <div className='nav-movie__movie_adapt'>
           <Link to='/' className='header__link'>
@@ -16,7 +16,7 @@ function HiddenMenu({ onClickCloseMenu }) {
           </Link>
           <Link
             to='/'
-            className='nav__link-adapt'
+            className='nav-movie__link-adapt'
             onClick={onClickCloseMenu}
           >
             Главная

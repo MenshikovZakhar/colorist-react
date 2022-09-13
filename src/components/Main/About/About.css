@@ -1,5 +1,10 @@
 .about-me {
-    padding: 135px 70px 0px 70px;
+    padding: 35px 70px 0px 70px;
+    background-color: #202020;
+}
+
+.about-me__description-text {
+    padding-left: 100px;
 }
 
 .about-me__heading {
@@ -8,8 +13,10 @@
 
 .about-me__description {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+    justify-content: flex-start;
+    background-color: #c7c7c7;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .about-me__description-title {
@@ -56,8 +63,8 @@
 
 .about-me__description-photo {
     border-radius: 10px;
-    width: 270px;
-    height: 327px;
+    width: 370px;
+    height: 450px;
 }
 
 @media(max-width: 992px) {

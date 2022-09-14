@@ -8,7 +8,7 @@ function AboutMe() {
                 <img src={valeria__photo} alt="фото" className="about-me__description-photo" />
                 <div className="about-me__description-text">
                     <h3 className="about-me__description-title">Испытай лучший</h3>
-                    <p className="about-me__description-title">Beauty сервис!</p>
+                    <p className="about-me__description-subtitle">Beauty сервис!</p>
                     <p className="about-me__description-paragraph">
                         Мы являемся ведущим салоном красоты в Челябинске, предоставляющим высококачественные парикмахерские услуги, колористикаи услуги по уходу за волосами для всех.
 

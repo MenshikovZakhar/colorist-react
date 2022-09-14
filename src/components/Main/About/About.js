@@ -1,4 +1,6 @@
 import valeria__photo from '../../../images/valeria__photo.jpg';
+import minus from '../../../images/minus-line.svg';
+
 import './About.css';
 
 function AboutMe() {
@@ -7,8 +9,8 @@ function AboutMe() {
             <div className="about-me__description">
                 <img src={valeria__photo} alt="фото" className="about-me__description-photo" />
                 <div className="about-me__description-text">
-                    <h3 className="about-me__description-title">Испытай лучший</h3>
-                    <p className="about-me__description-subtitle">Beauty сервис!</p>
+                    <h3 className="about-me__description-title">Себя не находят</h3>
+                    <p className="about-me__description-subtitle">&sim;&ensp;себя создают!</p>
                     <p className="about-me__description-paragraph">
                         Мы являемся ведущим салоном красоты в Челябинске, предоставляющим высококачественные парикмахерские услуги, колористикаи услуги по уходу за волосами для всех.
 

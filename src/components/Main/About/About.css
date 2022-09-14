@@ -5,6 +5,7 @@
 
 .about-me__description-text {
     padding-left: 70px;
+
 }
 
 .about-me__heading {
@@ -16,7 +17,9 @@
     justify-content: flex-start;
     max-width: 1280px;
     margin: 0 auto;
-    background-image: linear-gradient(to right, #fcfcfc, #494949)
+    background-image: linear-gradient(to right, #fcfcfc, #494949);
+    border: 7px #585858;
+    border-style: ridge;
 }
 
 .about-me__description-title {
@@ -35,7 +38,7 @@
     font-size: 50px;
     line-height: 58px;
     letter-spacing: -0.04em;
-    margin: 0 0 18px 180px;
+    margin: 0 0 18px 30px;
 }
 
 .about-me__description-paragraph {

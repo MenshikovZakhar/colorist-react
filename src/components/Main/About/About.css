@@ -256,3 +256,19 @@
         background-repeat: no-repeat;
     }
 }
+
+@media(max-width: 550px) {
+
+    .about-me__description {
+        margin: 0 auto;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #ffffff, #7e7e7e);
+        align-items: center;
+        max-width: 350px;
+    }
+
+    .about-me__description-photo {
+        width: 350px;
+        height: 400px;
+    }
+}

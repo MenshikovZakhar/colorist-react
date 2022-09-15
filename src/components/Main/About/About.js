@@ -6,7 +6,9 @@ function AboutMe() {
     return (
         <section className="about-me">
             <div className="about-me__description">
-                <img src={valeria__photo} alt="фото" className="about-me__description-photo" />
+                <div className="about-me__description-photo">
+
+                </div>
                 <div className="about-me__description-text">
                     <h3 className="about-me__description-title">Себя не находят</h3>
                     <p className="about-me__description-subtitle">&sim;&ensp;себя создают!</p>

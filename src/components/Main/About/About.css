@@ -119,7 +119,7 @@
 
 @media(max-width: 900px) {
     .about-me {
-        padding: 90px 50px;
+        padding: 30px 50px;
     }
 
     .about-me__description {
@@ -174,19 +174,19 @@
 
 @media(max-width: 768px) {
     .about-me {
-        padding: 60px 50px 0;
+        padding: 30px 50px 0;
     }
 }
 
 @media(max-width: 720px) {
     .about-me {
-        padding: 70px 14px 0px;
+        padding: 30px 14px 0px;
     }
 
     .about-me__description {
-        display: flex;
-        flex-direction: column;
+        align-items: center;
         margin: 0;
+        background-image: linear-gradient(to right, #ffffff, #787878);
     }
 
     .about-me__heading {
@@ -199,31 +199,60 @@
         order: -1;
         width: 292px;
         height: 352px;
-        margin: 0 auto 40px auto;
     }
 
     .about-me__description-title {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 36px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+        padding-top: 60px;
     }
 
     .about-me__description-subtitle {
-        font-size: 11px;
-        line-height: 16px;
-        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 25px;
+        margin: 10px 0 10px 60px;
     }
 
     .about-me__description-paragraph {
         font-size: 11px;
         line-height: 16px;
         margin-bottom: 35px;
+        max-width: 150px;
     }
 
     .about-me__portfolio-heading {
         font-size: 14px;
         line-height: 20px;
     }
+}
+
+@media(max-width: 680px) {
 
 
+    .about-me__description {
+        margin: 0;
+        background-image: linear-gradient(to right, #ffffff, #7e7e7e);
+        align-items: center;
+    }
+
+    .about-me__description-photo {
+        width: 280px;
+        height: 320px;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .about-me__description-photo {
+        width: 280px;
+        height: 330px;
+    }
+
+    .about-me__description-text {
+        margin-left: 0px;
+        background-image: url(../../../images/ramka.svg);
+        background-size: 270px;
+        background-repeat: no-repeat;
+    }
 }

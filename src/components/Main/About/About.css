@@ -118,6 +118,42 @@
     }
 }
 
+@media(max-width: 968px) {
+    .about-me__description {
+        background-image: linear-gradient(to right, #ffffff, #7e7e7e);
+    }
+
+    .about-me__description-text {
+        margin-left: 50px;
+    }
+
+    .about-me__description-text {
+        margin-left: 10px;
+        background-size: 350px;
+    }
+
+    .about-me__description-title {
+        font-size: 35px;
+        padding-top: 90px;
+    }
+
+    .about-me__description-subtitle {
+        font-size: 35px;
+        line-height: 35px;
+        margin: 10px 0 18px 60px;
+    }
+
+    .about-me__description-paragraph {
+        font-size: 14px;
+        line-height: 15px;
+        max-width: 280px;
+        margin: 0 auto;
+        padding-left: 10px;
+        margin: 10px 0 18px 30px;
+    }
+}
+
+
 
 @media(max-width: 900px) {
     .about-me {
@@ -160,7 +196,7 @@
     }
 
     .about-me__description-text {
-        margin-left: 70px;
+        margin-left: 100px;
         background-image: url(../../../images/ramka.svg);
         background-size: 270px;
         background-repeat: no-repeat;
@@ -176,13 +212,29 @@
 
 @media(max-width: 768px) {
     .about-me {
-        padding: 30px 50px 0;
+        padding: 30px 50px 20px;
+    }
+}
+
+@media(max-width: 800px) {
+    .about-me__description {
+        background-image: linear-gradient(to right, #ffffff, #686868);
+    }
+}
+
+@media(max-width: 740px) {
+    .about-me__description-text {
+        margin-left: 50px;
+    }
+
+    .about-me__description {
+        background-image: linear-gradient(to right, #ffffff, #747474);
     }
 }
 
 @media(max-width: 720px) {
     .about-me {
-        padding: 30px 14px 0px;
+        padding: 30px 14px 20px;
     }
 
     .about-me__description {
@@ -252,8 +304,20 @@
 
     .about-me__description {
         margin: 0;
-        background-image: linear-gradient(to right, #ffffff, #919191);
+        background-image: linear-gradient(to right, #ffffff, #858383);
         align-items: center;
+    }
+
+    .about-me__description-photo {
+        width: 280px;
+        height: 330px;
+    }
+
+    .about-me__description-text {
+        margin-left: 0px;
+        background-image: url(../../../images/ramka.svg);
+        background-size: 270px;
+        background-repeat: no-repeat;
     }
 
 }
@@ -270,6 +334,34 @@
         background-image: url(../../../images/ramka.svg);
         background-size: 270px;
         background-repeat: no-repeat;
+    }
+}
+
+@media(max-width: 590px) {
+    .about-me__description-text {
+        background-size: 260px;
+
+    }
+}
+
+
+@media(max-width: 584px) {
+    .about-me__description-paragraph {
+        font-size: 9px;
+        margin-bottom: 35px;
+        max-width: 160px;
+    }
+
+}
+
+@media(max-width: 570px) {
+    .about-me__description-text {
+        background-size: 240px;
+        align-items: center;
+    }
+
+    .about-me__description-title {
+        padding-left: 20px;
     }
 }
 
@@ -355,7 +447,7 @@
     }
 
     .about-me {
-        padding: 30px 0px 0px;
+        padding: 30px 0px 20px 0px;
     }
 
     .about-me__description-title {

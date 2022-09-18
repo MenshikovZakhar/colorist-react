@@ -248,7 +248,6 @@
     }
 
     .about-me__description-photo {
-        order: -1;
         width: 292px;
         height: 352px;
     }
@@ -453,7 +452,7 @@
 @media(max-width: 320px) {
 
     .about-me__description {
-        border: 0px #585858;
+        border: 7px #585858;
         border-style: ridge;
         max-width: 280px;
     }

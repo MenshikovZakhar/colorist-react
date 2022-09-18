@@ -103,7 +103,7 @@
     }
 
     .nav__menu_adapt {
-        width: 100%;
+        min-width: 100%;
     }
 
     .nav-menu__close {

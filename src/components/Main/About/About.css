@@ -74,8 +74,6 @@
     border-radius: 0px;
     width: 370px;
     height: 450px;
-    background-image: url(../../../images/valeria__photo.jpg);
-    background-size: cover;
 }
 
 @media(max-width: 1280px) {
@@ -372,14 +370,12 @@
         flex-direction: column;
         background-image: linear-gradient(to right, #ffffff, #7e7e7e);
         align-items: center;
-        max-width: 350px;
+        max-width: 330px;
     }
 
     .about-me__description-photo {
-        width: 350px;
+        width: 330px;
         height: 400px;
-        position: relative;
-        opacity: 0.6;
     }
 
     .about-me__description-text {
@@ -390,15 +386,6 @@
         position: absolute;
         top: 230px;
         left: 150px;
-    }
-}
-
-@media(max-width: 400px) {
-
-    .about-me__description-text {
-        width: 280px;
-        top: 230px;
-        left: 100px;
     }
 }
 
@@ -417,11 +404,40 @@
         margin: 10px 0 10px 60px;
     }
 
-
     .about-me__description-text {
         width: 250px;
         top: 220px;
         left: 80px;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .about-me__description {
+        max-width: 330px;
+    }
+
+    .about-me__description-text {
+        width: 280px;
+        top: 230px;
+        left: 50px;
+    }
+
+    .about-me__description-photo {
+        width: 330px;
+    }
+}
+
+@media(max-width: 355px) {
+
+    .about-me__description-text {
+        width: 250px;
+        top: 230px;
+        left: 50px;
+    }
+
+    .about-me__description-photo {
+        width: 315px;
     }
 }
 
@@ -430,20 +446,18 @@
     .about-me__description {
         border: 0px #585858;
         border-style: ridge;
+        max-width: 280px;
     }
 
 
     .about-me__description-text {
         width: 250px;
         top: 220px;
-        left: 80px;
+        left: 50px;
     }
 
     .about-me__description-photo {
-
-        position: relative;
-        opacity: 0.6;
-        background-size: cover;
+        max-width: 280px;
     }
 
     .about-me {

@@ -366,15 +366,14 @@
 
     .about-me__description {
         margin: 0 auto;
-        flex-direction: column;
-        background-image: linear-gradient(to right, #ffffff, #7e7e7e);
-        align-items: center;
-        max-width: 330px;
+        background-image: url(../../../images/valeria__photo.jpg);
+        background-size: 250px;
+        background-repeat: no-repeat;
+        display: block;
     }
 
     .about-me__description-photo {
-        width: 330px;
-        height: 400px;
+        display: none;
     }
 
     .about-me__description-text {
@@ -382,9 +381,6 @@
         background-image: url(../../../images/ramka.svg);
         background-size: 250px;
         background-repeat: no-repeat;
-        position: absolute;
-        top: 230px;
-        left: 150px;
     }
 }
 

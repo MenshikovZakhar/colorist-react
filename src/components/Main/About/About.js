@@ -1,4 +1,4 @@
-import valeria__photo from '../../../images/valeria__photo.jpg';
+import valeria__photo from '../../../images/valeria__photo-2.jpg';
 
 import './About.css';
 

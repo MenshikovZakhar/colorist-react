@@ -367,9 +367,8 @@
     .about-me__description {
         margin: 0 auto;
         display: block;
-        background-image: url(../../../images/valeria__photo.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url(../../../images/valeria__photo-2.jpg) center no-repeat;
+        background-size: cover;
         max-width: 350px;
         height: 440px;
     }
@@ -433,11 +432,7 @@
         top: 230px;
         left: 50px;
     }
-
-
 }
-
-
 
 @media(max-width: 320px) {
 

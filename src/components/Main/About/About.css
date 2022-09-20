@@ -1,10 +1,10 @@
 .about-me {
     padding: 35px 70px 0px 70px;
-    background-color: #202020;
+    background-color: #140800;
 }
 
 .about-me__description-text {
-    margin-left: 70px;
+    margin-left: 50px;
     background-image: url(../../../images/ramka.svg);
     background-size: 400px;
     background-repeat: no-repeat;
@@ -17,10 +17,10 @@
 
 .about-me__description {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     max-width: 1280px;
     margin: 0 auto;
-    background: linear-gradient(to right, #fcfcfc, #4a4747);
+    background-image: radial-gradient(600px 450px, #ffffff, #140800);
     border: 7px #585858;
     border-style: ridge;
 }
@@ -74,6 +74,8 @@
     border-radius: 0px;
     width: 370px;
     height: 450px;
+    border: 7px #140800;
+    border-style: double;
 }
 
 @media(max-width: 1280px) {

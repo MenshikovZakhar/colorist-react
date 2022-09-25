@@ -131,6 +131,12 @@
     .header_active {
         padding-left: 20px;
         padding-right: 30px;
+    }
+}
 
+
+@media screen and (max-width: 320px) {
+    .header_active {
+        right: 5px;
     }
 }

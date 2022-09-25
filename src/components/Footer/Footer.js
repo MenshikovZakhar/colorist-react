@@ -11,7 +11,7 @@ function Footer() {
     return (
         <footer className='footer'>
             <h1 className='footer__title'>
-                © 2022 Valeria Smolentseva.
+                © 2022 Valeria Smolentseva
             </h1>
             <div className='footer__info'>
                 <div className='footer__address'>

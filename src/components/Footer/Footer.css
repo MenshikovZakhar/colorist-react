@@ -133,12 +133,15 @@
         padding: 60px 10px 10px;
         font-size: 12px;
         line-height: 15px;
+        background-image: radial-gradient(340px 160px, #ffffff, #140800);
     }
 
     .footer__title {
         font-size: 12px;
         line-height: 15px;
         padding-bottom: 21px;
+        color: #404040;
+        font-size: 14px
     }
 
     .footer__info {
@@ -149,17 +152,66 @@
 
     .footer__list {
         flex-direction: row;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .footer__year {
         margin: 0px;
-        color: #a0a0a0;
+        color: black;
+        font-size: 16px;
+        padding-top: 10px;
     }
 
     .footer__list-item {
         text-align: center;
         margin-left: 0;
         margin-bottom: 12px;
+    }
+}
+
+@media(max-width: 660px) {
+    .footer {
+        background-image: radial-gradient(320px 160px, #ffffff, #140800);
+    }
+}
+
+@media(max-width: 600px) {
+    .footer {
+        background-image: radial-gradient(320px 160px, #ffffff, #140800);
+    }
+}
+
+@media(max-width: 570px) {
+    .footer {
+        background-image: radial-gradient(300px 150px, #ffffff, #140800);
+    }
+}
+
+@media(max-width: 470px) {
+    .footer {
+        background-image: radial-gradient(250px 150px, #ffffff, #140800);
+    }
+}
+
+@media(max-width: 400px) {
+    .footer__year {
+        font-size: 14px;
+    }
+
+    .iqon__logo {
+        width: 35px;
+        margin: 10px;
+    }
+}
+
+@media(max-width: 375px) {
+    .footer {
+        background-image: radial-gradient(230px 150px, #ffffff, #140800);
+    }
+}
+
+@media(max-width: 320px) {
+    .footer {
+        background-image: radial-gradient(200px 140px, #ffffff, #140800);
     }
 }

@@ -82,16 +82,16 @@
 @media(max-width: 1280px) {
     .about-me__description {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         max-width: 1280px;
         margin: 0 auto;
-        background: linear-gradient(to right, #fcfcfc, #585858);
+        background-image: radial-gradient(600px 450px, #ffffff, #140800);
         border: 7px #585858;
         border-style: ridge;
     }
 
     .about-me__description-text {
-        margin-left: 130px;
+        margin-left: 50px;
         background-image: url(../../../images/ramka.svg);
         background-size: 400px;
         background-repeat: no-repeat;
@@ -101,7 +101,7 @@
 
 @media(max-width: 1100px) {
     .about-me__description {
-        background: linear-gradient(to right, #fcfcfc, #747474);
+        background-image: radial-gradient(550px 350px, #ffffff, #140800);
     }
 
     .about-me__description-text {
@@ -111,7 +111,7 @@
 
 @media(max-width: 1000px) {
     .about-me__description {
-        background: linear-gradient(to right, #ffffff, #7e7e7e);
+        background-image: radial-gradient(500px 350px, #ffffff, #140800);
     }
 
     .about-me__description-text {
@@ -121,7 +121,7 @@
 
 @media(max-width: 968px) {
     .about-me__description {
-        background: linear-gradient(to right, #ffffff, #7e7e7e);
+        background-image: radial-gradient(500px 350px, #ffffff, #140800);
     }
 
     .about-me__description-text {
@@ -161,9 +161,7 @@
         padding: 30px 50px;
     }
 
-    .about-me__description {
-        background: linear-gradient(to right, #ffffff, #525252);
-    }
+
 
     .about-me__description-title {
         font-size: 25px;
@@ -197,7 +195,7 @@
     }
 
     .about-me__description-text {
-        margin-left: 100px;
+        margin-left: 50px;
         background-image: url(../../../images/ramka.svg);
         background-size: 270px;
         background-repeat: no-repeat;
@@ -207,7 +205,7 @@
 
 @media(max-width: 800px) {
     .about-me__description {
-        background: linear-gradient(to right, #ffffff, #686868);
+        background-image: radial-gradient(400px 300px, #ffffff, #140800);
     }
 }
 
@@ -217,11 +215,7 @@
     }
 }
 
-@media(max-width: 800px) {
-    .about-me__description {
-        background: linear-gradient(to right, #ffffff, #686868);
-    }
-}
+
 
 @media(max-width: 740px) {
     .about-me__description-text {
@@ -229,7 +223,7 @@
     }
 
     .about-me__description {
-        background: linear-gradient(to right, #ffffff, #747474);
+        background-image: radial-gradient(400px 250px, #ffffff, #140800);
     }
 }
 
@@ -241,7 +235,7 @@
     .about-me__description {
         align-items: center;
         margin: 0;
-        background: linear-gradient(to right, #ffffff, #787878);
+        background-image: radial-gradient(400px 250px, #ffffff, #140800);
     }
 
     .about-me__heading {
@@ -286,7 +280,7 @@
 
     .about-me__description {
         margin: 0;
-        background: linear-gradient(to right, #ffffff, #7e7e7e);
+        background-image: radial-gradient(400px 230px, #ffffff, #140800);
         align-items: center;
     }
 
@@ -304,7 +298,7 @@
 
     .about-me__description {
         margin: 0;
-        background: linear-gradient(to right, #ffffff, #858383);
+        background-image: radial-gradient(400px 250px, #ffffff, #140800);
         align-items: center;
     }
 
@@ -314,7 +308,7 @@
     }
 
     .about-me__description-text {
-        margin-left: 0px;
+        margin-left: 20px;
         background-image: url(../../../images/ramka.svg);
         background-size: 270px;
         background-repeat: no-repeat;
@@ -324,13 +318,17 @@
 
 @media(max-width: 600px) {
 
+    .about-me__description {
+        background-image: radial-gradient(380px 250px, #ffffff, #140800);
+    }
+
     .about-me__description-photo {
-        width: 280px;
+        width: 240px;
         height: 330px;
     }
 
     .about-me__description-text {
-        margin-left: 0px;
+        margin-left: 10px;
         background-image: url(../../../images/ramka.svg);
         background-size: 270px;
         background-repeat: no-repeat;

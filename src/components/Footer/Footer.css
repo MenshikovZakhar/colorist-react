@@ -1,5 +1,5 @@
 .footer {
-    background-color: #fafafa;
+    background-image: radial-gradient(600px 450px, #ffffff, #140800);
     padding: 70px 70px 20px;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,6 @@
 
 .footer__list-item {
     list-style: none;
-    margin-left: 20px;
 }
 
 .footer__list-item:hover {
@@ -58,6 +57,11 @@
 .footer__list-link {
     text-decoration: none;
     color: black;
+}
+
+.iqon__logo {
+    width: 40px;
+    margin: 10px;
 }
 
 @media screen and (max-width: 768px) {

@@ -398,7 +398,7 @@
 @media(max-width: 470px) {
 
     .about-me {
-        background-image: radial-gradient(300px 250px, #ffffff, #140800);
+        background-image: radial-gradient(250px 250px, #ffffff, #140800);
     }
 
     .about-me__description-title {
@@ -427,11 +427,12 @@
     }
 
     .about-me__description {
-        max-width: 330px;
+        max-width: 270px;
         height: 410px;
         border: 7px #4a4a4a;
         border-style: ridge;
         box-shadow: none;
+        background-size: cover;
     }
 
     .about-me__description-text {
@@ -447,6 +448,10 @@
 
 @media(max-width: 375px) {
 
+    .about-me {
+        background-image: radial-gradient(250px 200px, #ffffff, #140800);
+    }
+
     .about-me__description-text {
         width: 250px;
         top: 230px;
@@ -459,8 +464,8 @@
     .about-me__description {
         border: 7px #585858;
         border-style: ridge;
-        max-width: 280px;
-        height: 350px;
+
+        background-size: cover;
     }
 
 

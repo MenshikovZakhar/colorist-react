@@ -4,15 +4,20 @@ import instagram from '../../images/instagram_2.svg';
 import telegram from '../../images/telegram_2.svg';
 import vk from '../../images/vk_2.svg';
 import phone from '../../images/phone_2.png';
+import location from '../../images/location.png';
+import email from '../../images/email.png';
 
 function Footer() {
     return (
         <footer className='footer'>
             <h1 className='footer__title'>
-                Учебный проект Яндекс.Практикум х BeatFilm.
+                © 2022 Valeria Smolentseva.
             </h1>
             <div className='footer__info'>
-                <p className='footer__year'>&copy; 2022</p>
+                <div className='footer__address'>
+                    <p className='footer__year'><img className='iqon__location' src={location} alt='logo' />Челябинск, Образцова 24</p>
+                    <p className='footer__year'><img className='iqon__email' src={email} alt='logo' />colorist@yandex.ru</p>
+                </div>
                 <ul className='footer__list'>
 
                     <li className='footer__list-item'>

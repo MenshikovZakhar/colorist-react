@@ -20,7 +20,8 @@
     font-size: 20px;
     font-style: normal;
     line-height: 25px;
-    align-items: baseline;
+    align-items: center;
+    height: 70px;
 }
 
 .nav__link {
@@ -29,7 +30,9 @@
     margin-right: 50px;
     opacity: 0.6;
     position: relative;
-    height: 70px;
+    align-items: center;
+    height: 100%;
+    display: flex;
 }
 
 .nav__link:hover~.submenu {
@@ -53,7 +56,7 @@
     margin: 0;
     padding: 0;
     right: 550px;
-    top: 10px;
+    top: 40px;
 }
 
 @media screen and (max-width: 1280px) {

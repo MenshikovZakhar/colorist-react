@@ -30,12 +30,26 @@
     opacity: 0.6;
 }
 
-.nav__link:hover {
-    opacity: 1.0;
+.nav__link:hover~.submenu {
+    display: block;
 }
 
 .active {
     font-weight: 500;
+}
+
+.submenu__link {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.submenu {
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1280px) {

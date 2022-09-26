@@ -41,6 +41,11 @@ function Navigation() {
                     >
                         Услуги
                     </NavLink>
+                    <ul className="submenu">
+                        <li className="submenu__link"><a href="">Производство</a></li>
+                        <li className="submenu__link"><a href="">Магазин</a></li>
+                        <li className="submenu__link"><a href="">Сервис</a></li>
+                    </ul>
                 </div>
                 <div className='nav__colorist'>
                     <NavLink

@@ -28,11 +28,14 @@
     color: rgb(255, 255, 255);
     margin-right: 50px;
     opacity: 0.6;
+    position: relative;
+    height: 70px;
 }
 
 .nav__link:hover~.submenu {
     display: block;
 }
+
 
 .active {
     font-weight: 500;
@@ -43,13 +46,14 @@
     list-style-type: none;
 }
 
-
 .submenu {
     text-decoration: none;
     display: none;
     position: absolute;
     margin: 0;
     padding: 0;
+    right: 550px;
+    top: 10px;
 }
 
 @media screen and (max-width: 1280px) {

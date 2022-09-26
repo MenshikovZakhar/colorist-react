@@ -22,61 +22,61 @@ function Navigation() {
                 <HiddenMenu onClickCloseMenu={onClickCloseMenu} />
             )}
             <nav className='nav__menu'>
-                <div className='nav__colorist'>
-                    <NavLink
-                        to='/about'
-                        className={({ isActive }) =>
-                            isActive ? 'nav__link active' : 'nav__link'
-                        }
-                    >
-                        Обо мне
-                    </NavLink>
-                </div>
-                <div className='nav__colorist'>
-                    <NavLink
-                        to='/services'
-                        className={({ isActive }) =>
-                            isActive ? 'nav__link active' : 'nav__link'
-                        }
-                    >
-                        Услуги
-                    </NavLink>
-                    <ul className="submenu">
-                        <li className="submenu__link"><a href="">Производство</a></li>
-                        <li className="submenu__link"><a href="">Магазин</a></li>
-                        <li className="submenu__link"><a href="">Сервис</a></li>
-                    </ul>
-                </div>
-                <div className='nav__colorist'>
-                    <NavLink
-                        to='/price'
-                        className={({ isActive }) =>
-                            isActive ? 'nav__link active' : 'nav__link'
-                        }
-                    >
-                        Стоимость
-                    </NavLink>
-                </div>
-                <div className='nav__colorist'>
-                    <NavLink
-                        to='/portfolio'
-                        className={({ isActive }) =>
-                            isActive ? 'nav__link active' : 'nav__link'
-                        }
-                    >
-                        Портфолио
-                    </NavLink>
-                </div>
-                <div className='nav__colorist'>
-                    <NavLink
-                        to='/contacts'
-                        className={({ isActive }) =>
-                            isActive ? 'nav__link active' : 'nav__link'
-                        }
-                    >
-                        Контакты
-                    </NavLink>
-                </div>
+
+                <NavLink
+                    to='/about'
+                    className={({ isActive }) =>
+                        isActive ? 'nav__link active' : 'nav__link'
+                    }
+                >
+                    Обо мне
+                </NavLink>
+
+                <NavLink
+                    to='/services'
+                    className={({ isActive }) =>
+                        isActive ? 'nav__link active' : 'nav__link'
+                    }
+                >
+                    Услуги
+                </NavLink>
+                <ul className="submenu">
+                    <li className="submenu__link"><a href="">Производство</a></li>
+                    <li className="submenu__link"><a href="">Магазин</a></li>
+                    <li className="submenu__link"><a href="">Сервис</a></li>
+                </ul>
+
+
+
+                <NavLink
+                    to='/price'
+                    className={({ isActive }) =>
+                        isActive ? 'nav__link active' : 'nav__link'
+                    }
+                >
+                    Стоимость
+                </NavLink>
+
+
+                <NavLink
+                    to='/portfolio'
+                    className={({ isActive }) =>
+                        isActive ? 'nav__link active' : 'nav__link'
+                    }
+                >
+                    Портфолио
+                </NavLink>
+
+
+                <NavLink
+                    to='/contacts'
+                    className={({ isActive }) =>
+                        isActive ? 'nav__link active' : 'nav__link'
+                    }
+                >
+                    Контакты
+                </NavLink>
+
             </nav>
         </>
     );

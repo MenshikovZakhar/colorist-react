@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 import HiddenMenu from '../HiddenMenu/HiddenMenu';
+import menu_icon from '../../images/menu_icon.png';
 
 function Navigation() {
     const [toggle, setToggle] = useState(true);
@@ -38,7 +39,7 @@ function Navigation() {
                         isActive ? 'nav__link active' : 'nav__link'
                     }
                 >
-                    Услуги
+                    <img className='menu_icon' src={menu_icon} alt='' /> Услуги
                 </NavLink>
                 <ul className="submenu">
                     <li className="submenu__link"><a href="">Производство</a></li>

@@ -53,6 +53,12 @@
     display: block;
 }
 
+.menu_icon {
+    width: 20px;
+    padding-top: 12px;
+    padding-right: 5px;
+}
+
 .submenu {
     text-decoration: none;
     display: none;

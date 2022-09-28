@@ -1,10 +1,20 @@
-.services {
+.services__list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
 }
 
+.img_services_1 {
+    text-decoration: none;
+}
 
+.services__link {
+    text-decoration: none;
+
+}
 
 .img_services {
-    width: 50px;
+    width: 250px;
 }

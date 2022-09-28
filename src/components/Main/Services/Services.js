@@ -8,36 +8,18 @@ function Services() {
     return (
         <div className='services'>
 
-            <NavLink
-                to='/services_1'
-                className='services_1'
-            >
-                <img className='img_services' src={services} alt='' />
-                <p>Окрашивание</p>
-            </NavLink>
-            <NavLink
-                to='/services_2'
-                className='services'
-            >
-                <img className='img_services' src={services} alt='' />
-                <p>Тонирование</p>
-            </NavLink>
+            <ul className="services">
+                <li className="submenu__link"><Link to='/services_1'> <img className='img_services' src={services} alt='' />
+                    <p>Окрашивание</p></Link></li>
+                <li className="submenu__link"><Link to='/services_2'> <img className='img_services' src={services} alt='' />
+                    <p>Тонирование</p></Link></li>
+                <li className="submenu__link"><Link to='/services_3'><img className='img_services' src={services} alt='' />
+                    <p>Женские стрижки</p></Link></li>
+                <li className="submenu__link"><Link to='/services_4'> <img className='img_services' src={services} alt='' />
+                    <p>Профессиональный уход</p></Link></li>
+            </ul>
 
-            <NavLink
-                to='/services_3'
-                className='services'
-            >
-                <img className='img_services' src={services} alt='' />
-                <p>Женские стрижки</p>
-            </NavLink>
 
-            <NavLink
-                to='/services_4'
-                className='services'
-            >
-                <img className='img_services' src={services} alt='' />
-                <p>Профессиональный уход</p>
-            </NavLink>
 
         </div>
     );

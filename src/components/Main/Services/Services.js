@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './Services.css';
 
 import services from '../../../images/services_1.jpg';
@@ -9,13 +9,34 @@ function Services() {
         <div className='services'>
 
             <NavLink
-                to='/about'
-                className={({ isActive }) =>
-                    isActive ? 'nav__link active' : 'nav__link'
-                }
+                to='/services_1'
+                className='services_1'
             >
-                <img className='about-me__description-photo' src={services} alt='' />
+                <img className='img_services' src={services} alt='' />
                 <p>Окрашивание</p>
+            </NavLink>
+            <NavLink
+                to='/services_2'
+                className='services'
+            >
+                <img className='img_services' src={services} alt='' />
+                <p>Тонирование</p>
+            </NavLink>
+
+            <NavLink
+                to='/services_3'
+                className='services'
+            >
+                <img className='img_services' src={services} alt='' />
+                <p>Женские стрижки</p>
+            </NavLink>
+
+            <NavLink
+                to='/services_4'
+                className='services'
+            >
+                <img className='img_services' src={services} alt='' />
+                <p>Профессиональный уход</p>
             </NavLink>
 
         </div>

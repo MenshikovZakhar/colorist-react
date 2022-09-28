@@ -1,0 +1,10 @@
+.services {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.img_services {
+    width: 50px;
+}

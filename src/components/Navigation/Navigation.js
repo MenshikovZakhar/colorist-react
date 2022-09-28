@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './Navigation.css';
 import HiddenMenu from '../HiddenMenu/HiddenMenu';
 import menu_icon from '../../images/menu_icon.png';
@@ -42,10 +42,10 @@ function Navigation() {
                     <img className='menu_icon' src={menu_icon} alt='' /> Услуги
                 </NavLink>
                 <ul className="submenu">
-                    <li className="submenu__link"><a href="">Окрашивание</a></li>
-                    <li className="submenu__link"><a href="">Тонирование</a></li>
-                    <li className="submenu__link"><a href="">Женские стрижки</a></li>
-                    <li className="submenu__link"><a href="">Профессиональный уход</a></li>
+                    <li className="submenu__link"><Link to="/">Окрашивание</Link></li>
+                    <li className="submenu__link"><Link to="/">Тонирование</Link></li>
+                    <li className="submenu__link"><Link to="/">Женские стрижки</Link></li>
+                    <li className="submenu__link"><Link to="/">Профессиональный уход</Link></li>
                 </ul>
 
 

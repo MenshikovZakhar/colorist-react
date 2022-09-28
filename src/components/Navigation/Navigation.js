@@ -42,9 +42,10 @@ function Navigation() {
                     <img className='menu_icon' src={menu_icon} alt='' /> Услуги
                 </NavLink>
                 <ul className="submenu">
-                    <li className="submenu__link"><a href="">Производство</a></li>
-                    <li className="submenu__link"><a href="">Магазин</a></li>
-                    <li className="submenu__link"><a href="">Сервис</a></li>
+                    <li className="submenu__link"><a href="">Окрашивание</a></li>
+                    <li className="submenu__link"><a href="">Тонирование</a></li>
+                    <li className="submenu__link"><a href="">Женские стрижки</a></li>
+                    <li className="submenu__link"><a href="">Профессиональный уход</a></li>
                 </ul>
 
 

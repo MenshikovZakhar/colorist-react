@@ -7,7 +7,6 @@ import services from '../../../images/services_1.jpg';
 function Services() {
     return (
         <div className='services'>
-
             <ul className="services__list">
                 <li className="services__link"><Link className='img_services_1' to='/services_1'> <img className='img_services' src={services} alt='' />
                     <p>Окрашивание</p></Link></li>

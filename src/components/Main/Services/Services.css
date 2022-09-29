@@ -1,7 +1,7 @@
 .services__list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     list-style-type: none;
     text-decoration: none;
 }
@@ -12,9 +12,22 @@
 
 .services__link {
     text-decoration: none;
+    background: black;
 
 }
 
 .img_services {
     width: 250px;
+    opacity: 0.5;
+
+}
+
+.img_services:hover {
+    opacity: 1.0;
+}
+
+.services__link:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+
 }

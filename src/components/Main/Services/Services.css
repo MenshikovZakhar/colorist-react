@@ -1,9 +1,19 @@
 .services__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     text-decoration: none;
+    padding: 0;
+}
+
+.services__name {
+    margin: 0;
+}
+
+.services {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .img_services_1 {
@@ -17,7 +27,8 @@
 }
 
 .img_services {
-    width: 250px;
+    width: 300px;
+    height: 380px;
     opacity: 0.5;
 
 }

@@ -1,7 +1,7 @@
 
 
 import React, { useState, useEffect } from 'react';
-import './Carousel.css' //will be added later
+import './Carousel.css'
 
 const Carousel = (props) => {
     const { children } = props

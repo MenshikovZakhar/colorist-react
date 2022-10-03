@@ -23,13 +23,16 @@
 .services__link {
     text-decoration: none;
     background: black;
+    border-radius: 50%;
+    height: 300px;
 
 }
 
 .img_services {
     width: 300px;
-    height: 380px;
+    height: 300px;
     opacity: 0.5;
+    border-radius: 50%;
 
 }
 

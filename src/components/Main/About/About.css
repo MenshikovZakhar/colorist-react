@@ -1,6 +1,7 @@
 .about-me {
     padding: 35px 70px 0px 70px;
     background-color: #140800;
+    padding-bottom: 30px;
 }
 
 .about-me__description-text {
@@ -23,6 +24,7 @@
     background-image: radial-gradient(600px 450px, #ffffff, #140800);
     border: 7px #585858;
     border-style: ridge;
+    padding: 20px 0;
 }
 
 .about-me__description-title {
@@ -161,7 +163,9 @@
         padding: 30px 50px;
     }
 
-
+    .about-me__description {
+        padding: 10px 0;
+    }
 
     .about-me__description-title {
         font-size: 25px;

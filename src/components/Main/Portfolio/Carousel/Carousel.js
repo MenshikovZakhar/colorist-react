@@ -1,54 +1,57 @@
-
-
-import React, { useState, useEffect } from 'react';
-import './Carousel.css'
-
-const Carousel = (props) => {
-    const { children } = props
-
-    const [currentIndex, setCurrentIndex] = useState(0)
-    const [length, setLength] = useState(children.length)
-
-
-    useEffect(() => {
-        setLength(children.length)
-    }, [children])
-
-    const next = () => {
-        if (currentIndex < (length - 1)) {
-            setCurrentIndex(prevState => prevState + 1)
-        }
+import classNames from 'classnames';
+import React, { PureComponent } from 'react';
+import './Carousel.css';
+class Carousel extends React.PureComponent {
+    constructor() {
+        super();
+        this.state = {
+            currentIndex: 0
+        };
     }
 
-    const prev = () => {
-        if (currentIndex > 0) {
-            setCurrentIndex(prevState => prevState - 1)
-        }
+    componentDidMount() {
+        setInterval(() => {
+            this.setState({
+                currentIndex: (this.state.currentIndex + 1) % this.props.images.length
+            })
+        }, 2500)
     }
 
-    return (
-        <div className="carousel-container">
-            <div className="carousel-wrapper">
-                {
-                    currentIndex > 0 &&
-                    <button onClick={prev} className="left-arrow">
-                        &lt;
-                    </button>
-                }
-                <div className="carousel-content-wrapper">
-                    {
-                        currentIndex < (length - 1) &&
-                        <button onClick={next} className="right-arrow">
-                            &gt;
-                        </button>
+    render() {
+        const { images, radius = 180 } = this.props;
+        const { currentIndex } = this.state;
+        const len = images.length || 0;
+        const angle = 2 * Math.PI / len;
+
+        return (
+            <div className="slider">
+                <div className="slider__viewport"
+                    style={{
+                        transform: `translateZ(${-radius}px) rotateY(${-currentIndex * angle}rad)`
+                    }}>
+                    {images.map((image, index) => {
+                        const indexAngle = index * angle;
+                        const z = Math.cos(indexAngle) * radius;
+                        const x = Math.sin(indexAngle) * radius;
+
+                        return (
+                            <div
+                                key={image}
+                                className={classNames(
+                                    'slider__image',
+                                    { 'slider__image_active': index === currentIndex }
+                                )}
+                                style={{
+                                    transform: `translateZ(${z}px) translateX(${x}px) rotateY(${indexAngle}rad)`
+                                }}
+                                src={image}
+                            >{image}</div>
+                        )
+                    })
                     }
-                    <div className="carousel-content" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
-                        {children}
-                    </div>
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
-
-export default Carousel
+export default Carousel;

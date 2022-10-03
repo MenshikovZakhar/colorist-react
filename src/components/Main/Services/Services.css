@@ -7,6 +7,8 @@
     padding: 0;
 }
 
+
+
 .services__name {
     margin: 0;
 }
@@ -25,7 +27,7 @@
     background: black;
     border-radius: 50%;
     height: 300px;
-
+    width: 300px;
 }
 
 .img_services {

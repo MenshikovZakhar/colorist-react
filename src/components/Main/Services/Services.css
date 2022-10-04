@@ -7,6 +7,7 @@
     text-decoration: none;
     padding-bottom: 50px;
     padding-top: 20px;
+    margin: 0;
 }
 
 .services__links-3 {
@@ -28,8 +29,9 @@
 }
 
 .services {
-    max-width: 1280px;
     margin: 0 auto;
+    background-image: radial-gradient(1300px 500px, #ffffff, #140800);
+    width: 100%;
 }
 
 .img_services_1 {
@@ -38,7 +40,7 @@
 
 .services__link {
     text-decoration: none;
-    background: black;
+    background-color: #140800;
     border-radius: 50%;
     height: 300px;
     width: 300px;
@@ -47,7 +49,7 @@
 .img_services {
     width: 300px;
     height: 300px;
-    opacity: 0.5;
+    opacity: 0.2;
     border-radius: 50%;
 
 }

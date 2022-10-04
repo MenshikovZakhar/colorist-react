@@ -8,13 +8,15 @@ function Services() {
     return (
         <section className='services'>
             <ul className="services__list">
-                <li className="services__link block_size_big"><Link className='img_services_1' to='/services_1'> <img className='img_services' src={services} alt='' />
+                <li className="services__link services__links"><Link className='img_services_1' to='/services_1'> <img className='img_services' src={services} alt='' />
                     <p className="services__name">Окрашивание</p></Link></li>
-                <li className="services__link block_size_big-1"><Link className='img_services_1' to='/services_2'> <img className='img_services' src={services} alt='' />
-                    <p className="services__name">Тонирование</p></Link></li>
-                <li className="services__link"><Link className='img_services_1' to='/services_3'><img className='img_services' src={services} alt='' />
-                    <p className="services__name">Женские стрижки</p></Link></li>
-                <li className="services__link block_size_big-2"><Link className='img_services_1' to='/services_4'> <img className='img_services' src={services} alt='' />
+                <div>
+                    <li className="services__link "><Link className='img_services_1' to='/services_2'> <img className='img_services' src={services} alt='' />
+                        <p className="services__name">Тонирование</p></Link></li>
+                    <li className="services__link services__links-3"><Link className='img_services_1' to='/services_3'><img className='img_services' src={services} alt='' />
+                        <p className="services__name">Женские стрижки</p></Link></li>
+                </div>
+                <li className="services__link services__links-4"><Link className='img_services_1' to='/services_4'> <img className='img_services' src={services} alt='' />
                     <p className="services__name">Профессиональный уход</p></Link></li>
             </ul>
 

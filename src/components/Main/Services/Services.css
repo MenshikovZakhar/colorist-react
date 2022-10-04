@@ -1,13 +1,25 @@
 .services__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 50px;
+    justify-content: center;
     list-style-type: none;
     text-decoration: none;
     padding: 0;
 }
 
+.services__links-3 {
+    align-self: flex-end;
+    margin-top: 70px;
+}
 
+.services__links-4 {
+    align-self: center;
+}
+
+.services__links {
+    align-self: center;
+}
 
 .services__name {
     margin: 0;

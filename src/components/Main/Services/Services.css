@@ -5,7 +5,8 @@
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
-    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 .services__links-3 {
@@ -22,6 +23,7 @@
 }
 
 .services__name {
+    text-align: center;
     margin: 0;
 }
 

@@ -24,33 +24,35 @@ class Carousel extends React.PureComponent {
         const angle = 2 * Math.PI / len;
 
         return (
-            <div className="slider">
-                <div className="slider__viewport"
-                    style={{
-                        transform: `translateZ(${-radius}px) rotateY(${-currentIndex * angle}rad)`
-                    }}>
-                    {images.map((image, index) => {
-                        const indexAngle = index * angle;
-                        const z = Math.cos(indexAngle) * radius;
-                        const x = Math.sin(indexAngle) * radius;
+            <section className='slider-portfolio'>
+                <div className="slider">
+                    <div className="slider__viewport"
+                        style={{
+                            transform: `translateZ(${-radius}px) rotateY(${-currentIndex * angle}rad)`
+                        }}>
+                        {images.map((image, index) => {
+                            const indexAngle = index * angle;
+                            const z = Math.cos(indexAngle) * radius;
+                            const x = Math.sin(indexAngle) * radius;
 
-                        return (
-                            <div
-                                key={image}
-                                className={classNames(
-                                    'slider__image',
-                                    { 'slider__image_active': index === currentIndex }
-                                )}
-                                style={{
-                                    transform: `translateZ(${z}px) translateX(${x}px) rotateY(${indexAngle}rad)`
-                                }}
-                                src={image}
-                            >{image}</div>
-                        )
-                    })
-                    }
+                            return (
+                                <div
+                                    key={image}
+                                    className={classNames(
+                                        'slider__image',
+                                        { 'slider__image_active': index === currentIndex }
+                                    )}
+                                    style={{
+                                        transform: `translateZ(${z}px) translateX(${x}px) rotateY(${indexAngle}rad)`
+                                    }}
+                                    src={image}
+                                >{image}</div>
+                            )
+                        })
+                        }
+                    </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

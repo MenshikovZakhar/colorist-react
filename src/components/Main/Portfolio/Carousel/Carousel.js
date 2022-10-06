@@ -1,5 +1,6 @@
 import classNames from 'classnames';
-import React, { PureComponent } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './Carousel.css';
 class Carousel extends React.PureComponent {
     constructor() {
@@ -25,6 +26,8 @@ class Carousel extends React.PureComponent {
 
         return (
             <section className='slider-portfolio'>
+                <Link className="portfolio__title" to='/portfolio'>
+                    <h1 className="portfolio__title">Портфолио</h1></Link>
                 <div className="slider">
                     <div className="slider__viewport"
                         style={{
@@ -52,6 +55,7 @@ class Carousel extends React.PureComponent {
                         }
                     </div>
                 </div>
+
             </section>
         )
     }

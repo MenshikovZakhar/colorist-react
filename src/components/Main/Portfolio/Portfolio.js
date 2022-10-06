@@ -23,7 +23,7 @@ class Portfolio extends React.PureComponent {
         <img className="slider" src={slide5} alt="5" />,
         <img className="slider" src={slide6} alt="6" />,
         <img className="slider" src={slide7} alt="7" />,
-        <img className="slider" src={slide8} alt="8" />,
+
 
         ]}
         radius={360}

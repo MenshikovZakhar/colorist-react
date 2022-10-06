@@ -1,8 +1,10 @@
 .slider {
     width: 320px;
-    height: 480px;
+    height: 440px;
     perspective: 1000px;
     margin: 0 auto;
+    border: 7px #585858;
+    border-style: ridge;
 }
 
 .slider__viewport {
@@ -11,6 +13,20 @@
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 1.2s cubic-bezier(0.68, 0.08, 0.27, 0.96);
+}
+
+.portfolio__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto 30px;
+    color: #140800;
+    background-color: #9b9b9b;
+    width: 400px;
+    text-decoration: none;
+    padding-bottom: 25px;
+    border-radius: 10px;
 }
 
 .slider__image {
@@ -29,7 +45,7 @@
     justify-content: center;
     font: 300 48px/1 Menlo, monospace;
     border-radius: 4px;
-    background: #333;
+    background-image: rgb(0, 0, 0);
     color: #fff;
     opacity: 0.3;
     transition: opacity 1.4s ease-in-out;
@@ -38,6 +54,7 @@
 .slider__image_active {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
     opacity: 1;
+
 }
 
 #app {

@@ -36,7 +36,7 @@
 .services__name {
     text-align: center;
     margin: 0;
-    color: #9b9b9b;
+    color: #140800;
     font-weight: 900;
     font-size: 20px;
     line-height: 40px;
@@ -45,7 +45,7 @@
     border-radius: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
-    background-color: #140800;
+    background-image: radial-gradient(190px 50px, #ffffff, #140800);
 }
 
 .services__title {
@@ -90,11 +90,12 @@
     opacity: 1.0;
 }
 
-.services__link:hover {
-    text-decoration: none;
-
+.services__name:hover {
     opacity: 1.0;
+    background-image: radial-gradient(150px 50px, #fcd218, #140800);
+    box-shadow: 0px 5px 20px 20px rgb(14 8 0 / 80%);
 }
+
 
 @media(max-width: 1400px) {
     .img_services {

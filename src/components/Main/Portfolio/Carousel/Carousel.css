@@ -22,11 +22,16 @@
     text-align: center;
     margin: 0 auto 30px;
     color: #140800;
-    background-color: #9b9b9b;
+    background-image: radial-gradient(200px 50px, #ffffff, #140800);
     width: 400px;
     text-decoration: none;
     padding-bottom: 25px;
     border-radius: 10px;
+}
+
+.portfolio__title:hover {
+    background-image: radial-gradient(200px 50px, #fcd218, #140800);
+    width: 400px;
 }
 
 .slider__image {

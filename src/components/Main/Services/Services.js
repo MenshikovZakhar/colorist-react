@@ -10,7 +10,9 @@ import services_4 from '../../../images/slide9.jpg';
 function Services() {
     return (
         <section className='services'>
-            <h1 className="services__title">Услуги</h1>
+            <div className="services-title">
+                <h1 className="services__title">Мои Услуги</h1>
+            </div>
             <ul className="services__list">
                 <li className="services__link services__links"><Link className='img_services_1' to='/services_1'> <img className='img_services' src={services_1} alt='' />
                     <p className="services__name">Окрашивание</p></Link></li>

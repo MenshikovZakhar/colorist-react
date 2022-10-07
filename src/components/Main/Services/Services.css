@@ -10,6 +10,10 @@
 
 }
 
+.min-width {
+    display: none;
+}
+
 .services-title {
     margin: 0 auto;
     border: 2px #140800;
@@ -157,14 +161,19 @@
 
 @media(max-width: 1024px) {}
 
-@media(max-width: 880px) {
+@media(max-width: 900px) {
     .services__list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 
-    .services {
-        max-width: 700px;
+    .max-width {
+        display: none;
     }
+
+    .min-width {
+        display: block;
+    }
+
 }

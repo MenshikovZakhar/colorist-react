@@ -15,7 +15,7 @@ class Carousel extends React.PureComponent {
             this.setState({
                 currentIndex: (this.state.currentIndex + 1) % this.props.images.length
             })
-        }, 2500)
+        }, 4000)
     }
 
     render() {
@@ -28,7 +28,7 @@ class Carousel extends React.PureComponent {
             <section className='slider-portfolio'>
                 <Link className="portfolio__title" to='/portfolio'>
                     <h1 className="portfolio__title">Портфолио</h1></Link>
-                <div className="slider">
+                <div className="slider-1">
                     <div className="slider__viewport"
                         style={{
                             transform: `translateZ(${-radius}px) rotateY(${-currentIndex * angle}rad)`

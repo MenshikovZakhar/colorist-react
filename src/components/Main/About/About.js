@@ -10,10 +10,9 @@ function AboutMe() {
                 <div className="about-me__description-text">
                     <h3 className="about-me__description-title">Себя не находят</h3>
                     <p className="about-me__description-subtitle">&sim;&ensp;себя создают!</p>
-                    <p className="about-me__description-paragraph">
-                        Меня зовут Валерия, я колорист с опытом работы с волосами и оттенками более 10 лет.
-                        Подберу для Вас индивидуальный образ с учетом особенностей внешности, образа жизни и личных пожеланий!
-                    </p>
+
+                    <h3 className="about-me__description-title">Себя не находят</h3>
+                    <p className="about-me__description-subtitle">&sim;&ensp;себя создают!</p>
                 </div>
             </div>
         </section>

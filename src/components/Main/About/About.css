@@ -5,11 +5,11 @@
 }
 
 .about-me__description-text {
-    margin-left: 50px;
-    background-image: url(../../../images/ramka.svg);
-    background-size: 400px;
+    margin-left: 300px;
+    background-image: url(../../../images/ramka.png);
+    background-size: 450px 400px;
     background-repeat: no-repeat;
-
+    margin-top: 0px;
 }
 
 .about-me__heading {
@@ -19,9 +19,10 @@
 .about-me__description {
     display: flex;
     justify-content: center;
-    max-width: 1280px;
+    max-width: 1400px;
     margin: 0 auto;
-    background-image: radial-gradient(600px 450px, #ffffff, #140800);
+    background-image: url(../../../images/zzz.jpg);
+    background-size: cover;
     border: 7px #585858;
     border-style: ridge;
     padding: 20px 0;
@@ -30,21 +31,35 @@
 .about-me__description-title {
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 33px;
+    line-height: 40px;
     letter-spacing: -0.04em;
     margin: 0;
-    padding-top: 110px;
-    padding-left: 45px;
+    padding-top: 80px;
+    padding-left: 80px;
+    color: #140800;
 }
 
 .about-me__description-subtitle {
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
-    line-height: 58px;
+    font-size: 33px;
+    line-height: 40px;
     letter-spacing: -0.04em;
-    margin: 10px 0 18px 30px;
+    margin: 10px 0 0px 0px;
+    padding-right: 60px;
+    padding-left: 80px;
+    color: #140800;
+}
+
+.about-me__description-quote {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    color: #140800;
 }
 
 .about-me__description-paragraph {
@@ -79,6 +94,7 @@
     border: 7px #140800;
     border-style: double;
     box-shadow: 0px 5px 20px 20px rgb(14 8 0 / 80%);
+    margin-left: 50px;
 }
 
 @media(max-width: 1280px) {
@@ -94,7 +110,7 @@
 
     .about-me__description-text {
         margin-left: 50px;
-        background-image: url(../../../images/ramka.svg);
+        background-image: url(../../../images/ramka.png);
         background-size: 400px;
         background-repeat: no-repeat;
 
@@ -200,7 +216,7 @@
 
     .about-me__description-text {
         margin-left: 50px;
-        background-image: url(../../../images/ramka.svg);
+        background-image: url(../../../images/ramka.png);
         background-size: 270px;
         background-repeat: no-repeat;
 
@@ -313,7 +329,7 @@
 
     .about-me__description-text {
         margin-left: 20px;
-        background-image: url(../../../images/ramka.svg);
+        background-image: url(../../../images/ramka.png);
         background-size: 270px;
         background-repeat: no-repeat;
     }
@@ -333,7 +349,7 @@
 
     .about-me__description-text {
         margin-left: 10px;
-        background-image: url(../../../images/ramka.svg);
+        background-image: url(../../../images/ramka.png);
         background-size: 270px;
         background-repeat: no-repeat;
     }
@@ -393,7 +409,7 @@
     .about-me__description-text {
         margin-left: 50px;
         margin-top: 50px;
-        background-image: url(../../../images/ramka.svg);
+        background-image: url(../../../images/ramka.png);
         background-size: 250px;
         background-repeat: no-repeat;
     }

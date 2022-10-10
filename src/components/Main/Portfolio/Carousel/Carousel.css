@@ -30,7 +30,8 @@
     text-align: center;
     margin: 0 auto 30px;
     color: #140800;
-    background-image: radial-gradient(200px 50px, #ffffff, #140800);
+    background-image: url(../../../../images/bbb.png);
+    background-size: cover;
     width: 400px;
     text-decoration: none;
     padding-bottom: 25px;
@@ -85,6 +86,15 @@
 
 .slider-portfolio {
     width: 100%;
-    background-color: #140800;
     padding: 50px 0;
+    background-image: url(../../../../images/aaa.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 1024px) {
+    .slider-portfolio {
+        background-size: cover;
+    }
+
 }

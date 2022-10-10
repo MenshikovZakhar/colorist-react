@@ -12,7 +12,9 @@
 
 .header__logo {
     height: 70px;
+    width: 100px;
     cursor: pointer;
+    padding-left: 100px;
 }
 
 .header_active {

@@ -4,6 +4,7 @@ import instagram from '../../images/instagram_2.svg';
 import telegram from '../../images/telegram_2.svg';
 import vk from '../../images/vk_2.svg';
 import phone from '../../images/phone_2.png';
+import whatsapp from '../../images/whatsapp_2.svg';
 import location from '../../images/location.png';
 import email from '../../images/email.png';
 
@@ -23,6 +24,11 @@ function Footer() {
                     <li className='footer__list-item'>
                         <a href="tel:+79514840077">
                             <img className='iqon__logo' src={phone} alt='logo' />
+                        </a>
+                    </li>
+                    <li className='footer__list-item'>
+                        <a href="https://wa.me/79514840077" target="_blank" rel="noreferrer">
+                            <img className='iqon__logo' src={whatsapp} alt='logo' />
                         </a>
                     </li>
                     <li className='footer__list-item'>

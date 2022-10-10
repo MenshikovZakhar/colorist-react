@@ -1,10 +1,11 @@
 import { NavLink, Link } from 'react-router-dom';
 import './HiddenMenu.css';
-import logo from '../../images/logo_2.png';
+import logo from '../../images/logo_1.png';
 import instagram from '../../images/instagram.svg';
 import telegram from '../../images/telegram.svg';
 import vk from '../../images/vk.svg';
 import phone from '../../images/phone.svg';
+import whatsapp from '../../images/whatsapp.svg';
 function HiddenMenu({ onClickCloseMenu }) {
   return (
     <section className='hidden-menu'>
@@ -82,6 +83,9 @@ function HiddenMenu({ onClickCloseMenu }) {
         <div className='iqons'>
           <a href="tel:+79514840077">
             <img className='iqons__logo' src={phone} alt='logo' />
+          </a>
+          <a href="https://wa.me/79514840077" target="_blank" rel="noreferrer">
+            <img className='iqons__logo' src={whatsapp} alt='logo' />
           </a>
           <a href="https://instagram.com/valeria_colorist?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
             <img className='iqons__logo' src={instagram} alt='logo' />

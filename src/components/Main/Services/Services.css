@@ -1,11 +1,11 @@
 .services__list {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 70px;
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
-    padding: 40px 0 50px;
+    padding: 30px 0 80px;
     margin: 0;
 }
 
@@ -17,7 +17,7 @@
     background-position: center;
     border: 7px #585858;
     border-style: ridge;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .min-width {
@@ -26,12 +26,9 @@
 
 .services-title {
     margin: 0 auto;
-    border: 2px #140800;
-    border-style: solid;
     border-radius: 10px;
     width: 350px;
-    padding-bottom: 20px;
-    box-shadow: 0px 5px 20px 20px rgb(14 8 0 / 80%);
+    padding: 20px 0;
     background-image: url(../../../images/bbb.png);
     background-size: cover;
 }
@@ -56,10 +53,9 @@
     font-weight: 900;
     font-size: 20px;
     line-height: 40px;
-    border: 2px #140800;
-    border-style: solid;
+    min-width: 250px;
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
     margin-top: 10px;
     background-image: url(../../../images/bbb.png);
     background-size: cover;
@@ -67,9 +63,9 @@
 
 .services__title {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
-    line-height: 40px;
+    line-height: 45px;
     margin: 0;
     color: #140800;
 }
@@ -79,7 +75,7 @@
     background-color: #140800;
     width: 100%;
     padding-bottom: 40px;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .img_services_1 {

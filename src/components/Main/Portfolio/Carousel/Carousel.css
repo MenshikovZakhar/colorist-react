@@ -104,3 +104,24 @@
         background-size: cover;
     }
 }
+
+@media(max-width: 914px) {
+    .portfolio__title {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto 30px;
+        color: #140800;
+        background-image: url(../../../../images/bbb.png);
+        background-size: cover;
+        width: 300px;
+        text-decoration: none;
+        padding: 20px 0;
+        border-radius: 10px;
+    }
+
+    .slider-portfolio {
+        background-size: contain;
+    }
+}

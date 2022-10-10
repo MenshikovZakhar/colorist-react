@@ -314,15 +314,15 @@
     .about-me__description-title {
         font-size: 25px;
         line-height: 30px;
-        padding-left: 35px;
-        padding-top: 70px;
+        padding-left: 55px;
+        padding-top: 25px;
     }
 
     .about-me__description-subtitle {
         font-size: 25px;
         line-height: 30px;
         margin-left: 50px;
-        margin: 10px 0 10px 60px;
+        margin: 5px 0 0px 20px;
     }
 
     .about-me__description-paragraph {
@@ -343,9 +343,9 @@
     }
 
     .about-me__description-text {
-        margin-left: 50px;
+        margin-left: 60px;
         background-image: url(../../../images/ramka.png);
-        background-size: 270px;
+        background-size: 350px 250px;
         background-repeat: no-repeat;
 
     }

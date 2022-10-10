@@ -136,7 +136,7 @@
     }
 }
 
-@media(max-width: 1150px) {
+@media(max-width: 1170px) {
     .about-me__description {
         padding: 10px 0;
     }
@@ -295,9 +295,19 @@
     }
 }
 
-@media(max-width: 960px) {
+@media(max-width: 970px) {
     .about-me {
         padding: 30px 50px;
+    }
+}
+
+@media(max-width: 915px) {
+    .about-me {
+        padding: 30px 50px;
+    }
+
+    .about-me__description-photo {
+        margin-left: 50px;
     }
 }
 
@@ -336,6 +346,7 @@
     .about-me__description-photo {
         width: 230px;
         height: 307px;
+        margin-left: 80px;
     }
 
     .about-me__portfolio-link {
@@ -351,28 +362,78 @@
     }
 }
 
+@media(max-width: 863px) {
+    .about-me__description-subtitle {
+        padding-left: 40px;
+    }
+}
+
+@media(max-width: 860px) {
+    .about-me__description {}
+
+    .about-me__description-title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .about-me__description-subtitle {
+        font-size: 20px;
+        line-height: 20px;
+        padding-left: 40px;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    .about-me__description-text {
+        margin-left: 60px;
+        background-image: url(../../../images/ramka.png);
+        background-size: 290px 220px;
+    }
+}
+
 @media(max-width: 800px) {
-    .about-me__description {
-        background-image: radial-gradient(400px 300px, #ffffff, #140800);
+    .about-me__description-photo {
+        margin-left: 40px;
     }
 }
 
-@media(max-width: 768px) {
-    .about-me {
-        padding: 30px 50px 20px;
+@media(max-width: 740px) {
+    .about-me__description-text {
+        background-size: 250px 220px;
+    }
+
+    .about-me__description-photo {
+        margin-left: 70px;
+    }
+
+    .about-me__description-title {
+        padding-left: 40px;
+    }
+
+    .about-me__description-subtitle {
+        padding-left: 30px;
+    }
+
+    .about-me__description-quote {
+        margin-left: 0px;
     }
 }
-
-
 
 @media(max-width: 740px) {
     .about-me__description-text {
         margin-left: 50px;
+        background-size: 230px 220px;
     }
 
-    .about-me__description {
-        background-image: radial-gradient(400px 250px, #ffffff, #140800);
+    .about-me__description-title {
+        font-size: 18px;
     }
+
+    .about-me__description-subtitle {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
 }
 
 @media(max-width: 720px) {

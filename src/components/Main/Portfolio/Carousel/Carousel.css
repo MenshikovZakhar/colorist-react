@@ -125,3 +125,9 @@
         background-size: contain;
     }
 }
+
+@media(max-width: 800px) {
+    .slider-portfolio {
+        background-size: cover;
+    }
+}

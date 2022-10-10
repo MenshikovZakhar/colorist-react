@@ -84,8 +84,6 @@
 
 .services__link {
     text-decoration: none;
-    background-color: #140800;
-    border-radius: 60px;
     height: 300px;
     width: 250px;
 }
@@ -213,7 +211,6 @@
     .services__name {
         width: 250px;
         font-size: 18px;
-        background-image: radial-gradient(130px 50px, #ffffff, #140800);
     }
 
     .img_services {
@@ -227,7 +224,6 @@
     }
 
     .services {
-        background-image: radial-gradient(550px 500px, #ffffff, #140800);
         padding-bottom: 60px;
     }
 
@@ -245,6 +241,30 @@
 
     .services__links-3 {
         margin: 0;
+    }
+}
+
+@media(max-width: 870px) {
+    .services__description {
+        max-width: 800px;
+    }
+}
+
+@media(max-width: 800px) {
+    .services__description {
+        max-width: 680px;
+        background-size: contain;
+    }
+}
+
+@media(max-width: 740px) {
+    .services__description {
+        max-width: 630px;
+    }
+
+    .img_services {
+        width: 200px;
+        height: 250px;
     }
 }
 

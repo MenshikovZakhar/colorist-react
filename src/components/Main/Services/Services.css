@@ -109,6 +109,11 @@
 
 
 @media(max-width: 1400px) {
+
+    .services__description {
+        max-width: 1280px;
+    }
+
     .img_services {
         width: 250px;
         height: 300px;
@@ -124,6 +129,11 @@
     .img_services {
         width: 250px;
         height: 300px;
+    }
+
+    .services__description {
+        max-width: 1130px;
+        background-size: contain;
     }
 }
 
@@ -152,8 +162,7 @@
 
     .services__name {
         width: 200px;
-        font-size: 15px;
-        background-image: radial-gradient(120px 50px, #ffffff, #140800);
+        font-size: 18px;
     }
 
     .services__link {
@@ -161,9 +170,12 @@
         width: 200px;
     }
 
-    .services {
-        background-image: radial-gradient(800px 450px, #ffffff, #140800);
+    .services__description {
+        max-width: 950px;
+        background-size: contain;
+        padding: 20px 0;
     }
+
 }
 
 @media(max-width: 1024px) {}

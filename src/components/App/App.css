@@ -1,5 +1,5 @@
 .page {
-  max-width: 100%;
+  overflow-x: hidden;
   min-width: 320px;
   min-height: 100vh;
   display: flex;

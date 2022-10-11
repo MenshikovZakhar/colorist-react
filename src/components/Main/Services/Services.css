@@ -199,7 +199,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 90px 50px;
-        width: 700px;
+        width: 600px;
         margin: 0 auto;
     }
 
@@ -266,6 +266,23 @@
         width: 200px;
         height: 250px;
     }
+
+    .services__list {
+        gap: 50px 50px;
+        padding: 40px 0 30px;
+    }
+
+    .services__link {
+        margin-left: 40px;
+    }
+
+    .services__name {
+        width: 200px;
+        font-size: 16px;
+        min-width: 200px;
+    }
+
+
 }
 
 @media(max-width: 680px) {

@@ -134,7 +134,7 @@
 
 @media(max-width: 660px) {
     .slider {
-        width: 300px;
+        width: 310px;
         height: 400px;
         perspective: 1000px;
         margin: 0 auto;
@@ -143,8 +143,58 @@
     }
 
     .slider-1 {
-        width: 300px;
+        width: 310px;
         height: 400px;
+        perspective: 1000px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .slider-portfolio {
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+@media(max-width: 660px) {
+    .slider {
+        width: 280px;
+        height: 380px;
+        perspective: 1000px;
+        margin: 0 auto;
+        border: 7px #585858;
+        border-style: ridge;
+    }
+
+    .slider-1 {
+        width: 280px;
+        height: 380px;
+        perspective: 1000px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .slider-portfolio {
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+@media(max-width: 350px) {
+    .slider {
+        width: 250px;
+        height: 350px;
+        perspective: 1000px;
+        margin: 0 auto;
+        border: 7px #585858;
+        border-style: ridge;
+    }
+
+    .slider-1 {
+        width: 250px;
+        height: 350px;
         perspective: 1000px;
         margin: 0 auto;
         padding-top: 30px;

@@ -136,6 +136,10 @@
     .about-me__description-subtitle {
         padding-left: 60px;
     }
+
+    .about-me__description-title {
+        padding-left: 40px;
+    }
 }
 
 @media(max-width: 1170px) {
@@ -356,9 +360,8 @@
     .about-me__description-subtitle {
         font-size: 20px;
         line-height: 20px;
-        padding-left: 40px;
-        padding-top: 10px;
         margin: 0;
+        padding: 10px 50px 0px 50px;
     }
 
     .about-me__description-text {
@@ -396,7 +399,7 @@
     }
 
     .about-me__description-photo {
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .about-me__description-title {
@@ -406,7 +409,8 @@
 
     .about-me__description-subtitle {
         font-size: 18px;
-        padding-left: 20px;
+        padding: 0 40px 0 40px;
+        margin: 10px 0 0px 0px;
     }
 
     .about-me__description-quote {
@@ -454,18 +458,27 @@
         line-height: 20px;
         margin-bottom: 0px;
         padding-top: 30px;
+        padding-left: 30px;
     }
 
     .about-me__description-subtitle {
         font-size: 19px;
         line-height: 20px;
         margin: 10px 0 0px 0px;
-        padding: 0 0 0 40px;
+        padding: 0 30px 0 30px;
     }
 
 }
 
 @media(max-width: 680px) {
+
+    .about-me__description-title {
+        padding-left: 30px;
+    }
+
+    .about-me__description-subtitle {
+        padding: 0 20px 0 30px;
+    }
 
     .about-me__description {
         margin: 0;
@@ -480,7 +493,7 @@
 
 @media(max-width: 660px) {
     .about-me__description-text {
-        margin-left: 70px;
+        margin-left: 40px;
         background-size: 220px 170px;
     }
 
@@ -506,22 +519,12 @@
 
     .about-me__description-photo {
         width: 240px;
-        height: 330px;
+        height: 340px;
         margin-left: 10px;
     }
-
-    .about-me__description-text {
-        margin-left: 30px;
-        background-size: 270px;
-    }
-
 }
 
 @media(max-width: 600px) {
-
-    .about-me__description {
-        background-image: radial-gradient(380px 250px, #ffffff, #140800);
-    }
 
     .about-me__description-photo {
         width: 240px;
@@ -529,29 +532,37 @@
     }
 
     .about-me__description-text {
-        margin-left: 10px;
+        margin-left: 30px;
         background-image: url(../../../images/ramka.png);
-        background-size: 270px;
+        background-size: 220px 170px;
         background-repeat: no-repeat;
     }
 }
 
-@media(max-width: 590px) {
-    .about-me__description-text {
-        background-size: 260px;
-
-    }
-}
 
 
 @media(max-width: 570px) {
     .about-me__description-text {
-        background-size: 240px;
+        background-size: 200px 150px;
         align-items: center;
     }
 
     .about-me__description-title {
-        padding-left: 20px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .about-me__description-subtitle {
+        font-size: 15px;
+        line-height: 15px;
+        margin: 5px 0 0px 0px;
+        padding: 0 20px 0 40px;
+    }
+
+    .about-me__description-quote {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 20px 0 0 50px;
     }
 }
 
@@ -560,7 +571,6 @@
     .about-me {
         background-image: url(../../../images/zzz.jpg);
         background-size: cover;
-
     }
 
     .about-me__description-subtitle {
@@ -572,6 +582,8 @@
 
     .about-me__description-title {
         padding-left: 50px;
+        font-size: 19px;
+
     }
 
     .about-me__description {
@@ -591,14 +603,14 @@
 
     .about-me__description-text {
         margin-left: 40px;
-        margin-top: 240px;
+        margin-top: 260px;
         background-image: url(../../../images/ramka.png);
         background-size: 250px 180px;
         background-repeat: no-repeat;
     }
 
     .about-me__description-quote {
-        margin: 25px 0 0;
+        margin: 30px 0 0 70px;
     }
 }
 
@@ -615,7 +627,7 @@
 
     .about-me__description-text {
         width: 280px;
-        margin-top: 260px;
+        margin-top: 270px;
     }
 
     .about-me__description-photo {
@@ -642,6 +654,7 @@
 
     .about-me__description-text {
         width: 250px;
+        margin-top: 270px;
     }
 
     .about-me__description-photo {

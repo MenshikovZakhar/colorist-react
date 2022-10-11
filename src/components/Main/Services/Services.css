@@ -105,11 +105,18 @@
     box-shadow: 0px 5px 20px 20px rgb(14 8 0 / 80%);
 }
 
+@media(max-width: 1500px) {
+
+    .services__description {
+        max-width: 1300px;
+    }
+
+}
 
 @media(max-width: 1400px) {
 
     .services__description {
-        max-width: 1280px;
+        max-width: 1250px;
     }
 
     .img_services {
@@ -120,7 +127,9 @@
 
 @media(max-width: 1350px) {
 
-    .services {}
+    .services__description {
+        max-width: 1200px;
+    }
 }
 
 @media(max-width: 1280px) {
@@ -130,7 +139,7 @@
     }
 
     .services__description {
-        max-width: 1130px;
+        max-width: 1120px;
         background-size: contain;
     }
 }
@@ -150,6 +159,16 @@
         height: 280px;
         width: 220px;
     }
+
+    .services__description {
+        max-width: 1070px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .services__description {
+        max-width: 1000px;
+    }
 }
 
 @media(max-width: 1100px) {
@@ -168,8 +187,17 @@
         width: 200px;
     }
 
+    .services__description {
+        max-width: 950px;
+    }
 
+}
 
+@media(max-width: 1050px) {
+
+    .services__description {
+        max-width: 850px;
+    }
 }
 
 @media(max-width: 1000px) {
@@ -191,6 +219,10 @@
     .services-title {
         width: 250px;
     }
+
+    .services__description {
+        max-width: 800px;
+    }
 }
 
 @media(max-width: 900px) {
@@ -198,7 +230,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 90px 50px;
+        gap: 120px 50px;
         width: 600px;
         margin: 0 auto;
     }
@@ -242,11 +274,22 @@
     .services__links-3 {
         margin: 0;
     }
+
+    .services__description {
+        max-width: 780px;
+    }
 }
 
 @media(max-width: 870px) {
     .services__description {
-        max-width: 800px;
+        max-width: 750px;
+    }
+}
+
+@media(max-width: 830px) {
+    .services__description {
+        max-width: 720px;
+        background-size: contain;
     }
 }
 
@@ -256,6 +299,7 @@
         background-size: contain;
     }
 }
+
 
 @media(max-width: 740px) {
     .services__description {
@@ -281,8 +325,6 @@
         font-size: 16px;
         min-width: 200px;
     }
-
-
 }
 
 @media(max-width: 680px) {
@@ -290,4 +332,16 @@
         gap: 50px 10px;
     }
 
+}
+
+@media(max-width: 650px) {
+    .services__description {
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 600px) {
+    .services__description {
+        max-width: 560px;
+    }
 }

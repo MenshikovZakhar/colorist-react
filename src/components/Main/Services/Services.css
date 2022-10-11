@@ -287,10 +287,7 @@
 
 @media(max-width: 680px) {
     .services__list {
-        gap: 90px 10px;
+        gap: 50px 10px;
     }
 
-    .services {
-        background-image: radial-gradient(700px 520px, #ffffff, #140800);
-    }
 }

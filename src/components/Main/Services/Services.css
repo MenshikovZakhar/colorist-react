@@ -330,18 +330,19 @@
 @media(max-width: 680px) {
     .services__list {
         gap: 50px 10px;
+        width: 600px;
     }
 
 }
 
 @media(max-width: 650px) {
     .services__description {
-        max-width: 600px;
+        max-width: 550px;
     }
 }
 
 @media(max-width: 600px) {
     .services__description {
-        max-width: 560px;
+        max-width: 500px;
     }
 }

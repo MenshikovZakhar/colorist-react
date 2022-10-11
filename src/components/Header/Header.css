@@ -14,7 +14,7 @@
     height: 70px;
     width: 100px;
     cursor: pointer;
-    padding-left: 100px;
+    padding-left: 160px;
 }
 
 .header_active {
@@ -31,6 +31,7 @@
     padding-right: 100px;
 }
 
+
 @media screen and (max-width: 1280px) {
     .header {
         padding-left: 70px;
@@ -40,7 +41,10 @@
     .header_active {
         padding-left: 70px;
         padding-right: 50px;
+    }
 
+    .header__logo {
+        padding-left: 120px;
     }
 }
 
@@ -53,7 +57,23 @@
     .header_active {
         padding-left: 55px;
         padding-right: 30px;
+    }
 
+    .header__logo {
+        padding-left: 140px;
+    }
+
+    .header__logo {
+        height: 50px;
+        width: 80px;
+        padding-left: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        padding-left: 110px;
     }
 
 }
@@ -61,26 +81,49 @@
 @media screen and (max-width: 900px) {
     .header {
         padding-left: 30px;
-        padding-right: 10px;
+        padding-right: 40px;
     }
 
     .header_active {
         padding-left: 30px;
-        padding-right: 10px;
+        padding-right: 40px;
+    }
 
+    .header__logo {
+        height: 40px;
+        width: 60px;
+        padding-left: 150px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .header__logo {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 774px) {
+
+    .header__logo {
+        padding-left: 70px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
         padding-left: 20px;
-        padding-right: 0px;
+        padding-right: 30px;
     }
 
     .header_active {
         padding-left: 20px;
-        padding-right: 0px;
+        padding-right: 30px;
+    }
 
+    .header__logo {
+        padding-left: 70px;
     }
 }
 
@@ -91,7 +134,7 @@
     }
 
     .header__logo {
-        height: 50px;
+        height: 40px;
     }
 
     .header_active {
@@ -103,8 +146,8 @@
 
 @media screen and (max-width: 650px) {
     .header__logo {
-        height: 50px;
-        width: 150px;
+        height: 40px;
+        width: 70px;
     }
 
     .header {
@@ -121,8 +164,9 @@
 
 @media screen and (max-width: 600px) {
     .header__logo {
-        height: 70px;
-        width: 200px;
+        height: 50px;
+        width: 80px;
+        padding-left: 10px;
     }
 
     .header {
@@ -135,6 +179,9 @@
         padding-right: 30px;
     }
 }
+
+
+
 
 
 @media screen and (max-width: 320px) {

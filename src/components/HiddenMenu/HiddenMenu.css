@@ -19,6 +19,10 @@
     margin: 15px;
 }
 
+.iqons__logo:hover {
+    width: 50px;
+}
+
 .phone {
     display: flex;
     justify-content: space-between;

@@ -26,7 +26,7 @@ class Carousel extends React.PureComponent {
 
         return (
             <section className='slider-portfolio'>
-                <Link className="portfolio__title" to='/portfolio'>
+                <Link className="portfolio-title" to='/portfolio'>
                     <h1 className="portfolio__title">Портфолио</h1></Link>
                 <div className="slider-1">
                     <div className="slider__viewport"

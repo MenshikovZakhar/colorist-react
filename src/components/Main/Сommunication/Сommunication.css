@@ -11,20 +11,91 @@
     color: #140800;
 }
 
+.communication__phone {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 20px;
+    margin: 0;
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.communication-title {
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 700px;
+    padding: 10px 0;
+    background-image: url(../../../images/bbb.png);
+    background-size: cover;
+}
+
 .communication__description {
     max-width: 1400px;
     height: 300px;
     margin: 0 auto;
     background-image: url(../../../images/xxx.jpg);
-    background-size: 1400px 300px;
+    background-size: 1400px 310px;
     border: 7px #585858;
     border-style: ridge;
+    padding-top: 10px;
 }
 
+.iqons__communication {
+    margin-top: 40px;
+    padding-left: 470px;
+}
+
+.communication__logo {
+    width: 50px;
+    margin: 0 20px;
+}
+
+.communication__logo:hover {
+    width: 60px;
+}
+
+@media(max-width: 1500px) {
+    .communication__description {
+        max-width: 1300px;
+    }
+
+    .communication-title {
+        margin: 0 0 0 350px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 90px;
+    }
+
+}
+
+@media(max-width: 1400px) {
+    .communication__description {
+        max-width: 1250px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 140px;
+    }
+}
+
+@media(max-width: 1350px) {
+    .communication__description {
+        max-width: 1200px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 190px;
+    }
+}
 
 @media(max-width: 1280px) {
     .communication__description {
-        max-width: 1280px;
-        margin: 0 auto;
+        max-width: 1120px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 270px;
     }
 }

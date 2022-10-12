@@ -339,10 +339,160 @@
     .services__description {
         max-width: 550px;
     }
+
+    .services__list {
+        gap: 50px 10px;
+        width: 500px;
+    }
+
+    .services {
+        padding-bottom: 40px;
+    }
 }
 
 @media(max-width: 600px) {
     .services__description {
+        max-width: 550px;
+    }
+}
+
+@media(max-width: 570px) {
+    .services__description {
         max-width: 500px;
+    }
+
+    .services__list {
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        padding-bottom: 60px;
+    }
+
+    .services__link {
+        margin-left: 0px;
+        width: 300px;
+        height: 400px;
+    }
+
+    .img_services {
+        width: 300px;
+        height: 400px;
+    }
+
+    .services__name {
+        width: 300px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 530px) {
+    .services__description {
+        max-width: 450px;
+    }
+
+    .services__list {
+        width: 400px;
+        gap: 110px;
+    }
+}
+
+@media(max-width: 480px) {
+    .services__description {
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 440px) {
+    .services__description {
+        max-width: 400px;
+    }
+
+    .services__link {
+        width: 250px;
+        height: 350px;
+    }
+
+    .img_services {
+        width: 250px;
+        height: 350px;
+    }
+
+    .services__name {
+        width: 250px;
+    }
+
+    .services__list {
+        gap: 100px;
+    }
+}
+
+@media(max-width: 440px) {
+    .services__description {
+        max-width: 350px;
+    }
+
+    .services__list {
+        width: 300px;
+    }
+
+    .services__link {
+        width: 250px;
+        height: 330px;
+    }
+
+    .img_services {
+        width: 250px;
+        height: 330px;
+    }
+
+}
+
+@media(max-width: 390px) {
+    .services__description {
+        max-width: 320px;
+        padding: 30px 0 70px;
+    }
+
+    .services__link {
+        width: 230px;
+        height: 310px;
+    }
+
+    .img_services {
+        width: 230px;
+        height: 310px;
+    }
+
+    .services__list {
+        width: 320px;
+        padding: 30px 0 30px;
+    }
+
+    .services__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .services-title {
+        width: 200px;
+        padding: 10px 0;
+    }
+
+    .services__name {
+        width: 200px;
+        margin-left: 20px;
+        font-size: 17px;
+        padding: 5px 0;
+    }
+
+}
+
+@media(max-width: 320px) {
+    .services__description {
+        max-width: 290px;
+    }
+
+    .services__list {
+        width: 290px;
     }
 }

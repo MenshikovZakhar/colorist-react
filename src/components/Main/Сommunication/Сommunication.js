@@ -27,7 +27,7 @@ function Сommunication() {
                     <a href="https://instagram.com/valeria_colorist?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
                         <img className='communication__logo' src={instagram} alt='logo' />
                     </a>
-                    <a href="https://t.me/Valeria_Smolentseva" target="_blank" rel="noreferrer">
+                    <a className='communication__logo-1' href="https://t.me/Valeria_Smolentseva" target="_blank" rel="noreferrer">
                         <img className='communication__logo' src={telegram} alt='logo' />
                     </a>
                     <a href="https://vk.com/public200598040" target="_blank" rel="noreferrer">

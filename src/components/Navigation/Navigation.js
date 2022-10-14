@@ -47,9 +47,6 @@ function Navigation() {
                     <li className="submenu__link"><Link className="submenu__link" to="/">Женские стрижки</Link></li>
                     <li className="submenu__link"><Link className="submenu__link" to="/">Профессиональный уход</Link></li>
                 </ul>
-
-
-
                 <NavLink
                     to='/price'
                     className={({ isActive }) =>
@@ -58,8 +55,6 @@ function Navigation() {
                 >
                     Стоимость
                 </NavLink>
-
-
                 <NavLink
                     to='/portfolio'
                     className={({ isActive }) =>
@@ -68,8 +63,6 @@ function Navigation() {
                 >
                     Портфолио
                 </NavLink>
-
-
                 <NavLink
                     to='/contacts'
                     className={({ isActive }) =>

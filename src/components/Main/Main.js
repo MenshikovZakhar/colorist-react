@@ -10,9 +10,8 @@ function Main() {
             <Header />
             <main className='content'>
                 <About />
-                <Сommunication />
                 <Services />
-
+                <Сommunication />
                 <Portfolio />
             </main>
             <Footer />

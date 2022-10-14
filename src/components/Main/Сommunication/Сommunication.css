@@ -464,6 +464,10 @@
         background-image: url(../../../images/xxx_1.jpg);
     }
 
+    .communication {
+        padding-top: 10px;
+    }
+
     .communication__phone {
         margin: 0 0px 0 0px;
         font-size: 28px;
@@ -498,7 +502,6 @@
 }
 
 @media (max-width: 480px) {
-
 
     .communication__description {
         max-width: 450px;
@@ -593,6 +596,7 @@
         max-width: 320px;
         height: 180px;
         background-size: 320px 190px;
+        background-size: 400px 400px;
     }
 
     .communication-title {

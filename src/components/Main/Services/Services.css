@@ -204,7 +204,8 @@
     .services__description {
         max-width: 840px;
         background-position: bottom;
-        background-size: 1500px 600px;
+        background-size: cover;
+        background-position: center;
     }
 
     .services__list {
@@ -286,6 +287,8 @@
 
     .services__description {
         max-width: 780px;
+        background-position: bottom;
+        background-size: 300px 500px;
     }
 }
 
@@ -298,14 +301,14 @@
 @media(max-width: 830px) {
     .services__description {
         max-width: 720px;
-        background-size: contain;
+        background-size: 300px 500px;
     }
 }
 
 @media(max-width: 800px) {
     .services__description {
         max-width: 680px;
-        background-size: contain;
+        background-size: 300px 500px;
     }
 }
 
@@ -408,6 +411,10 @@
 @media(max-width: 480px) {
     .services__description {
         max-width: 450px;
+    }
+
+    .services {
+        padding-top: 5px;
     }
 }
 

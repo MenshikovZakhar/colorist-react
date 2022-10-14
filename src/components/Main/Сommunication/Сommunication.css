@@ -150,7 +150,8 @@
 @media(max-width: 1150px) {
     .communication__description {
         max-width: 1000px;
-        background-size: 1000px 310px;
+        height: 280px;
+        background-size: 1000px 290px;
     }
 
     .iqons__communication {
@@ -261,6 +262,7 @@
 @media(max-width: 900px) {
     .communication__description {
         max-width: 780px;
+        height: 250px;
         background-size: 780px 310px;
     }
 }
@@ -385,7 +387,7 @@
     }
 
     .iqons__communication {
-        margin-top: 50px;
+        margin-top: 40px;
         padding-left: 150px;
     }
 
@@ -417,7 +419,7 @@
     }
 
     .iqons__communication {
-        margin-top: 50px;
+        margin-top: 40px;
         padding-left: 125px;
     }
 
@@ -448,7 +450,7 @@
     }
 
     .iqons__communication {
-        margin-top: 50px;
+        margin-top: 40px;
         padding-left: 120px;
     }
 }

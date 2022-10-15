@@ -4,6 +4,8 @@ import Footer from '../Footer/Footer';
 import Services from './Services/Services';
 import Portfolio from './Portfolio/Portfolio';
 import Сommunication from './Сommunication/Сommunication';
+import Partners from './Partners/Partners';
+
 function Main() {
     return (
         <>
@@ -13,6 +15,7 @@ function Main() {
                 <Services />
                 <Сommunication />
                 <Portfolio />
+                <Partners />
             </main>
             <Footer />
         </>

@@ -29,7 +29,7 @@ function Services() {
                     <li className="services__link services__links-3 min-width"><Link className='img_services_1 min-width' to='/services_3'><img className='img_services min-width' src={services_3} alt='' />
                         <p className="services__name min-width">Женские стрижки</p></Link></li>
 
-                    <li className="services__link services__links-4 "><Link className='img_services_1' to='/services_4'> <img className='img_services' src={services_4} alt='' />
+                    <li className="services__link services__links-4"><Link className='img_services_1' to='/services_4'> <img className='img_services' src={services_4} alt='' />
                         <p className="services__name">Профессиональный уход</p></Link></li>
                 </ul>
             </div>

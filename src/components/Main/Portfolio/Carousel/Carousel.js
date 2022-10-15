@@ -19,7 +19,7 @@ class Carousel extends React.PureComponent {
     }
 
     render() {
-        const { images, radius = 180 } = this.props;
+        const { images, radius = 0 } = this.props;
         const { currentIndex } = this.state;
         const len = images.length || 0;
         const angle = 2 * Math.PI / len;

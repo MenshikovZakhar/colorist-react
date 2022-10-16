@@ -573,10 +573,7 @@
 
 @media(max-width: 550px) {
 
-    .about-me {
-        background-image: url(../../../images/zzz.jpg);
-        background-size: cover;
-    }
+    .about-me {}
 
     .about-me__description-subtitle {
         font-size: 19px;
@@ -623,7 +620,7 @@
 @media(max-width: 400px) {
 
     .about-me__description {
-        max-width: 300px;
+        max-width: 320px;
         height: 450px;
         border: 7px #4a4a4a;
         border-style: ridge;

@@ -1,11 +1,16 @@
-@import "react-alice-carousel/lib/alice-carousel.css";
-
 .partners__img {
     width: 150px;
-    height: 150px;
+    height: 200px;
 }
 
 .partners__description {
     max-width: 1400px;
-    margin: 0 auto
+    margin: 0 auto;
+}
+
+@media(max-width: 390px) {
+    .partners__img {
+        width: 150px;
+        height: 150px;
+    }
 }

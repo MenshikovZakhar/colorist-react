@@ -1,17 +1,17 @@
 import React from 'react';
 import InfiniteCarousel from 'react-leaf-carousel';
-
 import './Partners.css';
-
-import slide1 from "../../../images/brands__img-1.svg"
-import slide2 from "../../../images/brands__img-2.svg"
+import slide1 from "../../../images/brands__img-1.png"
+import slide2 from "../../../images/brands__img-2.png"
 import slide3 from "../../../images/brands__img-3.png"
 import slide4 from "../../../images/brands__img-4.png"
-import slide5 from "../../../images/brands__img-5.svg"
-
+import slide5 from "../../../images/brands__img-5.png"
+import slide6 from "../../../images/brands__img-6.png"
+import slide7 from "../../../images/brands__img-7.png"
+import slide8 from "../../../images/brands__img-8.png"
+import slide9 from "../../../images/brands__img-9.png"
+import slide10 from "../../../images/brands__img-10.png"
 const handleDragStart = (e) => e.preventDefault();
-
-
 
 const Partners = () => {
     return (
@@ -34,12 +34,12 @@ const Partners = () => {
                     },
                 ]}
 
-                slidesToScroll={4}
-                slidesToShow={4}
-
+                slidesToScroll={5}
+                slidesToShow={5}
+                arrows={false}
                 autoCycle={true}
                 pauseOnHover={false}
-                cycleInterval={2000}
+                cycleInterval={5000}
             >
                 <div>
                     <img
@@ -74,6 +74,41 @@ const Partners = () => {
                         className='partners__img'
                         alt=''
                         src={slide5}
+                    />
+                </div>
+                <div>
+                    <img
+                        className='partners__img'
+                        alt=''
+                        src={slide6}
+                    />
+                </div>
+                <div>
+                    <img
+                        className='partners__img'
+                        alt=''
+                        src={slide7}
+                    />
+                </div>
+                <div>
+                    <img
+                        className='partners__img'
+                        alt=''
+                        src={slide8}
+                    />
+                </div>
+                <div>
+                    <img
+                        className='partners__img'
+                        alt=''
+                        src={slide9}
+                    />
+                </div>
+                <div>
+                    <img
+                        className='partners__img'
+                        alt=''
+                        src={slide10}
                     />
                 </div>
             </InfiniteCarousel>

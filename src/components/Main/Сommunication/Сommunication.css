@@ -594,8 +594,8 @@
 
     .communication__description {
         max-width: 320px;
-        height: 180px;
-        background-size: 320px 190px;
+        height: 150px;
+        background-size: 320px 160px;
     }
 
     .communication-title {

@@ -15,6 +15,7 @@ const handleDragStart = (e) => e.preventDefault();
 const Partners = () => {
     return (
         <div className='partners__description'>
+            <h1 className="partners__title">Партнёры</h1>
             <InfiniteCarousel
                 breakpoints={[
                     {
@@ -25,10 +26,17 @@ const Partners = () => {
                         },
                     },
                     {
-                        breakpoint: 768,
+                        breakpoint: 850,
                         settings: {
                             slidesToShow: 3,
                             slidesToScroll: 3,
+                        },
+                    },
+                    {
+                        breakpoint: 1100,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
                         },
                     },
                 ]}
@@ -38,7 +46,8 @@ const Partners = () => {
                 arrows={false}
                 autoCycle={true}
                 pauseOnHover={false}
-                cycleInterval={5000}
+                cycleInterval={6000}
+                duration={1000}
             >
                 <div>
                     <img

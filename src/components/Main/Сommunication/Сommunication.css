@@ -599,14 +599,15 @@
     }
 
     .communication-title {
-        margin: 0 0 0 45px;
-        width: 230px;
+        margin: 0 0 0 35px;
+        width: 250px;
     }
 
     .communication__title {
         font-size: 19px;
         line-height: 22px;
         letter-spacing: -0.04em;
+        font-weight: 400;
     }
 
     .communication__phone {

@@ -13,7 +13,7 @@ function AboutMe() {
                     <p className="about-me__description-subtitle">С новым образом </p>
                     <p className="about-me__description-subtitle">открываются</p>
                     <p className="about-me__description-subtitle">новые возможности."</p>
-                    <p className="about-me__description-quote">"Валерия Смоленецева"</p>
+                    <p className="about-me__description-quote">"Валерия Смоленцева"</p>
                 </div>
             </div>
         </section>

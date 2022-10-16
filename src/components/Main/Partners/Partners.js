@@ -10,7 +10,6 @@ import slide6 from "../../../images/brands__img-6.png"
 import slide7 from "../../../images/brands__img-7.png"
 import slide8 from "../../../images/brands__img-8.png"
 import slide9 from "../../../images/brands__img-9.png"
-import slide10 from "../../../images/brands__img-10.png"
 const handleDragStart = (e) => e.preventDefault();
 
 const Partners = () => {
@@ -102,13 +101,6 @@ const Partners = () => {
                         className='partners__img'
                         alt=''
                         src={slide9}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide10}
                     />
                 </div>
             </InfiniteCarousel>

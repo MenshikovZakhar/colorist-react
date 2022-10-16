@@ -489,10 +489,10 @@
     }
 
     .services__name {
-        width: 210px;
-        margin-left: 10px;
         font-size: 17px;
+        margin-left: 0px;
         padding: 5px 0;
+        width: 230px;
     }
 
 }

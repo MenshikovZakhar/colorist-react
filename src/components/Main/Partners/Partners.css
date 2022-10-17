@@ -1,11 +1,20 @@
+.partners {
+    background-color: #140800;
+    padding: 20px 0;
+}
+
 .partners__img {
     width: 100px;
     height: 180px;
 }
 
 .partners__description {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
+    background-color: #ffffff;
+    border: 7px #585858;
+    border-style: ridge;
+
 }
 
 .partners__title {
@@ -13,7 +22,7 @@
     font-size: 45px;
     line-height: 50px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto 0;
     color: #140800;
 }
 

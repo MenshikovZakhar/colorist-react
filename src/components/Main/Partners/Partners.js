@@ -14,105 +14,107 @@ const handleDragStart = (e) => e.preventDefault();
 
 const Partners = () => {
     return (
-        <div className='partners__description'>
-            <h1 className="partners__title">Партнёры</h1>
-            <InfiniteCarousel
-                breakpoints={[
-                    {
-                        breakpoint: 500,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2,
+        <div className='partners'>
+            <div className='partners__description'>
+                <h1 className="partners__title">Партнёры</h1>
+                <InfiniteCarousel
+                    breakpoints={[
+                        {
+                            breakpoint: 500,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                            },
                         },
-                    },
-                    {
-                        breakpoint: 850,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3,
+                        {
+                            breakpoint: 850,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                            },
                         },
-                    },
-                    {
-                        breakpoint: 1100,
-                        settings: {
-                            slidesToShow: 4,
-                            slidesToScroll: 4,
+                        {
+                            breakpoint: 1100,
+                            settings: {
+                                slidesToShow: 4,
+                                slidesToScroll: 1,
+                            },
                         },
-                    },
-                ]}
+                    ]}
 
-                slidesToScroll={5}
-                slidesToShow={5}
-                arrows={false}
-                autoCycle={true}
-                pauseOnHover={false}
-                cycleInterval={6000}
-                duration={1000}
-            >
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide1}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide2}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide3}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide4}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide5}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide6}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide7}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide8}
-                    />
-                </div>
-                <div>
-                    <img
-                        className='partners__img'
-                        alt=''
-                        src={slide9}
-                    />
-                </div>
-            </InfiniteCarousel>
+                    slidesToScroll={1}
+                    slidesToShow={5}
+                    arrows={false}
+                    autoCycle={true}
+                    pauseOnHover={false}
+                    cycleInterval={3000}
+                    duration={1000}
+                >
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide1}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide2}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide3}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide4}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide5}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide6}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide7}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide8}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='partners__img'
+                            alt=''
+                            src={slide9}
+                        />
+                    </div>
+                </InfiniteCarousel>
+            </div>
         </div>
     );
 }

@@ -27,7 +27,7 @@ function Contacts() {
                         <img className='communication__logo' src={location_1} alt='logo' />
                         <div class="contacts__value">
                             <h3 class="contacts__name">Адрес</h3>
-                            <span class="contacts__name">г. Челябинск, ул. Энгельса, 4</span>
+                            <span class="contacts__name">г. Челябинск, ул. Образцова, д.13</span>
                         </div>
                     </div>
 

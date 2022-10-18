@@ -10,7 +10,9 @@
 
 .maps {
     width: 800px;
-    height: 500px;
+    height: 435px;
+    border-left: 2px #585858;
+    border-style: ridge;
 }
 
 .map__box {

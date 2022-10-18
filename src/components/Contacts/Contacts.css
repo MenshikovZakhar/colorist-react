@@ -1,0 +1,22 @@
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.map__description {
+    width: 700px;
+}
+
+.maps {
+    width: 800px;
+}
+
+.map__box {
+    display: flex;
+    flex-direction: row;
+}
+
+.map__communication {
+    display: flex;
+}

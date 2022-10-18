@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1600px;
 }
 
 .map__description {
@@ -18,8 +19,45 @@
 .map__box {
     display: flex;
     flex-direction: row;
+    margin: 20px 0 0 30px;
 }
 
 .map__communication {
     display: flex;
+}
+
+.map__title {
+    margin: 0 auto 20px;
+    width: 200px;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #140800;
+}
+
+.map__iqons {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.contacts__name {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+
+.contacts__title {
+    margin: 0px 0 0;
+    font-size: 25px;
+}
+
+.contacts__communication {
+    margin: 25px auto 0;
+    width: 500px;
+}
+
+.contacts__logo {
+    width: 50px;
+    margin: 0 20px;
 }

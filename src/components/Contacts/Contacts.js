@@ -19,57 +19,57 @@ function Contacts() {
             <main className='contacts'>
                 <div className='map__description'>
 
-                    <div className='map-title'>
-                        <h2 className="map__title">Контакты</h2>
-                    </div>
+
+                    <h2 className="map__title">Контакты</h2>
+
 
                     <div class="map__box">
-                        <img className='communication__logo' src={location_1} alt='logo' />
+                        <img className='map__iqons' src={location_1} alt='logo' />
                         <div class="contacts__value">
-                            <h3 class="contacts__name">Адрес</h3>
+                            <h3 class="contacts__title">Адрес</h3>
                             <span class="contacts__name">г. Челябинск, ул. Образцова, д.13</span>
                         </div>
                     </div>
 
                     <div class="map__box">
-                        <img className='communication__logo' src={location_2} alt='logo' />
+                        <img className='map__iqons' src={location_2} alt='logo' />
                         <div class="contacts__value">
-                            <h3 class="contacts__name">Телефон</h3>
+                            <h3 class="contacts__title">Телефон</h3>
                             <span class="contacts__name">+7(951)484-00-77</span>
                         </div>
                     </div>
 
                     <div class="map__box">
-                        <img className='communication__logo' src={location_3} alt='logo' />
+                        <img className='map__iqons' src={location_3} alt='logo' />
                         <div class="contacts__value">
-                            <h3 class="contacts__name">Режим работы</h3>
+                            <h3 class="contacts__title">Режим работы</h3>
                             <span class="contacts__name">Пн-Вс: с 9-00 до 21-00 по предварительной записи</span>
                         </div>
                     </div>
 
                     <div class="map__box">
-                        <img className='communication__logo' src={location_4} alt='logo' />
+                        <img className='map__iqons' src={location_4} alt='logo' />
                         <div class="contacts__value">
-                            <h3 class="contacts__name">E-mail</h3>
+                            <h3 class="contacts__title">E-mail</h3>
                             <span class="contacts__name">colorist@yandex.ru</span>
                         </div>
                     </div>
 
-                    <div className=''>
+                    <div className='contacts__communication'>
                         <a href="tel:+79514840077">
-                            <img className='communication__logo' src={phone} alt='logo' />
+                            <img className='contacts__logo' src={phone} alt='logo' />
                         </a>
                         <a href="https://wa.me/79514840077" target="_blank" rel="noreferrer">
-                            <img className='communication__logo' src={whatsapp} alt='logo' />
+                            <img className='contacts__logo' src={whatsapp} alt='logo' />
                         </a>
                         <a href="https://instagram.com/valeria_colorist?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
-                            <img className='communication__logo' src={instagram} alt='logo' />
+                            <img className='contacts__logo' src={instagram} alt='logo' />
                         </a>
                         <a href="https://t.me/Valeria_Smolentseva" target="_blank" rel="noreferrer">
-                            <img className='communication__logo' src={telegram} alt='logo' />
+                            <img className='contacts__logo' src={telegram} alt='logo' />
                         </a>
                         <a href="https://vk.com/public200598040" target="_blank" rel="noreferrer">
-                            <img className='communication__logo' src={vk} alt='logo' />
+                            <img className='contacts__logo' src={vk} alt='logo' />
                         </a>
                     </div>
                 </div>

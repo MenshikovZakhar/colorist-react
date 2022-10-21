@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    background-color: #140800;
+    padding-top: 30px;
 }
 
 .pricelist-line {
@@ -78,8 +80,18 @@
 .price__description {
     margin: 0 auto;
     width: 520px;
+    background-color: white;
 }
 
 .pricelist-title {
     font-size: 18px;
+}
+
+.price-description {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: white;
+    border-left: 7px #585858;
+    border-style: ridge;
+    padding-bottom: 20px;
 }

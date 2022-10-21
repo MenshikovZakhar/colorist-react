@@ -1,5 +1,6 @@
 .price {
     display: flex;
+    flex-direction: column;
     max-width: 100%;
 }
 
@@ -42,7 +43,7 @@
     padding: 10px 0;
     background-size: cover;
     border-radius: 10px;
-    padding: 10px 0 10px 60px;
+    padding: 10px 0 10px 120px;
     font-size: 35px;
     line-height: 40px;
 }
@@ -59,7 +60,7 @@
     padding: 10px 0;
     background-size: cover;
     border-radius: 10px;
-    padding: 10px 0 10px 60px;
+    padding: 10px 0 10px 35px;
     font-size: 25px;
     line-height: 30px;
 }
@@ -76,6 +77,7 @@
 
 .price__description {
     margin: 0 auto;
+    width: 520px;
 }
 
 .pricelist-title {

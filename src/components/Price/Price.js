@@ -4,6 +4,8 @@ import price__img_1 from '../../images/price__img-1.png';
 import price__img_2 from '../../images/price__img-2.png';
 import price__img_3 from '../../images/price__img-3.png';
 import './Price.css';
+import Consultation from './Consultation/Consultation';
+
 function Price() {
     return (
         <>
@@ -244,8 +246,8 @@ function Price() {
                             <span class="pricelist-price-content"><span class="pricelist-price ">3000 ₽<span class="pricelist-point-zero">
                             </span></span> </span></span>
                     </div>
-
                 </div>
+                <Consultation />
             </main>
             <Footer />
         </>

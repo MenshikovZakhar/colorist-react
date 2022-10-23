@@ -156,7 +156,7 @@ function Price() {
                         <div class="price__box">
                             <div class="price__value">
                                 <img className='price__iqons' src={price__img_1} alt='logo' />
-                                <h3 class="price-title">Cложное окрашивание волос: Balayage, Shatush</h3>
+                                <h3 class="price-title">Cложное окрашивание волос: Balayage</h3>
                             </div>
                             <span class="pricelist-title-content">
                                 <span class="pricelist-title">Средняя длинна волос</span>
@@ -164,6 +164,23 @@ function Price() {
                                 <span class="pricelist-price-content"><span class="pricelist-price "> от 6000 ₽<span class="pricelist-point-zero">
                                 </span></span> </span></span>
 
+                            <span class="pricelist-title-content">
+                                <span class="pricelist-title">Длинные волосы</span>
+                                <span class="pricelist-line"><span class="pricelist-line-style-dotted"></span></span>
+                                <span class="pricelist-price-content"><span class="pricelist-price "> от 8000 ₽<span class="pricelist-point-zero">
+                                </span></span> </span></span>
+                        </div>
+
+                        <div class="price__box">
+                            <div class="price__value">
+                                <img className='price__iqons' src={price__img_1} alt='logo' />
+                                <h3 class="price-title">Cложное окрашивание волос: Shatush</h3>
+                            </div>
+                            <span class="pricelist-title-content">
+                                <span class="pricelist-title">Средняя длинна волос</span>
+                                <span class="pricelist-line"><span class="pricelist-line-style-dotted"></span></span>
+                                <span class="pricelist-price-content"><span class="pricelist-price "> от 6000 ₽<span class="pricelist-point-zero">
+                                </span></span> </span></span>
 
                             <span class="pricelist-title-content">
                                 <span class="pricelist-title">Длинные волосы</span>

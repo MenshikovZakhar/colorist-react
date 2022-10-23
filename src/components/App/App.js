@@ -5,6 +5,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import Price from '../Price/Price';
 import Portfolio from '../Portfolio/Portfolio';
 import Contacts from '../Contacts/Contacts';
+import ServicesMe from '../ServicesMe/ServicesMe';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         </Route>
         <Route exact path='/about'>
           <AboutMe />
+        </Route>
+        <Route exact path='/services'>
+          <ServicesMe />
         </Route>
         <Route exact path='/price'>
           <Price />

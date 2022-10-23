@@ -1,0 +1,7 @@
+.servicesme {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #140800;
+    padding-top: 30px;
+}

@@ -94,7 +94,7 @@ function Price() {
                         <div class="price__box">
                             <div class="price__value">
                                 <img className='price__iqons' src={price__img_1} alt='logo' />
-                                <h3 class="price-title">Контуринг волос</h3>
+                                <h3 class="price-title">Контуринг</h3>
                             </div>
                             <span class="pricelist-title-content">
                                 <span class="pricelist-title">Короткая длинна волос</span>
@@ -156,7 +156,7 @@ function Price() {
                         <div class="price__box">
                             <div class="price__value">
                                 <img className='price__iqons' src={price__img_1} alt='logo' />
-                                <h3 class="price-title">Cложное окрашивание волос: Балаяж, Шатуш</h3>
+                                <h3 class="price-title">Cложное окрашивание волос: Balayage, Shatush</h3>
                             </div>
                             <span class="pricelist-title-content">
                                 <span class="pricelist-title">Средняя длинна волос</span>

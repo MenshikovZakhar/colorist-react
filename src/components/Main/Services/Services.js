@@ -11,9 +11,10 @@ function Services() {
     return (
         <section className='services'>
             <div className="services__description">
-                <div className="services-title">
+
+                <Link className="services-title" to='/services'>
                     <h1 className="services__title">Мои Услуги</h1>
-                </div>
+                </Link>
                 <ul className="services__list">
                     <li className="services__link services__links"><Link className='img_services_1' to='/services_1'> <img className='img_services' src={services_1} alt='' />
                         <p className="services__name">Окрашивание</p></Link></li>

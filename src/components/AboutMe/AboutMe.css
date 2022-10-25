@@ -1,0 +1,31 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #140800;
+    padding-top: 30px;
+}
+
+.about__description {
+    width: 600px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    background-color: #ffffff;
+    padding-top: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.about__description-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about__description-text {
+    width: 500px;
+}

@@ -16,13 +16,14 @@ class Portfolio extends React.PureComponent {
   render() {
     return (
       <Carousel
-        images={[<img className="slider" src={slide1} alt="1" />,
-        <img className="slider" src={slide2} alt="2" />,
-        <img className="slider" src={slide3} alt="3" />,
-        <img className="slider" src={slide4} alt="4" />,
-        <img className="slider" src={slide5} alt="5" />,
-        <img className="slider" src={slide6} alt="6" />,
-        <img className="slider" src={slide7} alt="7" />,
+        images={[
+          <img className="slider" src={slide1} alt="1" />,
+          <img className="slider" src={slide2} alt="2" />,
+          <img className="slider" src={slide3} alt="3" />,
+          <img className="slider" src={slide4} alt="4" />,
+          <img className="slider" src={slide5} alt="5" />,
+          <img className="slider" src={slide6} alt="6" />,
+          <img className="slider" src={slide7} alt="7" />,
 
 
         ]}

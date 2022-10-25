@@ -34,7 +34,6 @@ function AboutMe() {
                     <div className="about__description">
                         <img src={valeria__photo} alt="фото" className="about__description-photo" />
                         <div className="about__text">
-
                             <h3 className="about__description-title">Валерия Смоленцева, 35 лет</h3>
                             <p className="about__description-subtitle">Парикмахер широкого профиля, колорист</p>
                             <p className='about__description-subtitle'><img className='about__location' src={location} alt='logo' />Челябинск, Образцова 13</p>

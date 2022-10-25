@@ -166,3 +166,279 @@
         width: 700px;
     }
 }
+
+@media(max-width: 740px) {
+    .about {
+        width: 650px;
+    }
+
+    .about__description {
+        width: 650px;
+        text-align: left;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .about__description-text {
+        width: 600px;
+    }
+}
+
+@media(max-width: 690px) {
+    .about__description {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    .about__description-photo {
+        width: 250px;
+        height: 300px;
+        margin-top: -20px;
+    }
+
+    .about {
+        width: 600px;
+    }
+
+    .about__description-text {
+        width: 550px;
+    }
+
+}
+
+@media(max-width: 630px) {
+    .about {
+        width: 550px;
+    }
+
+    .about__description {
+        width: 550px;
+    }
+
+    .about__description-title {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .about__description-text {
+        width: 500px;
+    }
+}
+
+@media(max-width: 590px) {
+
+    .about__description {
+        width: 500px;
+    }
+
+    .about {
+        width: 500px;
+    }
+
+    .about__description-photo {
+        width: 200px;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .about__description-title {
+        font-size: 21px;
+        line-height: 20px;
+    }
+
+    .about__description-subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .about__description-text {
+        width: 470px;
+    }
+
+    .about__description-paragraph {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 530px) {
+
+    .about {
+        width: 450px;
+    }
+
+    .about__description-photo {
+        width: 230px;
+        height: 280px;
+        margin: -30px auto 0;
+    }
+
+    .about__description {
+        width: 450px;
+        flex-direction: column;
+    }
+
+    .about__text {
+        text-align: center;
+    }
+
+    .about__description-title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .about__description-subtitle {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .about__list {
+        justify-content: center;
+    }
+
+    .about__description-paragraph {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .about__description-text {
+        width: 420px;
+    }
+
+    .about__phone {
+        margin-left: -75px;
+    }
+
+    .about__email {
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 490px) {
+
+    .about {
+        width: 420px;
+    }
+
+    .about__description {
+        width: 420px;
+    }
+
+    .about__description-text {
+        width: 400px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .about {
+        width: 390px;
+    }
+
+    .about__description {
+        width: 390px;
+    }
+
+    .footer__list-item {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 0px;
+    }
+
+    .about__description-text {
+        width: 360px;
+    }
+}
+
+@media(max-width: 420px) {
+    .about__description {
+        width: 350px;
+    }
+
+    .about {
+        width: 350px;
+    }
+
+    .about__description-title {
+        font-size: 24px;
+        line-height: 25px;
+        margin: 10px auto;
+    }
+
+    .about__description-photo {
+        width: 210px;
+        height: 260px;
+    }
+
+    .about__description-subtitle {
+        font-size: 21px;
+        line-height: 20px;
+    }
+
+    .about__description-text {
+        width: 330px;
+    }
+
+    .about__description-paragraph {
+        text-indent: 25px;
+    }
+}
+
+@media(max-width: 380px) {
+    .about {
+        width: 320px;
+    }
+
+    .about__description {
+        width: 320px;
+    }
+
+    .about__description-title {
+        font-size: 23px;
+    }
+
+    .about__description-subtitle {
+        font-size: 20px;
+        margin: 10px auto;
+    }
+
+    .about__description-text {
+        width: 300px;
+    }
+
+    .about__list {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 320px) {
+    .about {
+        width: 290px;
+    }
+
+    .about__description {
+        width: 290px;
+    }
+
+    .about__description-title {
+        font-size: 21px;
+    }
+
+    .about__description-subtitle {
+        font-size: 18px;
+    }
+
+    .about__description-text {
+        width: 270px;
+    }
+
+    .about__description-photo {
+        width: 200px;
+        height: 250px;
+    }
+
+    .about__description-paragraph {
+        font-size: 17px;
+        line-height: 18px;
+    }
+}

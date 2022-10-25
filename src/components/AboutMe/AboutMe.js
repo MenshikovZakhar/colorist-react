@@ -25,7 +25,7 @@ function AboutMe() {
                             Парикмахер-колорист, изучивший тонкости работы с цветовыми сочетаниями в теории и на практике — это более узкая специализация парикмахера-универсала.
                         </p>
                         <p className="about__description-paragraph">
-                            Вообщем, я умею не только стричь и укладывать локоны, моя основная сфера — окрашивание.
+                            В общем, я умею не только стричь и укладывать локоны, моя основная сфера — окрашивание.
                             Я знаю плюсы и минусы разных брендов красителей и как работает тот или иной пигмент, досконально разбираюсь в сложных техниках окрашивания (Airtouch, Shatush, Balayage) и принципах мелирования, создаю на волосах любые оттенки, блики и цветовые эффекты.
                             Так же помогу подобрать грамотный и правильный домашний уход именно для Ваших волос!
                             Подберу для Вас индивидуальный образ с учетом особенностей внешности, образа жизни и личных пожеланий!
@@ -33,43 +33,45 @@ function AboutMe() {
                     </div>
                     <div className="about__description">
                         <img src={valeria__photo} alt="фото" className="about__description-photo" />
-                        <h3 className="about__description-title">Валерия Смоленцева, 35 лет</h3>
-                        <p className="about__description-subtitle">Парикмахер широкого профиля, колорист</p>
-                        <p className='about__description-subtitle'><img className='about__location' src={location} alt='logo' />Челябинск, Образцова 13</p>
-                        <p className='about__description-subtitle'> <img className='about__phone' src={location_2} alt='logo' />+7(951)484-00-77</p>
-                        <p className='about__description-subtitle'><img className='about__email' src={email} alt='logo' />colorist@yandex.ru</p>
+                        <div className="about__text">
 
-                        <ul className='about__list'>
+                            <h3 className="about__description-title">Валерия Смоленцева, 35 лет</h3>
+                            <p className="about__description-subtitle">Парикмахер широкого профиля, колорист</p>
+                            <p className='about__description-subtitle'><img className='about__location' src={location} alt='logo' />Челябинск, Образцова 13</p>
+                            <p className='about__description-subtitle'> <img className='about__phone' src={location_2} alt='logo' />+7(951)484-00-77</p>
+                            <p className='about__description-subtitle'><img className='about__email' src={email} alt='logo' />colorist@yandex.ru</p>
 
-                            <li className='footer__list-item'>
-                                <a href="tel:+79514840077">
-                                    <img className='iqon__logo' src={phone} alt='logo' />
-                                </a>
-                            </li>
-                            <li className='footer__list-item'>
-                                <a href="https://wa.me/79514840077" target="_blank" rel="noreferrer">
-                                    <img className='about__logo' src={whatsapp} alt='logo' />
-                                </a>
-                            </li>
-                            <li className='footer__list-item'>
-                                <a href="https://instagram.com/valeria_colorist?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
-                                    <img className='about__logo' src={instagram} alt='logo' />
-                                </a>
-                            </li>
+                            <ul className='about__list'>
 
-                            <li className='footer__list-item'>
-                                <a href="https://t.me/Valeria_Smolentseva" target="_blank" rel="noreferrer">
-                                    <img className='about__logo' src={telegram} alt='logo' />
-                                </a>
-                            </li>
-                            <li className='footer__list-item'>
-                                <a href="https://vk.com/public200598040" target="_blank" rel="noreferrer">
-                                    <img className='about__logo' src={vk} alt='logo' />
-                                </a>
-                            </li>
+                                <li className='footer__list-item'>
+                                    <a href="tel:+79514840077">
+                                        <img className='iqon__logo' src={phone} alt='logo' />
+                                    </a>
+                                </li>
+                                <li className='footer__list-item'>
+                                    <a href="https://wa.me/79514840077" target="_blank" rel="noreferrer">
+                                        <img className='about__logo' src={whatsapp} alt='logo' />
+                                    </a>
+                                </li>
+                                <li className='footer__list-item'>
+                                    <a href="https://instagram.com/valeria_colorist?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+                                        <img className='about__logo' src={instagram} alt='logo' />
+                                    </a>
+                                </li>
 
-                        </ul>
+                                <li className='footer__list-item'>
+                                    <a href="https://t.me/Valeria_Smolentseva" target="_blank" rel="noreferrer">
+                                        <img className='about__logo' src={telegram} alt='logo' />
+                                    </a>
+                                </li>
+                                <li className='footer__list-item'>
+                                    <a href="https://vk.com/public200598040" target="_blank" rel="noreferrer">
+                                        <img className='about__logo' src={vk} alt='logo' />
+                                    </a>
+                                </li>
 
+                            </ul>
+                        </div>
                     </div>
 
                 </section>

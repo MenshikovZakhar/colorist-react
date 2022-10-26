@@ -22,33 +22,35 @@ const Partners = () => {
                         {
                             breakpoint: 500,
                             settings: {
-                                slidesToShow: 2,
+                                slidesToShow: 4,
                                 slidesToScroll: 1,
                             },
                         },
                         {
                             breakpoint: 850,
                             settings: {
-                                slidesToShow: 3,
+                                slidesToShow: 4,
                                 slidesToScroll: 1,
                             },
                         },
                         {
                             breakpoint: 1100,
                             settings: {
-                                slidesToShow: 4,
+                                slidesToShow: 5,
                                 slidesToScroll: 1,
                             },
                         },
                     ]}
 
                     slidesToScroll={1}
-                    slidesToShow={5}
+                    slidesToShow={7}
                     arrows={false}
                     autoCycle={true}
                     pauseOnHover={false}
                     cycleInterval={3000}
                     duration={1000}
+                    adaptiveHeight={true}
+
                 >
                     <div>
                         <img

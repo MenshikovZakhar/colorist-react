@@ -40,7 +40,7 @@ class Carousel extends React.PureComponent {
 
                             return (
                                 <div
-                                    key={image.id}
+                                    key={index}
                                     className={classNames(
                                         'slider__image',
                                         { 'slider__image_active': index === currentIndex }

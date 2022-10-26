@@ -7,11 +7,6 @@ import slide4 from '../../../images/slide4.jpg';
 import slide5 from '../../../images/slide5.jpg';
 import slide6 from '../../../images/slide6.jpg';
 import slide7 from '../../../images/slide7.jpg';
-import slide8 from '../../../images/slide8.jpg';
-import slide9 from '../../../images/slide9.jpg';
-import slide10 from '../../../images/slide10.jpg';
-import slide11 from '../../../images/slide11.jpg';
-import slide12 from '../../../images/slide12.jpg';
 class Portfolio extends React.PureComponent {
   render() {
     return (

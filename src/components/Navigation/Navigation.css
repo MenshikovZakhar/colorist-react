@@ -56,8 +56,8 @@
 }
 
 .menu_icon {
-    width: 20px;
-    padding-top: 12px;
+    width: 15px;
+    padding-top: 0px;
     padding-right: 5px;
 }
 
@@ -104,6 +104,11 @@
         line-height: 20px;
         height: 40px
     }
+
+    .menu_icon {
+        width: 12px;
+        padding-right: 3px;
+    }
 }
 
 
@@ -116,6 +121,11 @@
         font-size: 15px;
         line-height: 18px;
     }
+
+    .menu_icon {
+        width: 12px;
+        padding-right: 3px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -126,6 +136,10 @@
     .nav__menu {
         font-size: 15px;
         line-height: 18px;
+    }
+
+    .menu_icon {
+        padding-right: 2px;
     }
 }
 

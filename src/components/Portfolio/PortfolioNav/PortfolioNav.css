@@ -1,0 +1,10 @@
+.portfolionav__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 50px;
+    opacity: 0.6;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    display: flex;
+}

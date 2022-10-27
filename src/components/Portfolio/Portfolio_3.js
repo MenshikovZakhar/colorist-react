@@ -9,11 +9,20 @@ function Portfolio() {
         <>
             <Header />
             <main className='movies'>
+
+
                 <>
+
                     <PortfolioNav />
+
                 </>
+
+
+
                 <>
+
                     <PortfolioCardList arrayPortfolio={arrayPortfolio} type={'all'} />
+
                 </>
             </main>
             <Footer />

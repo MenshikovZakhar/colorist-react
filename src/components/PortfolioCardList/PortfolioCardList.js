@@ -11,7 +11,7 @@ import {
     ADD_NUMBER_CARD_2,
 } from '../../constants/index.js';
 
-function PortfolioCardList({ arrayMovie, type }) {
+function PortfolioCardList({ arrayPortfolio, type }) {
 
     const [counter, setCounter] = useState();
     const [moreCard, setMoreCard] = useState();
@@ -49,7 +49,7 @@ function PortfolioCardList({ arrayMovie, type }) {
         <section className='movie-card-list'>
             <ul className='elements'>
                 {type === 'all'
-                    ? arrayMovie.slice(0, counter).map((image, index) => {
+                    ? arrayPortfolio.slice(0, counter).map((image, index) => {
                         return (
                             <div
                                 key={index}
@@ -57,7 +57,7 @@ function PortfolioCardList({ arrayMovie, type }) {
                             >{image}</div>
                         );
                     })
-                    : arrayMovie.map((image, index) => {
+                    : arrayPortfolio.map((image, index) => {
                         return (
                             <div
                                 key={index}
@@ -66,7 +66,7 @@ function PortfolioCardList({ arrayMovie, type }) {
                         );
                     })}
             </ul>
-            {type === 'all' && arrayMovie.length > counter && (
+            {type === 'all' && arrayPortfolio.length > counter && (
                 <More addCounter={addCounter} />
             )}
         </section>

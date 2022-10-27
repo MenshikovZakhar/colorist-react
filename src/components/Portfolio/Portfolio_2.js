@@ -2,9 +2,9 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import PortfolioCardList from '../PortfolioCardList/PortfolioCardList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
-import { arrayPortfolio } from '../../constants/arrayPortfolio';
+import { arrayPortfolio_2 } from '../../constants/arrayPortfolio';
 import { NavLink, Link } from 'react-router-dom';
-function Portfolio() {
+function Portfolio_2() {
     return (
         <>
             <Header />
@@ -13,7 +13,8 @@ function Portfolio() {
                     <PortfolioNav />
                 </>
                 <>
-                    <PortfolioCardList arrayPortfolio={arrayPortfolio} type={'all'} />
+                    <PortfolioCardList arrayPortfolio={arrayPortfolio_2} type={'all'} />
+
                 </>
             </main>
             <Footer />
@@ -21,4 +22,4 @@ function Portfolio() {
     );
 }
 
-export default Portfolio;
+export default Portfolio_2;

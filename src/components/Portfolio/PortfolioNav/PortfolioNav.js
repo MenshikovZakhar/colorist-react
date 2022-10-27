@@ -13,7 +13,7 @@ function PortfolioNav() {
                 <NavLink
                     to='/portfolio'
                     className={({ isActive }) =>
-                        isActive ? 'nav__link active' : 'nav__link'
+                        isActive ? 'portfolionav__link active' : 'portfolionav__link'
                     }
                 >
                     Сложное окрашевание
@@ -22,7 +22,7 @@ function PortfolioNav() {
                 <NavLink
                     to='/portfolio_2'
                     className={({ isActive }) =>
-                        isActive ? 'nav__link active' : 'nav__link'
+                        isActive ? 'portfolionav__link active' : 'portfolionav__link'
                     }
                 >
                     Креативные
@@ -30,7 +30,7 @@ function PortfolioNav() {
                 <NavLink
                     to='/portfolio_3'
                     className={({ isActive }) =>
-                        isActive ? 'nav__link active' : 'nav__link'
+                        isActive ? 'portfolionav__link active' : 'portfolionav__link'
                     }
                 >
                     Стрижки
@@ -38,7 +38,7 @@ function PortfolioNav() {
                 <NavLink
                     to='/portfolio_4'
                     className={({ isActive }) =>
-                        isActive ? 'nav__link active' : 'nav__link'
+                        isActive ? 'portfolionav__link active' : 'portfolionav__link'
                     }
                 >
                     Тонирование и уход

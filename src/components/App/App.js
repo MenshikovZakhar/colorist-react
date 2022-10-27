@@ -4,6 +4,9 @@ import Main from '../Main/Main';
 import AboutMe from '../AboutMe/AboutMe';
 import Price from '../Price/Price';
 import Portfolio from '../Portfolio/Portfolio';
+import Portfolio_2 from '../Portfolio/Portfolio_2';
+import Portfolio_3 from '../Portfolio/Portfolio_3';
+import Portfolio_4 from '../Portfolio/Portfolio_4';
 import Contacts from '../Contacts/Contacts';
 import ServicesMe from '../ServicesMe/ServicesMe';
 
@@ -25,6 +28,15 @@ function App() {
         </Route>
         <Route exact path='/portfolio'>
           <Portfolio />
+        </Route>
+        <Route exact path='/portfolio_2'>
+          <Portfolio_2 />
+        </Route>
+        <Route exact path='/portfolio_3'>
+          <Portfolio_3 />
+        </Route>
+        <Route exact path='/portfolio_4'>
+          <Portfolio_4 />
         </Route>
         <Route exact path='/contacts'>
           <Contacts />

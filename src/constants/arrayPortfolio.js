@@ -27,7 +27,18 @@ import slide26 from '../images/Portfolio/slide26.jpg';
 import slide27 from '../images/Portfolio/slide27.jpg';
 import slide28 from '../images/Portfolio/slide28.jpg';
 
-
+import slide29 from '../images/Portfolio/slide29.jpg';
+import slide30 from '../images/Portfolio/slide30.jpg';
+import slide31 from '../images/Portfolio/slide31.jpg';
+import slide32 from '../images/Portfolio/slide32.jpg';
+import slide33 from '../images/Portfolio/slide33.jpg';
+import slide34 from '../images/Portfolio/slide34.jpg';
+import slide35 from '../images/Portfolio/slide35.jpg';
+import slide36 from '../images/Portfolio/slide36.jpg';
+import slide37 from '../images/Portfolio/slide37.jpg';
+import slide38 from '../images/Portfolio/slide38.jpg';
+import slide39 from '../images/Portfolio/slide39.jpg';
+import slide40 from '../images/Portfolio/slide40.jpg';
 
 
 export const arrayPortfolio = [
@@ -66,4 +77,19 @@ export const arrayPortfolio_2 = [
     <img className="slider" src={slide26} alt="26" />,
     <img className="slider" src={slide27} alt="27" />,
     <img className="slider" src={slide28} alt="28" />,
+]
+
+export const arrayPortfolio_3 = [
+    <img className="slider" src={slide29} alt="29" />,
+    <img className="slider" src={slide30} alt="30" />,
+    <img className="slider" src={slide31} alt="31" />,
+    <img className="slider" src={slide32} alt="32" />,
+    <img className="slider" src={slide33} alt="33" />,
+    <img className="slider" src={slide34} alt="34" />,
+    <img className="slider" src={slide35} alt="35" />,
+    <img className="slider" src={slide36} alt="36" />,
+    <img className="slider" src={slide37} alt="37" />,
+    <img className="slider" src={slide38} alt="38" />,
+    <img className="slider" src={slide39} alt="39" />,
+    <img className="slider" src={slide40} alt="40" />,
 ]

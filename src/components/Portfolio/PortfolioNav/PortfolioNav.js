@@ -41,6 +41,14 @@ function PortfolioNav() {
                         isActive ? 'portfolionav__link active' : 'portfolionav__link'
                     }
                 >
+                    Это окрашивание в один тон
+                </NavLink>
+                <NavLink
+                    to='/portfolio_5'
+                    className={({ isActive }) =>
+                        isActive ? 'portfolionav__link active' : 'portfolionav__link'
+                    }
+                >
                     Тонирование и уход
                 </NavLink>
 

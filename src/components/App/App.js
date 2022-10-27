@@ -7,6 +7,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import Portfolio_2 from '../Portfolio/Portfolio_2';
 import Portfolio_3 from '../Portfolio/Portfolio_3';
 import Portfolio_4 from '../Portfolio/Portfolio_4';
+import Portfolio_5 from '../Portfolio/Portfolio_5';
 import Contacts from '../Contacts/Contacts';
 import ServicesMe from '../ServicesMe/ServicesMe';
 
@@ -37,6 +38,9 @@ function App() {
         </Route>
         <Route exact path='/portfolio_4'>
           <Portfolio_4 />
+        </Route>
+        <Route exact path='/portfolio_5'>
+          <Portfolio_5 />
         </Route>
         <Route exact path='/contacts'>
           <Contacts />

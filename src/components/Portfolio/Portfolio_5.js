@@ -2,7 +2,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import PortfolioCardList from '../PortfolioCardList/PortfolioCardList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
-import { arrayPortfolio } from '../../constants/arrayPortfolio';
+import { arrayPortfolio_5 } from '../../constants/arrayPortfolio';
 import { NavLink, Link } from 'react-router-dom';
 function Portfolio() {
     return (
@@ -13,7 +13,7 @@ function Portfolio() {
                     <PortfolioNav />
                 </>
                 <>
-                    <PortfolioCardList arrayPortfolio={arrayPortfolio} type={'all'} />
+                    <PortfolioCardList arrayPortfolio={arrayPortfolio_5} type={'all'} />
                 </>
             </main>
             <Footer />

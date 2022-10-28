@@ -40,6 +40,23 @@ import slide38 from '../images/Portfolio/slide38.jpg';
 import slide39 from '../images/Portfolio/slide39.jpg';
 import slide40 from '../images/Portfolio/slide40.jpg';
 
+import slide41 from '../images/Portfolio/slide41.jpg';
+import slide42 from '../images/Portfolio/slide42.jpg';
+import slide43 from '../images/Portfolio/slide43.jpg';
+import slide44 from '../images/Portfolio/slide44.jpg';
+import slide45 from '../images/Portfolio/slide45.jpg';
+import slide46 from '../images/Portfolio/slide46.jpg';
+import slide47 from '../images/Portfolio/slide47.jpg';
+
+import slide48 from '../images/Portfolio/slide48.jpg';
+import slide49 from '../images/Portfolio/slide49.jpg';
+import slide50 from '../images/Portfolio/slide50.jpg';
+import slide51 from '../images/Portfolio/slide51.jpg';
+import slide52 from '../images/Portfolio/slide52.jpg';
+import slide53 from '../images/Portfolio/slide53.jpg';
+import slide54 from '../images/Portfolio/slide54.jpg';
+import slide55 from '../images/Portfolio/slide55.jpg';
+
 
 export const arrayPortfolio = [
     <img className="slider" src={slide1} alt="1" />,
@@ -92,4 +109,27 @@ export const arrayPortfolio_3 = [
     <img className="slider" src={slide38} alt="38" />,
     <img className="slider" src={slide39} alt="39" />,
     <img className="slider" src={slide40} alt="40" />,
+]
+
+export const arrayPortfolio_4 = [
+    <img className="slider" src={slide47} alt="47" />,
+    <img className="slider" src={slide48} alt="48" />,
+    <img className="slider" src={slide49} alt="49" />,
+    <img className="slider" src={slide50} alt="50" />,
+    <img className="slider" src={slide51} alt="51" />,
+    <img className="slider" src={slide52} alt="52" />,
+    <img className="slider" src={slide53} alt="53" />,
+    <img className="slider" src={slide54} alt="54" />,
+    <img className="slider" src={slide55} alt="55" />,
+
+]
+
+export const arrayPortfolio_5 = [
+    <img className="slider" src={slide41} alt="41" />,
+    <img className="slider" src={slide42} alt="42" />,
+    <img className="slider" src={slide43} alt="43" />,
+    <img className="slider" src={slide44} alt="44" />,
+    <img className="slider" src={slide45} alt="45" />,
+    <img className="slider" src={slide46} alt="46" />,
+
 ]

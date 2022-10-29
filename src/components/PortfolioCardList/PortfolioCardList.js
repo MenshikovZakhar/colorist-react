@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { More } from './More/More';
 import './PortfolioCardList.css';
+import Image from '../Image/Image';
 import {
     WIDTH_1279,
     WIDTH_767,
@@ -11,7 +12,7 @@ import {
     ADD_NUMBER_CARD_2,
 } from '../../constants/index.js';
 
-function PortfolioCardList({ arrayPortfolio, type }) {
+function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
 
     const [counter, setCounter] = useState();
     const [moreCard, setMoreCard] = useState();
@@ -51,18 +52,19 @@ function PortfolioCardList({ arrayPortfolio, type }) {
                 {type === 'all'
                     ? arrayPortfolio.slice(0, counter).map((image, index) => {
                         return (
-                            <div
-                                key={index}
+
+                            <Image key={index}
                                 src={image}
-                            >{image}</div>
+                                image={image}
+                                onCardClick={onCardClick} />
                         );
                     })
                     : arrayPortfolio.map((image, index) => {
                         return (
-                            <div
-                                key={index}
+                            <Image key={index}
                                 src={image}
-                            >{image}</div>
+                                onCardClick={onCardClick}
+                                image={image} />
                         );
                     })}
             </ul>

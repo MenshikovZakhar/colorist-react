@@ -58,6 +58,9 @@ import slide54 from '../images/Portfolio/slide54.jpg';
 import slide55 from '../images/Portfolio/slide55.jpg';
 
 
+
+
+
 export const arrayPortfolio = [
     <img className="slider" src={slide1} alt="1" />,
     <img className="slider" src={slide2} alt="2" />,
@@ -76,8 +79,6 @@ export const arrayPortfolio = [
     <img className="slider" src={slide15} alt="15" />,
     <img className="slider" src={slide16} alt="16" />,
 ]
-
-
 
 
 

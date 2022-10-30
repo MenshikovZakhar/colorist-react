@@ -62,22 +62,16 @@ import slide55 from '../images/Portfolio/slide55.jpg';
 
 
 export const arrayPortfolio = [
-    <img className="slider" src={slide1} alt="1" />,
-    <img className="slider" src={slide2} alt="2" />,
-    <img className="slider" src={slide3} alt="3" />,
-    <img className="slider" src={slide4} alt="4" />,
-    <img className="slider" src={slide5} alt="5" />,
-    <img className="slider" src={slide6} alt="6" />,
-    <img className="slider" src={slide7} alt="7" />,
-    <img className="slider" src={slide8} alt="8" />,
-    <img className="slider" src={slide9} alt="9" />,
-    <img className="slider" src={slide10} alt="10" />,
-    <img className="slider" src={slide11} alt="11" />,
-    <img className="slider" src={slide12} alt="12" />,
-    <img className="slider" src={slide13} alt="13" />,
-    <img className="slider" src={slide14} alt="14" />,
-    <img className="slider" src={slide15} alt="15" />,
-    <img className="slider" src={slide16} alt="16" />,
+    {
+        src: slide54
+    },
+
+    {
+        src: slide54
+    },
+    {
+        src: slide54
+    }
 ]
 
 

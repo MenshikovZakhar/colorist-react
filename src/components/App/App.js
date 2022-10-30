@@ -10,38 +10,33 @@ import Portfolio_4 from '../Portfolio/Portfolio_4';
 import Portfolio_5 from '../Portfolio/Portfolio_5';
 import Contacts from '../Contacts/Contacts';
 import ServicesMe from '../ServicesMe/ServicesMe';
-import ImagePopup from '../ImagePopup/ImagePopup';
 import { useState } from 'react';
 import { InfoToolTip } from '../InfoToolTip/InfoToolTip';
 
 function App() {
   const [selectedCard, setSelectedCard] = useState({
-    src: "",
-    image: "",
+
   });
-  const [messageAcceptAuth, setMessageAcceptAuth] = useState('');
-  const [isAccept, setIsAccept] = useState(true);
+
   const [isInfoTooltipOpen, setInfoTooltip] = useState(false);
 
   const openPopupsMessage = (message) => {
-    setMessageAcceptAuth(message);
+
     setInfoTooltip(true);
   };
 
 
   const closePopupsMessage = () => {
     setInfoTooltip(false);
-    setMessageAcceptAuth('');
+
   };
 
   //открытие попапа с картинкой
   const handleCardClick = (card) => {
+    setSelectedCard(card);
     setInfoTooltip(true);
   };
-  //закрытие попапов
-  const closeAllPopups = () => {
-    setSelectedCard({});
-  }
+
   return (
     <div className='page'>
       <Switch>
@@ -86,8 +81,8 @@ function App() {
       <InfoToolTip
         isOpen={isInfoTooltipOpen}
         onClose={closePopupsMessage}
-        isAccept={isAccept}
-        messageAcceptAuth={messageAcceptAuth}
+
+        card={selectedCard}
       />
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import './InfoToolTip.css';
 
-export const InfoToolTip = ({ isOpen, onClose, messageAcceptAuth }) => {
+export const InfoToolTip = ({ isOpen, onClose, card, index }) => {
     const classPopup = classNames(`popup`, {
         popup_opened: isOpen,
     });
@@ -16,9 +16,7 @@ export const InfoToolTip = ({ isOpen, onClose, messageAcceptAuth }) => {
     return (
         <div className={classPopup} onMouseDown={handleMouseDown}>
             <div className='popup__container'>
-                <div className='popup__form'>
-                    <h1 className='info__message'>{messageAcceptAuth}</h1>
-                </div>
+                <img src={card.src} alt="фото" />
                 <button
                     aria-label='Close'
                     className='popup__close'

@@ -8,7 +8,7 @@ function PortfolioNav() {
 
     return (
         <>
-            <nav className='nav__menu'>
+            <nav className='portfolionav__menu'>
 
                 <NavLink
                     to='/portfolio'

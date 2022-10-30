@@ -7,4 +7,17 @@
     align-items: center;
     height: 100%;
     display: flex;
+
+}
+
+.portfolionav__menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 25px;
+    align-items: center;
+    height: 70px;
 }

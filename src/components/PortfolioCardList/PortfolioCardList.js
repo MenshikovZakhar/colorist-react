@@ -47,7 +47,7 @@ function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
 
 
     return (
-        <section className='movie-card-list'>
+        <section className='portfolio-card-list'>
             <ul className='elements'>
                 {type === 'all'
                     ? arrayPortfolio.slice(0, counter).map((image, index) => {

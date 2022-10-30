@@ -1,4 +1,5 @@
 import React from 'react';
+import './Image.css';
 function Image({ image, onCardClick }) {
 
     function handleClick() {
@@ -6,7 +7,7 @@ function Image({ image, onCardClick }) {
     }
 
     return (
-        <img className="slider" image={image} src={image.src} onClick={handleClick} />
+        <img className="image" image={image} src={image.src} onClick={handleClick} />
     )
 }
 

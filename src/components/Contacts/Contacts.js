@@ -23,35 +23,35 @@ function Contacts() {
                     <h2 className="map__title">Контакты</h2>
 
                     <div className="map__conteiner">
-                        <div class="map__box">
+                        <div className="map__box">
                             <img className='map__iqons' src={location_1} alt='logo' />
-                            <div class="contacts__value">
-                                <h3 class="contacts__title">Адрес</h3>
-                                <span class="contacts__name">г. Челябинск, ул. Образцова, д.13</span>
+                            <div className="contacts__value">
+                                <h3 className="contacts__title">Адрес</h3>
+                                <span className="contacts__name">г. Челябинск, ул. Образцова, д.13</span>
                             </div>
                         </div>
 
-                        <div class="map__box">
+                        <div className="map__box">
                             <img className='map__iqons' src={location_2} alt='logo' />
-                            <div class="contacts__value">
-                                <h3 class="contacts__title">Телефон</h3>
-                                <span class="contacts__name">+7(951)484-00-77</span>
+                            <div className="contacts__value">
+                                <h3 className="contacts__title">Телефон</h3>
+                                <span className="contacts__name">+7(951)484-00-77</span>
                             </div>
                         </div>
 
-                        <div class="map__box">
+                        <div className="map__box">
                             <img className='map__iqons' src={location_3} alt='logo' />
-                            <div class="contacts__value">
-                                <h3 class="contacts__title">Режим работы</h3>
-                                <span class="contacts__name">Пн-Вс: с 9-00 до 21-00 по предварительной записи</span>
+                            <div className="contacts__value">
+                                <h3 className="contacts__title">Режим работы</h3>
+                                <span className="contacts__name">Пн-Вс: с 9-00 до 21-00 по предварительной записи</span>
                             </div>
                         </div>
 
-                        <div class="map__box">
+                        <div className="map__box">
                             <img className='map__iqons' src={location_4} alt='logo' />
-                            <div class="contacts__value">
-                                <h3 class="contacts__title">E-mail</h3>
-                                <span class="contacts__name">colorist@yandex.ru</span>
+                            <div className="contacts__value">
+                                <h3 className="contacts__title">E-mail</h3>
+                                <span className="contacts__name">colorist@yandex.ru</span>
                             </div>
                         </div>
                     </div>

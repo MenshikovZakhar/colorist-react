@@ -41,7 +41,7 @@ function PortfolioNav() {
                         isActive ? 'portfolionav__link active' : 'portfolionav__link'
                     }
                 >
-                    Это окрашивание в один тон
+                    Окрашивание в один тон
                 </NavLink>
                 <NavLink
                     to='/portfolio_5'

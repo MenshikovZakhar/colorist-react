@@ -3,12 +3,12 @@ import Footer from '../Footer/Footer';
 import PortfolioCardList from '../PortfolioCardList/PortfolioCardList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
 import { arrayPortfolio_3 } from '../../constants/arrayPortfolio';
-import { NavLink, Link } from 'react-router-dom';
+import './Portfolio.css';
 function Portfolio({ onCardClick }) {
     return (
         <>
             <Header />
-            <main className='movies'>
+            <main className='portfolio'>
                 <>
                     <PortfolioNav />
                 </>

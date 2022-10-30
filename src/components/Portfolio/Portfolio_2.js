@@ -3,12 +3,12 @@ import Footer from '../Footer/Footer';
 import PortfolioCardList from '../PortfolioCardList/PortfolioCardList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
 import { arrayPortfolio_2 } from '../../constants/arrayPortfolio';
-
+import './Portfolio.css';
 function Portfolio_2({ onCardClick }) {
     return (
         <>
             <Header />
-            <main className='movies'>
+            <main className='portfolio'>
                 <>
                     <PortfolioNav />
                 </>

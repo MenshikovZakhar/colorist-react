@@ -6,9 +6,7 @@ function Image({ image, onCardClick }) {
     }
 
     return (
-
         <img className="slider" image={image} src={image.src} onClick={handleClick} />
-
     )
 }
 

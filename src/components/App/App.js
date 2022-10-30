@@ -14,23 +14,11 @@ import { useState } from 'react';
 import { InfoToolTip } from '../InfoToolTip/InfoToolTip';
 
 function App() {
-  const [selectedCard, setSelectedCard] = useState({
-
-  });
-
+  const [selectedCard, setSelectedCard] = useState({});
   const [isInfoTooltipOpen, setInfoTooltip] = useState(false);
-
-  const openPopupsMessage = (message) => {
-
-    setInfoTooltip(true);
-  };
-
-
   const closePopupsMessage = () => {
     setInfoTooltip(false);
-
   };
-
   //открытие попапа с картинкой
   const handleCardClick = (card) => {
     setSelectedCard(card);
@@ -76,12 +64,9 @@ function App() {
           <Contacts />
         </Route>
       </Switch>
-
-
       <InfoToolTip
         isOpen={isInfoTooltipOpen}
         onClose={closePopupsMessage}
-
         card={selectedCard}
       />
     </div>

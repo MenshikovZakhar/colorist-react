@@ -4,7 +4,7 @@ import PortfolioCardList from '../PortfolioCardList/PortfolioCardList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
 import { arrayPortfolio_5 } from '../../constants/arrayPortfolio';
 import { NavLink, Link } from 'react-router-dom';
-function Portfolio() {
+function Portfolio({ onCardClick }) {
     return (
         <>
             <Header />
@@ -13,7 +13,7 @@ function Portfolio() {
                     <PortfolioNav />
                 </>
                 <>
-                    <PortfolioCardList arrayPortfolio={arrayPortfolio_5} type={'all'} />
+                    <PortfolioCardList onCardClick={onCardClick} arrayPortfolio={arrayPortfolio_5} type={'all'} />
                 </>
             </main>
             <Footer />

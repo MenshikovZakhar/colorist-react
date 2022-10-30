@@ -58,73 +58,74 @@ import slide54 from '../images/Portfolio/slide54.jpg';
 import slide55 from '../images/Portfolio/slide55.jpg';
 
 
-
-
-
 export const arrayPortfolio = [
-    {
-        src: slide54
-    },
-
-    {
-        src: slide54
-    },
-    {
-        src: slide54
-    }
+    { src: slide1 },
+    { src: slide2 },
+    { src: slide3 },
+    { src: slide4 },
+    { src: slide5 },
+    { src: slide6 },
+    { src: slide7 },
+    { src: slide8 },
+    { src: slide9 },
+    { src: slide10 },
+    { src: slide11 },
+    { src: slide12 },
+    { src: slide13 },
+    { src: slide14 },
+    { src: slide15 },
+    { src: slide16 },
 ]
 
 
 
 export const arrayPortfolio_2 = [
-    <img className="slider" src={slide17} alt="17" />,
-    <img className="slider" src={slide18} alt="18" />,
-    <img className="slider" src={slide19} alt="19" />,
-    <img className="slider" src={slide20} alt="20" />,
-    <img className="slider" src={slide21} alt="21" />,
-    <img className="slider" src={slide22} alt="22" />,
-    <img className="slider" src={slide23} alt="23" />,
-    <img className="slider" src={slide24} alt="24" />,
-    <img className="slider" src={slide25} alt="25" />,
-    <img className="slider" src={slide26} alt="26" />,
-    <img className="slider" src={slide27} alt="27" />,
-    <img className="slider" src={slide28} alt="28" />,
+    { src: slide17 },
+    { src: slide18 },
+    { src: slide19 },
+    { src: slide20 },
+    { src: slide21 },
+    { src: slide22 },
+    { src: slide23 },
+    { src: slide24 },
+    { src: slide25 },
+    { src: slide26 },
+    { src: slide27 },
+    { src: slide28 },
 ]
 
 export const arrayPortfolio_3 = [
-    <img className="slider" src={slide29} alt="29" />,
-    <img className="slider" src={slide30} alt="30" />,
-    <img className="slider" src={slide31} alt="31" />,
-    <img className="slider" src={slide32} alt="32" />,
-    <img className="slider" src={slide33} alt="33" />,
-    <img className="slider" src={slide34} alt="34" />,
-    <img className="slider" src={slide35} alt="35" />,
-    <img className="slider" src={slide36} alt="36" />,
-    <img className="slider" src={slide37} alt="37" />,
-    <img className="slider" src={slide38} alt="38" />,
-    <img className="slider" src={slide39} alt="39" />,
-    <img className="slider" src={slide40} alt="40" />,
+    { src: slide29 },
+    { src: slide30 },
+    { src: slide31 },
+    { src: slide32 },
+    { src: slide33 },
+    { src: slide34 },
+    { src: slide35 },
+    { src: slide36 },
+    { src: slide37 },
+    { src: slide38 },
+    { src: slide39 },
+    { src: slide40 },
 ]
 
 export const arrayPortfolio_4 = [
-    <img className="slider" src={slide47} alt="47" />,
-    <img className="slider" src={slide48} alt="48" />,
-    <img className="slider" src={slide49} alt="49" />,
-    <img className="slider" src={slide50} alt="50" />,
-    <img className="slider" src={slide51} alt="51" />,
-    <img className="slider" src={slide52} alt="52" />,
-    <img className="slider" src={slide53} alt="53" />,
-    <img className="slider" src={slide54} alt="54" />,
-    <img className="slider" src={slide55} alt="55" />,
-
+    { src: slide47 },
+    { src: slide48 },
+    { src: slide49 },
+    { src: slide50 },
+    { src: slide51 },
+    { src: slide52 },
+    { src: slide53 },
+    { src: slide54 },
+    { src: slide55 },
 ]
 
 export const arrayPortfolio_5 = [
-    <img className="slider" src={slide41} alt="41" />,
-    <img className="slider" src={slide42} alt="42" />,
-    <img className="slider" src={slide43} alt="43" />,
-    <img className="slider" src={slide44} alt="44" />,
-    <img className="slider" src={slide45} alt="45" />,
-    <img className="slider" src={slide46} alt="46" />,
-
+    { src: slide41 },
+    { src: slide42 },
+    { src: slide43 },
+    { src: slide44 },
+    { src: slide45 },
+    { src: slide46 },
 ]

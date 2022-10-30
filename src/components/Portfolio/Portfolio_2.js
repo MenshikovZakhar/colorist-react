@@ -3,8 +3,8 @@ import Footer from '../Footer/Footer';
 import PortfolioCardList from '../PortfolioCardList/PortfolioCardList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
 import { arrayPortfolio_2 } from '../../constants/arrayPortfolio';
-import { NavLink, Link } from 'react-router-dom';
-function Portfolio_2() {
+
+function Portfolio_2({ onCardClick }) {
     return (
         <>
             <Header />
@@ -13,8 +13,7 @@ function Portfolio_2() {
                     <PortfolioNav />
                 </>
                 <>
-                    <PortfolioCardList arrayPortfolio={arrayPortfolio_2} type={'all'} />
-
+                    <PortfolioCardList onCardClick={onCardClick} arrayPortfolio={arrayPortfolio_2} type={'all'} />
                 </>
             </main>
             <Footer />

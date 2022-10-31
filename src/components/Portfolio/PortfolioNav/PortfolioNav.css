@@ -23,7 +23,7 @@
 }
 
 .portfolionav__menu {
-    width: 100%;
+    max-width: 1400px;
     display: flex;
     justify-content: space-between;
     font-weight: 400;
@@ -44,51 +44,27 @@
 @media(max-width: 1280px) {
     .portfolionav__menu {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-    }
-}
-
-@media(max-width: 1150px) {
-    .portfolionav__menu {
-        justify-content: space-between;
+        gap: 10px;
+        max-width: 700px;
+        height: 100%;
     }
 
     .portfolionav__link {
-        margin: 0px auto;
+        height: 50px;
     }
 }
+
 
 @media(max-width: 1050px) {
     .portfolionav__menu {
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .portfolionav__link {
-        margin: 0px;
+        max-width: 800px;
     }
 }
-
-@media(max-width: 1000px) {
-    .portfolionav__menu {
-        gap: 10px;
-    }
-
-}
-
 
 @media(max-width: 950px) {
-
     .portfolionav__menu {
-        font-size: 18px;
-    }
-
-    .portfolionav__menu {
-        gap: 20px;
-    }
-
-    .active {
-        font-size: 23px;
+        max-width: 740px;
     }
 }

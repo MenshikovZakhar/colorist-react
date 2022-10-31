@@ -10,6 +10,7 @@ import {
     NUMBER_OF_CARDS_LESS_767,
     ADD_NUMBER_CARD_3,
     ADD_NUMBER_CARD_2,
+    ADD_NUMBER_CARD_1,
 } from '../../constants/index.js';
 
 function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
@@ -25,7 +26,7 @@ function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
             setCounter(NUMBER_OF_CARDS_OVER_767);
             return setMoreCard(ADD_NUMBER_CARD_2);
         } else setCounter(NUMBER_OF_CARDS_LESS_767);
-        return setMoreCard(ADD_NUMBER_CARD_2);
+        return setMoreCard(ADD_NUMBER_CARD_1);
     };
 
     useEffect(() => {

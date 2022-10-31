@@ -40,7 +40,9 @@
 }
 
 
-.active {}
+.active {
+    border: 2px solid;
+}
 
 .submenu__link {
     text-decoration: none;

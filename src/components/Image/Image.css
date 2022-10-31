@@ -4,3 +4,38 @@
     margin: 0 auto;
     cursor: pointer;
 }
+
+@media(max-width: 440px) {
+    .image {
+        width: 180px;
+        height: 230px;
+    }
+}
+
+@media(max-width: 440px) {
+    .image {
+        width: 170px;
+        height: 220px;
+    }
+}
+
+@media(max-width: 370px) {
+    .image {
+        width: 160px;
+        height: 210px;
+    }
+}
+
+@media(max-width: 340px) {
+    .image {
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 320px) {
+    .image {
+        width: 140px;
+        height: 190px;
+    }
+}

@@ -100,3 +100,24 @@
         grid-template-rows: 1fr 1fr;
     }
 }
+
+@media(max-width: 530px) {
+    .portfolionav__menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 440px) {
+    .portfolionav__menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+    .portfolionav__link {
+        height: 40px;
+    }
+}

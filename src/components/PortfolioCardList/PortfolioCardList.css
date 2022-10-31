@@ -66,3 +66,43 @@
         row-gap: 10px;
     }
 }
+
+@media(max-width: 530px) {
+    .elements {
+        width: 410px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media(max-width: 440px) {
+    .elements {
+        width: 370px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media(max-width: 400px) {
+    .elements {
+        width: 350px;
+    }
+}
+
+@media(max-width: 370px) {
+    .elements {
+        width: 330px;
+    }
+}
+
+@media(max-width: 340px) {
+    .elements {
+        width: 310px;
+    }
+}
+
+@media(max-width: 320px) {
+    .elements {
+        width: 290px;
+    }
+}

@@ -56,17 +56,19 @@
     color: #000000;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 400px) {
     .popup__container {
-        width: 282px;
-        padding-left: 22px;
-        padding-right: 22px;
+        width: 350px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 350px;
+        height: 530px;
     }
 
     .popup__close {
         width: 20px;
         height: 20px;
-        top: -36px;
+        top: -25px;
         right: 0;
         background-size: contain;
     }

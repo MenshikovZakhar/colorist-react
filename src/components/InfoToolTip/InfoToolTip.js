@@ -15,7 +15,7 @@ export const InfoToolTip = ({ isOpen, onClose, card }) => {
 
     return (
         <div className={classPopup} onMouseDown={handleMouseDown}>
-            <div className='popup__container'>
+            <div className='popup__figure'>
                 <img className='popup__container' src={card.src} alt="фото" />
                 <button
                     aria-label='Close'

@@ -37,7 +37,7 @@ function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
     const addCounter = () => setCounter((...prev) => Number(prev) + moreCard);
 
     useEffect(() => {
-        const setTimeOut = (e) => setTimeout(determiningCountCards(e), 0);
+        const setTimeOut = (e) => setTimeout(determiningCountCards(e), 100000);
         window.addEventListener('resize', (e) =>
             setTimeOut(e.currentTarget.innerWidth)
         );

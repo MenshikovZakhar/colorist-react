@@ -13,8 +13,8 @@
 
 .popup__figure {
     position: relative;
-    max-width: 75vw;
-    max-height: 75vh;
+    max-width: 85vw;
+    max-height: 85vh;
     width: auto;
     margin: 20px auto;
 }
@@ -27,7 +27,7 @@
 
 .popup__container {
     max-width: 100%;
-    max-height: 75vh;
+    max-height: 85vh;
     margin: 0 auto;
     padding: 0;
     width: auto;
@@ -37,15 +37,16 @@
 
 .popup__close {
     position: absolute;
-    top: -25px;
-    right: -25px;
+    top: 0px;
+    right: 0px;
     cursor: pointer;
     width: 20px;
     height: 20px;
     background-image: url(../../images/close.svg);
     background-color: unset;
-    background-position: center;
+    background-position: 50%;
     background-repeat: no-repeat;
+    background-size: cover;
     border: none;
 }
 

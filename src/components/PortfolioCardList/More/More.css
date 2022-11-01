@@ -1,5 +1,5 @@
 .more {
-    height: 166px;
+
     display: flex;
     justify-content: center;
 }
@@ -15,7 +15,7 @@
     background: unset;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .more__button:hover {

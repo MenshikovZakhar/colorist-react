@@ -16,7 +16,7 @@ function PortfolioNav() {
                         isActive ? 'portfolionav__link_active' : 'portfolionav__link'
                     }
                 >
-                    Сложное окрашевание
+                    Сложное окрашивание
                 </NavLink>
 
                 <NavLink

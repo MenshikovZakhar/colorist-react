@@ -4,6 +4,7 @@ import PortfolioCardList from '../PortfolioCardList/PortfolioCardList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
 import { arrayPortfolio_4 } from '../../constants/arrayPortfolio';
 import './Portfolio.css';
+import Consultation from '../Price/Consultation/Consultation';
 function Portfolio({ onCardClick }) {
     return (
         <>
@@ -15,6 +16,7 @@ function Portfolio({ onCardClick }) {
                 <>
                     <PortfolioCardList onCardClick={onCardClick} arrayPortfolio={arrayPortfolio_4} type={'all'} />
                 </>
+                <Consultation />
             </main>
             <Footer />
         </>

@@ -41,9 +41,7 @@ function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
         window.addEventListener('resize', (e) =>
             setTimeOut(e.currentTarget.innerWidth)
         );
-        return window.removeEventListener('resize', (e) =>
-            setTimeOut(e.currentTarget.innerWidth)
-        );
+
     }, []);
 
 

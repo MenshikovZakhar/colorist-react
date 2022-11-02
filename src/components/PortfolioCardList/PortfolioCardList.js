@@ -36,15 +36,7 @@ function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
 
     const addCounter = () => setCounter((...prev) => Number(prev) + moreCard);
 
-    useEffect(() => {
-        const setTimeOut = (e) => setTimeout(determiningCountCards(e), 5000);
-        window.addEventListener('resize', (e) =>
-            setTimeOut(e.currentTarget.innerWidth)
-        );
-        return window.removeEventListener('resize', (e) =>
-            setTimeOut(e.currentTarget.innerWidth)
-        );
-    }, []);
+
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -56,18 +48,23 @@ function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
                 {type === 'all'
                     ? arrayPortfolio.slice(0, counter).map((image, index) => {
                         return (
-                            <Image key={index}
-                                image={image}
-                                onCardClick={onCardClick} />
+                            <div>
+                                <Image key={index}
+                                    image={image}
+                                    onCardClick={onCardClick} />
+                            </div>
                         );
                     })
                     : arrayPortfolio.map((image, index) => {
                         return (
-                            <Image key={index}
-                                src={image.src}
-                                image={image}
-                                onCardClick={onCardClick}
-                            />
+                            <div>
+                                <Image key={index}
+                                    src={image.src}
+                                    image={image}
+                                    onCardClick={onCardClick}
+                                />
+
+                            </div>
                         );
                     })}
             </ul>

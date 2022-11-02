@@ -3,6 +3,7 @@
     height: 320px;
     margin: 0 auto;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .image__img {

@@ -39,12 +39,12 @@ function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
     useEffect(() => {
         const setTimeOut = (e) => setTimeout(determiningCountCards(e), 5000);
         window.addEventListener('resize', (e) =>
-            setTimeOut(e.currentTarget.innerWidth)
+            setTimeOut(e)
         );
         return window.removeEventListener('resize', (e) =>
-            setTimeOut(e.currentTarget.innerWidth)
+            setTimeOut(e)
         );
-    });
+    }, []);
 
     useEffect(() => {
         window.scrollTo(0, 0)

@@ -5,3 +5,13 @@
     background-color: #140800;
     padding-top: 15px;
 }
+
+.servicesme__description {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 7px #585858;
+    border-style: ridge;
+    width: 1300px;
+    margin: 0 auto;
+}

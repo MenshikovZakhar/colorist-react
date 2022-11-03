@@ -10,6 +10,7 @@ import Portfolio_4 from '../Portfolio/Portfolio_4';
 import Portfolio_5 from '../Portfolio/Portfolio_5';
 import Contacts from '../Contacts/Contacts';
 import ServicesMe from '../ServicesMe/ServicesMe';
+import ServicesMe_1 from '../ServicesMe/ServicesMe_1';
 import { useState } from 'react';
 import { InfoToolTip } from '../InfoToolTip/InfoToolTip';
 
@@ -36,6 +37,9 @@ function App() {
         </Route>
         <Route exact path='/services'>
           <ServicesMe />
+        </Route>
+        <Route exact path='/services_1'>
+          <ServicesMe_1 />
         </Route>
         <Route exact path='/price'>
           <Price />

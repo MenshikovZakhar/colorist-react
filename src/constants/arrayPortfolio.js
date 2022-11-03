@@ -133,15 +133,20 @@ export const arrayPortfolio_5 = [
 
 export const arrayPortfolio_6 = [
     { src: slide1 },
-
     { src: slide3 },
-
     { src: slide5 },
-
     { src: slide7 },
-
     { src: slide10 },
-
     { src: slide15 },
-
 ]
+
+export const arrayPortfolio_7 = [
+    { src: slide47 },
+    { src: slide48 },
+    { src: slide49 },
+    { src: slide51 },
+    { src: slide54 },
+    { src: slide55 },
+]
+
+

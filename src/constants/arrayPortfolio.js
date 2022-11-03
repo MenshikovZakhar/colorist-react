@@ -149,4 +149,22 @@ export const arrayPortfolio_7 = [
     { src: slide55 },
 ]
 
+export const arrayPortfolio_8 = [
+    { src: slide41 },
+    { src: slide42 },
+    { src: slide43 },
+    { src: slide44 },
+    { src: slide45 },
+    { src: slide46 },
+]
+
+
+export const arrayPortfolio_9 = [
+    { src: slide29 },
+    { src: slide30 },
+    { src: slide32 },
+    { src: slide35 },
+    { src: slide38 },
+    { src: slide40 },
+]
 

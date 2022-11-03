@@ -11,6 +11,9 @@ import Portfolio_5 from '../Portfolio/Portfolio_5';
 import Contacts from '../Contacts/Contacts';
 import ServicesMe from '../ServicesMe/ServicesMe';
 import ServicesMe_1 from '../ServicesMe/ServicesMe_1';
+import ServicesMe_2 from '../ServicesMe/ServicesMe_2';
+import ServicesMe_3 from '../ServicesMe/ServicesMe_3';
+import ServicesMe_4 from '../ServicesMe/ServicesMe_4';
 import { useState } from 'react';
 import { InfoToolTip } from '../InfoToolTip/InfoToolTip';
 
@@ -39,7 +42,16 @@ function App() {
           <ServicesMe />
         </Route>
         <Route exact path='/services_1'>
-          <ServicesMe_1 />
+          <ServicesMe_1 onCardClick={handleCardClick} />
+        </Route>
+        <Route exact path='/services_2'>
+          <ServicesMe_2 onCardClick={handleCardClick} />
+        </Route>
+        <Route exact path='/services_3'>
+          <ServicesMe_3 onCardClick={handleCardClick} />
+        </Route>
+        <Route exact path='/services_4'>
+          <ServicesMe_4 onCardClick={handleCardClick} />
         </Route>
         <Route exact path='/price'>
           <Price />

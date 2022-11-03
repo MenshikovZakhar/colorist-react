@@ -5,7 +5,7 @@ import './ServicesMe.css';
 import { arrayPortfolio_6 } from '../../constants/arrayPortfolio';
 import { arrayPortfolio_7 } from '../../constants/arrayPortfolio';
 import Image from '../Image/Image_2';
-
+import { Link } from 'react-router-dom';
 function ServicesMe_1({ onCardClick }) {
     return (
         <>
@@ -46,6 +46,8 @@ function ServicesMe_1({ onCardClick }) {
                                 );
                             })}
                         </ul>
+                        <Link className="servicesme-title" to='/portfolio'>
+                            <h3 className="servicesme__title">Примеры работ</h3></Link>
                     </div>
                 </section>
 
@@ -90,6 +92,8 @@ function ServicesMe_1({ onCardClick }) {
                                 );
                             })}
                         </ul>
+                        <Link className="servicesme-title" to='/portfolio_4'>
+                            <h3 className="servicesme__title">Примеры работ</h3></Link>
                     </div>
                 </section>
                 <Consultation />

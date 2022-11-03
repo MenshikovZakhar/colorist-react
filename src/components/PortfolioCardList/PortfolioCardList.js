@@ -42,23 +42,19 @@ function PortfolioCardList({ arrayPortfolio, type, onCardClick }) {
                 {type === 'all'
                     ? arrayPortfolio.slice(0, counter).map((image, index) => {
                         return (
-                            <div>
-                                <Image key={index}
-                                    image={image}
-                                    onCardClick={onCardClick} />
-                            </div>
+
+                            <Image key={index}
+                                image={image}
+                                onCardClick={onCardClick} />
                         );
                     })
                     : arrayPortfolio.map((image, index) => {
                         return (
-                            <div>
-                                <Image key={index}
-                                    src={image.src}
-                                    image={image}
-                                    onCardClick={onCardClick}
-                                />
-
-                            </div>
+                            <Image key={index}
+                                src={image.src}
+                                image={image}
+                                onCardClick={onCardClick}
+                            />
                         );
                     })}
             </ul>

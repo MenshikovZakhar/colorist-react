@@ -78,7 +78,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             Контакты
           </NavLink>
         </div>
-        <h1 class="hidden-menu__title">Cвязаться со мной</h1>
+        <h1 className="hidden-menu__title">Cвязаться со мной</h1>
 
         <div className='iqons'>
           <a href="tel:+79514840077">

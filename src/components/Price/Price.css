@@ -22,7 +22,8 @@
 .price__iqons {
     width: 35px;
     height: 35px;
-    padding: 10px 0 0 10px;
+    padding: 0px 0 0 10px;
+    align-self: center;
 }
 
 .price__value {
@@ -275,6 +276,14 @@
         width: 20px;
     }
 
+    .price__title_2 {
+        padding: 10px 0;
+        padding: 10px 0 10px 0px;
+        font-size: 18px;
+        width: 320px;
+        margin: 20px auto;
+    }
+
     .price__description {
         margin: 0;
         max-width: 350px;
@@ -330,7 +339,7 @@
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 350px) {
     .price-description {
         width: 300px;
     }

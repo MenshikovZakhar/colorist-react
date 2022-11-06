@@ -16,6 +16,7 @@ import ServicesMe_3 from '../ServicesMe/ServicesMe_3';
 import ServicesMe_4 from '../ServicesMe/ServicesMe_4';
 import { useState } from 'react';
 import { InfoToolTip } from '../InfoToolTip/InfoToolTip';
+import PageNotFound from '../PageNotFound/PageNotFound';
 
 function App() {
   const [selectedCard, setSelectedCard] = useState({});
@@ -78,6 +79,9 @@ function App() {
         </Route>
         <Route exact path='/contacts'>
           <Contacts />
+        </Route>
+        <Route path='*'>
+          <PageNotFound />
         </Route>
       </Switch>
       <InfoToolTip

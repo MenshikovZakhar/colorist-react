@@ -51,7 +51,7 @@ function Contacts() {
                             <img className='map__iqons' src={location_4} alt='logo' />
                             <div className="contacts__value">
                                 <h3 className="contacts__title">E-mail</h3>
-                                <span className="contacts__name">colorist@yandex.ru</span>
+                                <span className="contacts__name">lera8787@inbox.ru</span>
                             </div>
                         </div>
                     </div>

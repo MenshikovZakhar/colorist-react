@@ -531,9 +531,9 @@
 
 }
 
-@media(max-width: 320px) {
+@media(max-width: 335px) {
     .services__description {
-        max-width: 290px;
+        max-width: 295px;
         background-size: 300px 300px;
     }
 

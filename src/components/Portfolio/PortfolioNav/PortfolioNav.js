@@ -13,7 +13,16 @@ function PortfolioNav() {
                 <NavLink
                     to='/portfolio'
                     className={({ isActive }) =>
-                        isActive ? 'portfolionav__link_active' : 'portfolionav__link'
+                        isActive ? 'portfolionav__link active' : 'portfolionav__link'
+                    }
+                >
+                    Все работы
+                </NavLink>
+
+                <NavLink
+                    to='/portfolio_1'
+                    className={({ isActive }) =>
+                        isActive ? 'portfolionav__link active' : 'portfolionav__link'
                     }
                 >
                     Сложное окрашивание

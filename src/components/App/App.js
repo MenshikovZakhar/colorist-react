@@ -4,6 +4,7 @@ import Main from '../Main/Main';
 import AboutMe from '../AboutMe/AboutMe';
 import Price from '../Price/Price';
 import Portfolio from '../Portfolio/Portfolio';
+import Portfolio_1 from '../Portfolio/Portfolio_2';
 import Portfolio_2 from '../Portfolio/Portfolio_2';
 import Portfolio_3 from '../Portfolio/Portfolio_3';
 import Portfolio_4 from '../Portfolio/Portfolio_4';
@@ -59,6 +60,10 @@ function App() {
         </Route>
         <Route exact path='/portfolio'>
           <Portfolio
+            onCardClick={handleCardClick} />
+        </Route>
+        <Route exact path='/portfolio_1'>
+          <Portfolio_1
             onCardClick={handleCardClick} />
         </Route>
         <Route exact path='/portfolio_2'>

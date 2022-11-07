@@ -35,6 +35,14 @@
     display: flex;
 }
 
+.nav__link:hover {
+    opacity: 1.0;
+}
+
+.nav__link-2:hover {
+    opacity: 1.0;
+}
+
 .nav__link-2 {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -72,6 +80,7 @@
 
 .submenu__links:hover {
     text-decoration: underline;
+    opacity: 1.0;
 }
 
 .submenu__link {

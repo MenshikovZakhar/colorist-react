@@ -35,7 +35,18 @@
     display: flex;
 }
 
-.nav__link:hover~.submenu {
+.nav__link-2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    opacity: 0.6;
+    position: relative;
+    align-items: center;
+    height: 50%;
+    display: flex;
+}
+
+.nav__link-2:hover~.submenu {
     display: block;
 }
 

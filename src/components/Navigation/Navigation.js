@@ -36,7 +36,7 @@ function Navigation() {
                 <NavLink
                     to='/services'
                     className={({ isActive }) =>
-                        isActive ? 'nav__link active' : 'nav__link'
+                        isActive ? 'nav__link-2 active' : 'nav__link-2'
                     }
                 >
                     <img className='menu_icon' src={menu_icon} alt='' /> Услуги

@@ -100,6 +100,7 @@
     border-left: 7px #585858;
     border-style: ridge;
     padding-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -142,6 +143,7 @@
 @media(max-width: 740px) {
     .price-description {
         width: 650px;
+        margin-bottom: 0px;
     }
 }
 

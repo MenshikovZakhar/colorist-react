@@ -11,30 +11,30 @@ function ServicesMe_2({ onCardClick }) {
             <Header />
             <main className='servicesme'>
                 <section className='servicesme__description'>
-                    <div>
-                        <div>
-                            <h2>Тонирование</h2>
-                            <p>Входит: Профессиональный уход, тонирование,
+                    <div className='servicesme-description'>
+                        <div className='servicesme-title'>
+                            <h2 className='servicesme__title'>Тонирование</h2>
+                            <p className='servicesme__text'>Входит: Профессиональный уход, тонирование,
                                 оформление кончиков (при необходимости), укладка</p>
                         </div>
                         <div>
-                            <span className="pricelist-title-content">
-                                <span className="pricelist-title">Короткая длинна волос</span>
-                                <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price ">2000 ₽<span className="pricelist-point-zero">
+                            <span className="servicesme-title-content">
+                                <span className="serv-title">Короткая длинна волос</span>
+                                <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
+                                <span className="servicesme-price-content"><span className="servicesme-price ">2000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
 
-                            <span className="pricelist-title-content">
-                                <span className="pricelist-title">Средняя длинна волос</span>
-                                <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price ">2500 ₽<span className="pricelist-point-zero">
+                            <span className="servicesme-title-content">
+                                <span className="serv-title">Средняя длинна волос</span>
+                                <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
+                                <span className="servicesme-price-content"><span className="servicesme-price ">2500 ₽<span className="servicesmet-point-zero">
                                 </span></span> </span></span>
 
 
-                            <span className="pricelist-title-content">
-                                <span className="pricelist-title">Длинные волосы</span>
-                                <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price ">3000 ₽<span className="pricelist-point-zero">
+                            <span className="servicesme-title-content">
+                                <span className="serv-title">Длинные волосы</span>
+                                <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
+                                <span className="servicesme-price-content"><span className="servicesme-price ">3000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
                         </div>
                     </div>

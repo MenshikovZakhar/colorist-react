@@ -30,12 +30,52 @@
 
 .servicesme__title {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    margin: 0 auto 30px;
+    margin: 30px auto 30px;
     color: #140800;
-    width: 400px;
+    width: 100%;
     text-decoration: none;
-    padding: 20px 0;
-    border-radius: 10px;
+}
+
+.servicesme__text {
+    font-weight: 900;
+    font-size: 20px;
+    color: #140800;
+    width: 700px;
+    padding-left: 20px;
+    margin: 40px 0;
+}
+
+.servicesme-title {
+    width: 100%;
+}
+
+.servicesme-description {
+    width: 100%;
+}
+
+.servicesme-title-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.serv-title {
+    font-size: 18px;
+    color: #140800;
+}
+
+.servicesme-line {
+    border-bottom-color: #d2d2d2;
+    border-bottom-width: 2px;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    border-bottom-style: dotted;
+}
+
+.servicesme-line-style-dotted {
+    border-bottom-style: dotted;
 }

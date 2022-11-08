@@ -12,25 +12,25 @@ function ServicesMe_1({ onCardClick }) {
             <Header />
             <main className='servicesme'>
                 <section className='servicesme__description'>
-                    <div>
-                        <div>
-                            <h2>Сложное окрашивание</h2>
-                            <p>(Airtouch, Shatush, Balayage, Мелирование)</p>
-                            <p>Входит:Консультация (при необходимости тест-прядь), рассветление техникой, профессиональный уход,
+                    <div className='servicesme-description'>
+                        <div className='servicesme-title'>
+                            <h2 className='servicesme__title'>Сложное окрашивание</h2>
+                            <p className='servicesme__text'>(Airtouch, Shatush, Balayage, Мелирование)</p>
+                            <p className='servicesme__text'>Входит: Консультация (при необходимости тест-прядь), рассветление техникой, профессиональный уход,
                                 тонирование, оформление кончиков (при необходимости), укладка</p>
                         </div>
                         <div>
-                            <span className="pricelist-title-content">
-                                <span className="pricelist-title">Средняя длинна волос</span>
-                                <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 6000 ₽<span className="pricelist-point-zero">
+                            <span className="servicesme-title-content">
+                                <span className="serv-title">Средняя длинна волос</span>
+                                <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
+                                <span className="servicesme-price-content"><span className="servicesme-price "> от 6000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
 
 
-                            <span className="pricelist-title-content">
-                                <span className="pricelist-title">Длинные волосы</span>
-                                <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
+                            <span className="servicesme-title-content">
+                                <span className="serv-title">Длинные волосы</span>
+                                <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
+                                <span className="servicesme-price-content"><span className="servicesme-price "> от 8000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
                         </div>
                     </div>
@@ -52,31 +52,31 @@ function ServicesMe_1({ onCardClick }) {
                 </section>
 
                 <section className='servicesme__description'>
-                    <div>
-                        <div>
-                            <h2>Окрашивание в один тон</h2>
-                            <p>(Стоимость зависит от сложности работы и расхода материала)</p>
-                            <p>Входит: Консультация,  препигментация (при необходимости), лёгкий уход по типу волос,
+                    <div className='servicesme-description'>
+                        <div className='servicesme-title'>
+                            <h2 className='servicesme__title'>Окрашивание в один тон</h2>
+                            <p className='servicesme__text'>(Стоимость зависит от сложности работы и расхода материала)</p>
+                            <p className='servicesme__text'>Входит: Консультация,  препигментация (при необходимости), лёгкий уход по типу волос,
                                 окрашивание, оформление кончиков (при необходимости), укладка</p>
                         </div>
                         <div>
-                            <span className="pricelist-title-content">
-                                <span className="pricelist-title">Короткая длинна волос</span>
-                                <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 2000 ₽<span className="pricelist-point-zero">
+                            <span className="servicesme-title-content">
+                                <span className="serv-title">Короткая длинна волос</span>
+                                <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
+                                <span className="servicesme-price-content"><span className="servicesme-price "> от 2000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
 
-                            <span className="pricelist-title-content">
-                                <span className="pricelist-title">Средняя длинна волос</span>
-                                <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 3000 ₽<span className="pricelist-point-zero">
+                            <span className="servicesme-title-content">
+                                <span className="serv-title">Средняя длинна волос</span>
+                                <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
+                                <span className="servicesme-price-content"><span className="servicesme-price "> от 3000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
 
 
-                            <span className="pricelist-title-content">
-                                <span className="pricelist-title">Длинные волосы</span>
-                                <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 4000 ₽<span className="pricelist-point-zero">
+                            <span className="servicesme-title-content">
+                                <span className="serv-title">Длинные волосы</span>
+                                <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
+                                <span className="servicesme-price-content"><span className="servicesme-price "> от 4000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
                         </div>
                     </div>

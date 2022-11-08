@@ -17,7 +17,7 @@ function ServicesMe_2({ onCardClick }) {
                             <p className='servicesme__text'>Входит: Профессиональный уход, тонирование,
                                 оформление кончиков (при необходимости), укладка</p>
                         </div>
-                        <div>
+                        <div className="servicesme__content">
                             <span className="servicesme-title-content">
                                 <span className="serv-title">Короткая длинна волос</span>
                                 <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
@@ -27,7 +27,7 @@ function ServicesMe_2({ onCardClick }) {
                             <span className="servicesme-title-content">
                                 <span className="serv-title">Средняя длинна волос</span>
                                 <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
-                                <span className="servicesme-price-content"><span className="servicesme-price ">2500 ₽<span className="servicesmet-point-zero">
+                                <span className="servicesme-price-content"><span className="servicesme-price">2500 ₽<span className="servicesmet-point-zero">
                                 </span></span> </span></span>
 
 
@@ -51,7 +51,7 @@ function ServicesMe_2({ onCardClick }) {
                             })}
                         </ul>
                         <Link className="servicesme-title" to='/portfolio_5'>
-                            <h3 className="servicesme__title">Примеры работ</h3></Link>
+                            <h3 className="servicesme__title2">Примеры работ</h3></Link>
                     </div>
                 </section>
                 <Consultation />

@@ -19,7 +19,7 @@ function ServicesMe_1({ onCardClick }) {
                             <p className='servicesme__text'>Входит: Консультация (при необходимости тест-прядь), рассветление техникой, профессиональный уход,
                                 тонирование, оформление кончиков (при необходимости), укладка</p>
                         </div>
-                        <div>
+                        <div className="servicesme__content">
                             <span className="servicesme-title-content">
                                 <span className="serv-title">Средняя длинна волос</span>
                                 <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
@@ -47,7 +47,7 @@ function ServicesMe_1({ onCardClick }) {
                             })}
                         </ul>
                         <Link className="servicesme-title" to='/portfolio'>
-                            <h3 className="servicesme__title">Примеры работ</h3></Link>
+                            <h3 className="servicesme__title2">Примеры работ</h3></Link>
                     </div>
                 </section>
 
@@ -59,7 +59,7 @@ function ServicesMe_1({ onCardClick }) {
                             <p className='servicesme__text'>Входит: Консультация,  препигментация (при необходимости), лёгкий уход по типу волос,
                                 окрашивание, оформление кончиков (при необходимости), укладка</p>
                         </div>
-                        <div>
+                        <div className="servicesme__content">
                             <span className="servicesme-title-content">
                                 <span className="serv-title">Короткая длинна волос</span>
                                 <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
@@ -76,7 +76,7 @@ function ServicesMe_1({ onCardClick }) {
                             <span className="servicesme-title-content">
                                 <span className="serv-title">Длинные волосы</span>
                                 <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
-                                <span className="servicesme-price-content"><span className="servicesme-price "> от 4000 ₽<span className="servicesme-point-zero">
+                                <span className="servicesme-price-content"><span className="servicesme-price"> от 4000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ function ServicesMe_1({ onCardClick }) {
                             })}
                         </ul>
                         <Link className="servicesme-title" to='/portfolio_4'>
-                            <h3 className="servicesme__title">Примеры работ</h3></Link>
+                            <h3 className="servicesme__title2">Примеры работ</h3></Link>
                     </div>
                 </section>
                 <Consultation />

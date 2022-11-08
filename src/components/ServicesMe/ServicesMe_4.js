@@ -20,9 +20,9 @@ function ServicesMe_4({ onCardClick }) {
                         </div>
                         <div>
                             <div className="price__box">
-                                <div className="price__value">
+                                <div className="servicesme__value">
 
-                                    <h3 className="price-title">Глубокое увлажнение</h3>
+                                    <h3 className="servicesme__title3">Глубокое увлажнение</h3>
                                 </div>
                                 <span className="servicesme-title-content">
                                     <span className="serv-title">Короткая длинна волос</span>
@@ -45,9 +45,9 @@ function ServicesMe_4({ onCardClick }) {
                             </div>
 
                             <div className="price__box">
-                                <div className="price__value">
+                                <div className="servicesme__value">
 
-                                    <h3 className="price-title">Питание + белок</h3>
+                                    <h3 className="servicesme__title3">Питание + белок</h3>
                                 </div>
                                 <span className="servicesme-title-content">
                                     <span className="serv-title">Короткая длинна волос</span>
@@ -70,9 +70,9 @@ function ServicesMe_4({ onCardClick }) {
                             </div>
 
                             <div className="price__box">
-                                <div className="price__value">
+                                <div className="servicesme__value">
 
-                                    <h3 className="price-title">Глоссинг (Glossing)</h3>
+                                    <h3 className="servicesme__title3">Глоссинг (Glossing)</h3>
                                 </div>
                                 <span className="servicesme-title-content">
                                     <span className="serv-title">Короткая длинна волос</span>
@@ -108,7 +108,7 @@ function ServicesMe_4({ onCardClick }) {
                             })}
                         </ul>
                         <Link className="servicesme-title" to='/portfolio_5'>
-                            <h3 className="servicesme__title">Примеры работ</h3></Link>
+                            <h3 className="servicesme__title2">Примеры работ</h3></Link>
                     </div>
                 </section>
                 <Consultation />

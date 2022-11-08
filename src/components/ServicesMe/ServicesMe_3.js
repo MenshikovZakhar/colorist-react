@@ -18,7 +18,7 @@ function ServicesMe_3({ onCardClick }) {
                             <p className='servicesme__text'>Входит: Мытьё головы, лёгкий уход,
                                 стрижка, укладка</p>
                         </div>
-                        <div>
+                        <div className="servicesme__content">
                             <span className="servicesme-title-content">
                                 <span className="serv-title">Короткая длинна волос</span>
                                 <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
@@ -52,7 +52,7 @@ function ServicesMe_3({ onCardClick }) {
                             })}
                         </ul>
                         <Link className="servicesme-title" to='/portfolio_3'>
-                            <h3 className="servicesme__title">Примеры работ</h3></Link>
+                            <h3 className="servicesme__title2">Примеры работ</h3></Link>
                     </div>
                 </section>
                 <Consultation />

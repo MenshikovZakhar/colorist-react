@@ -167,3 +167,270 @@
         max-width: 500px;
     }
 }
+
+@media(max-width: 1050px) {
+    .servicesme__description {
+        max-width: 900px;
+    }
+
+    .servicesme__elements {
+        width: 420px;
+    }
+}
+
+@media(max-width: 940px) {
+    .servicesme__description {
+        max-width: 800px;
+    }
+
+    .servicesme__text {
+        max-width: 450px;
+    }
+
+    .servicesme-description {
+        max-width: 420px;
+    }
+
+    .servicesme-title-content {
+        width: 440px;
+        padding-left: 20px;
+    }
+
+    .servicesme-line {
+        width: 100px;
+    }
+}
+
+@media(max-width: 830px) {
+
+    .servicesme__description {
+        flex-direction: column;
+        max-width: 700px;
+    }
+
+    .servicesme__elements {
+        width: 500px;
+        margin: 30px auto 0;
+    }
+
+    .servicesme-description {
+        max-width: 100%;
+    }
+
+    .servicesme__text {
+        max-width: 450px;
+        text-align: center;
+        margin: 40px auto;
+        padding: 0;
+    }
+
+    .servicesme__content {
+        margin: 0px auto 0;
+    }
+}
+
+@media(max-width: 830px) {
+    .servicesme__description {
+        max-width: 700px;
+    }
+}
+
+@media(max-width: 740px) {
+    .servicesme__description {
+        max-width: 650px;
+    }
+
+    .servicesme__description {
+        margin: 0 auto 0px;
+    }
+}
+
+@media(max-width: 680px) {
+    .servicesme__description {
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 650px) {
+    .servicesme__description {
+        max-width: 570px;
+    }
+}
+
+@media(max-width: 600px) {
+    .servicesme__description {
+        max-width: 500px;
+    }
+}
+
+@media(max-width: 550px) {
+    .servicesme__description {
+        max-width: 450px;
+    }
+
+    .servicesme__elements {
+        width: 400px;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .servicesme-title-content {
+        width: 400px;
+        padding: 0;
+    }
+
+    .servicesme-line {
+        width: 80px;
+    }
+
+    .servicesme__text {
+        max-width: 420px;
+        padding: 0;
+    }
+}
+
+@media(max-width: 490px) {
+    .servicesme__description {
+        max-width: 400px;
+    }
+
+    .servicesme__text {
+        max-width: 400px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .serv-title {
+        font-size: 18px;
+    }
+
+    .servicesme-price {
+        font-size: 16px;
+    }
+
+    .servicesme-title-content {
+        width: 380px;
+    }
+}
+
+@media(max-width: 430px) {
+    .servicesme__description {
+        max-width: 350px;
+    }
+
+    .servicesme__elements {
+        width: 350px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .servicesme__text {
+        max-width: 340px;
+        padding: 0;
+        font-size: 17px;
+    }
+
+    .servicesme__title {
+        font-size: 28px;
+    }
+
+    .serv-title {
+        font-size: 17px;
+    }
+
+    .servicesme-line {
+        width: 50px;
+    }
+
+    .servicesme-title-content {
+        width: 330px;
+    }
+
+    .servicesme__title3 {
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 380px) {
+    .servicesme__description {
+        max-width: 340px;
+    }
+
+    .servicesme__text {
+        max-width: 330px;
+    }
+
+    .servicesme__elements {
+        width: 320px;
+    }
+}
+
+@media(max-width: 375px) {
+    .servicesme__description {
+        max-width: 320px;
+    }
+
+    .servicesme__text {
+        max-width: 320px;
+    }
+
+    .servicesme-line {
+        width: 20px;
+    }
+
+    .servicesme-title-content {
+        width: 300px;
+    }
+
+}
+
+@media(max-width: 335px) {
+    .servicesme__description {
+        max-width: 295px;
+    }
+
+    .servicesme__elements {
+        width: 290px;
+        column-gap: 5px;
+        row-gap: 5px;
+        grid-template-columns: repeat(auto-fill, 140px);
+    }
+
+    .image_2 {
+        width: 140px;
+        height: 180px;
+        margin: 0 auto;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .servicesme__title {
+        font-size: 25px;
+    }
+
+    .servicesme__title2 {
+        font-size: 23px;
+        width: 180px;
+    }
+
+    .servicesme__text {
+        max-width: 290px;
+        font-size: 16px;
+    }
+
+    .serv-title {
+        font-size: 16px;
+    }
+
+    .servicesme-price {
+        font-size: 15px;
+    }
+
+    .servicesme-title-content {
+        width: 280px;
+    }
+
+    .servicesme__title3 {
+        font-size: 20px;
+    }
+}

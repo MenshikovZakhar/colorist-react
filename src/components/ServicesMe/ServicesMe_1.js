@@ -46,7 +46,7 @@ function ServicesMe_1({ onCardClick }) {
                                 );
                             })}
                         </ul>
-                        <Link className="servicesme-title" to='/portfolio'>
+                        <Link className="servicesme-title" to='/portfolio_1'>
                             <h3 className="servicesme__title2">Примеры работ</h3></Link>
                     </div>
                 </section>

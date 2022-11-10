@@ -5,10 +5,16 @@ import price__img_2 from '../../images/price__img-2.png';
 import price__img_3 from '../../images/price__img-3.png';
 import './Price.css';
 import Consultation from './Consultation/Consultation';
+import { Helmet } from 'react-helmet-async';
 
 function Price() {
     return (
         <>
+            <Helmet>
+                <title>Стоимость услуг</title>
+                <meta name="description" content="cтоимость окрашивания волос, cтоимость тонирования волос, cтоимость женские стрижки Челябинск" />
+                <link rel="canonical" href='/price' />
+            </Helmet>
             <Header />
             <main className='price'>
                 <div className='price-description'>

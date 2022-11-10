@@ -1,4 +1,4 @@
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Main from '../Main/Main';
 import AboutMe from '../AboutMe/AboutMe';
@@ -89,6 +89,7 @@ function App() {
           <PageNotFound />
         </Route>
       </Switch>
+
       <InfoToolTip
         isOpen={isInfoTooltipOpen}
         onClose={closePopupsMessage}

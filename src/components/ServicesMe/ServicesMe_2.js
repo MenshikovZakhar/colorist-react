@@ -5,9 +5,15 @@ import './ServicesMe.css';
 import { arrayPortfolio_8 } from '../../constants/arrayPortfolio';
 import Image from '../Image/Image_2';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 function ServicesMe_2({ onCardClick }) {
     return (
         <>
+            <Helmet>
+                <title>Тонирование волос в Челябинске</title>
+                <meta name="description" content="Тонирование волос Челябинск" />
+                <link rel="canonical" href="/services_2" />
+            </Helmet>
             <Header />
             <main className='servicesme'>
                 <section className='servicesme__description'>

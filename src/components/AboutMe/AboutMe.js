@@ -10,9 +10,15 @@ import telegram from '../../images/telegram_2.svg';
 import vk from '../../images/vk_2.svg';
 import phone from '../../images/phone_2.png';
 import whatsapp from '../../images/whatsapp_2.svg';
+import { Helmet } from 'react-helmet-async';
 function AboutMe() {
     return (
         <>
+            <Helmet>
+                <title>Валерия Смоленцева парикмахер колорист</title>
+                <meta name="description" content="Валерия Смоленцева Парикмахер широкого профиля, колорист Челябинск" />
+                <link rel="canonical" href="/about" />
+            </Helmet>
             <Header />
             <main className='aboutme'>
                 <section className="about">

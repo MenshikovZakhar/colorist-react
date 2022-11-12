@@ -11,10 +11,15 @@ import location_2 from '../../images/location-2.png';
 import location_3 from '../../images/location-3.svg';
 import location_4 from '../../images/location-4.svg';
 import './Contacts.css';
-
+import { Helmet } from 'react-helmet-async';
 function Contacts() {
     return (
         <>
+            <Helmet>
+                <title>Контакты</title>
+                <meta name="description" content="Телефон, Адрес, Режим работы, Валерия Смоленцева" />
+                <link rel="canonical" href='/contacts' />
+            </Helmet>
             <Header />
             <main className='contacts'>
                 <div className='map__description'>

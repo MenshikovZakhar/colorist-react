@@ -5,9 +5,15 @@ import PortfolioNav from './PortfolioNav/PortfolioNav';
 import { arrayPortfolio_1 } from '../../constants/arrayPortfolio';
 import './Portfolio.css';
 import Consultation from '../Price/Consultation/Consultation';
+import { Helmet } from 'react-helmet-async';
 function Portfolio({ onCardClick }) {
     return (
         <>
+            <Helmet>
+                <title>Портфолио работ сложное окрашивание волос</title>
+                <meta name="description" content="Портфолио работ Airtouch, Shatush, Balayage, Мелирование" />
+                <link rel="canonical" href='/portfolio_1' />
+            </Helmet>
             <Header />
             <main className='portfolio'>
                 <>

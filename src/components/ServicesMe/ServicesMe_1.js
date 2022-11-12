@@ -6,9 +6,15 @@ import { arrayPortfolio_6 } from '../../constants/arrayPortfolio';
 import { arrayPortfolio_7 } from '../../constants/arrayPortfolio';
 import Image from '../Image/Image_2';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 function ServicesMe_1({ onCardClick }) {
     return (
         <>
+            <Helmet>
+                <title>Сложное окрашивания волос в Челябинске</title>
+                <meta name="description" content="Сложное окрашивание волос, Airtouch, Shatush, Balayage, Мелирование Челябинск" />
+                <link rel="canonical" href="/services_1" />
+            </Helmet>
             <Header />
             <main className='servicesme'>
                 <section className='servicesme__description'>

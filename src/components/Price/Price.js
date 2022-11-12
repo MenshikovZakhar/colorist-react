@@ -11,7 +11,7 @@ function Price() {
     return (
         <>
             <Helmet>
-                <title>Стоимость услуг</title>
+                <title> Валерия Смоленцева Стоимость услуг</title>
                 <meta name="description" content="cтоимость окрашивания волос, cтоимость тонирования волос, cтоимость женские стрижки Челябинск" />
                 <link rel="canonical" href='/price' />
             </Helmet>

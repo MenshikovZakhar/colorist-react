@@ -29,14 +29,14 @@ function ServicesMe_1({ onCardClick }) {
                             <span className="servicesme-title-content">
                                 <span className="serv-title">Средняя длинна волос</span>
                                 <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
-                                <span className="servicesme-price-content"><span className="servicesme-price "> от 6000 ₽<span className="servicesme-point-zero">
+                                <span className="servicesme-price-content"><span className="servicesme-price "> от 8000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
 
 
                             <span className="servicesme-title-content">
                                 <span className="serv-title">Длинные волосы</span>
                                 <span className="servicesme-line"><span className="servicesme-line-style-dotted"></span></span>
-                                <span className="servicesme-price-content"><span className="servicesme-price "> от 8000 ₽<span className="servicesme-point-zero">
+                                <span className="servicesme-price-content"><span className="servicesme-price "> от 10000 ₽<span className="servicesme-point-zero">
                                 </span></span> </span></span>
                         </div>
                     </div>

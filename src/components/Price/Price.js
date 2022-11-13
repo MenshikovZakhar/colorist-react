@@ -130,14 +130,14 @@ function Price() {
                             <span className="pricelist-title-content">
                                 <span className="pricelist-title">Средняя длинна волос</span>
                                 <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 6000 ₽<span className="pricelist-point-zero">
+                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
                                 </span></span> </span></span>
 
 
                             <span className="pricelist-title-content">
                                 <span className="pricelist-title">Длинные волосы</span>
                                 <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
+                                <span className="pricelist-price-content"><span className="pricelist-price "> от 10000 ₽<span className="pricelist-point-zero">
                                 </span></span> </span></span>
                         </div>
                         <div className="price__box">
@@ -148,14 +148,14 @@ function Price() {
                             <span className="pricelist-title-content">
                                 <span className="pricelist-title">Средняя длинна волос</span>
                                 <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 6000 ₽<span className="pricelist-point-zero">
+                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
                                 </span></span> </span></span>
 
 
                             <span className="pricelist-title-content">
                                 <span className="pricelist-title">Длинные волосы</span>
                                 <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
+                                <span className="pricelist-price-content"><span className="pricelist-price "> от 10000 ₽<span className="pricelist-point-zero">
                                 </span></span> </span></span>
                         </div>
 
@@ -167,13 +167,13 @@ function Price() {
                             <span className="pricelist-title-content">
                                 <span className="pricelist-title">Средняя длинна волос</span>
                                 <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 6000 ₽<span className="pricelist-point-zero">
+                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
                                 </span></span> </span></span>
 
                             <span className="pricelist-title-content">
                                 <span className="pricelist-title">Длинные волосы</span>
                                 <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
+                                <span className="pricelist-price-content"><span className="pricelist-price "> от 10000 ₽<span className="pricelist-point-zero">
                                 </span></span> </span></span>
                         </div>
 
@@ -185,13 +185,13 @@ function Price() {
                             <span className="pricelist-title-content">
                                 <span className="pricelist-title">Средняя длинна волос</span>
                                 <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 6000 ₽<span className="pricelist-point-zero">
+                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
                                 </span></span> </span></span>
 
                             <span className="pricelist-title-content">
                                 <span className="pricelist-title">Длинные волосы</span>
                                 <span className="pricelist-line"><span className="pricelist-line-style-dotted"></span></span>
-                                <span className="pricelist-price-content"><span className="pricelist-price "> от 8000 ₽<span className="pricelist-point-zero">
+                                <span className="pricelist-price-content"><span className="pricelist-price "> от 10000 ₽<span className="pricelist-point-zero">
                                 </span></span> </span></span>
                         </div>
 

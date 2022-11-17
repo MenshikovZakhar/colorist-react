@@ -13,7 +13,7 @@ function Main() {
                 <title>Окрашивание волос в Челябинске</title>
                 <meta name="description" content="окрашивание волос, тонирование волос, женские стрижки Челябинск" />
                 <link rel="canonical" href="/" />
-                <meta name="yandex-verification" content="66f9e7d8e1547925" />
+
             </Helmet>
             <Header />
             <main className='content'>

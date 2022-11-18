@@ -5,6 +5,7 @@ import Services from './Services/Services';
 import Portfolio from './Portfolio/Portfolio';
 import Сommunication from './Сommunication/Сommunication';
 import Partners from './Partners/Partners';
+import Emailjs from '../Emailjs/Emailjs';
 import { Helmet } from 'react-helmet-async';
 function Main() {
     return (
@@ -24,6 +25,7 @@ function Main() {
                 <Partners />
             </main>
             <Footer />
+
         </>
     );
 }

@@ -19,7 +19,6 @@ import { useState } from 'react';
 import { ImagePopup } from '../ImagePopup/ImagePopup';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import Emailjs from '../Emailjs/Emailjs';
-import { InfoToolTip } from '../InfoToolTip/InfoToolTip';
 function App() {
   const [selectedCard, setSelectedCard] = useState({});
   const [isImagePopup, setImagePopup] = useState(false);
@@ -109,12 +108,6 @@ function App() {
         isOpen={isImagePopup}
         onClose={closePopupsMessage}
         card={selectedCard}
-      />
-      <InfoToolTip
-
-        onClose={closePopupsMessage}
-
-
       />
     </div>
   )

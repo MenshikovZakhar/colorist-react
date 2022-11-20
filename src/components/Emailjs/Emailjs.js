@@ -2,7 +2,7 @@ import './Emailjs.css';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import classNames from 'classnames';
-function Emailjs({ isOpen, onClose, isOpenInfoToolTip }) {
+function Emailjs({ isOpen, onClose }) {
     const classPopup = classNames(`popup`, {
         popup_opened: isOpen
     });
@@ -31,7 +31,6 @@ function Emailjs({ isOpen, onClose, isOpenInfoToolTip }) {
 
         setToSend('');
         onClose();
-
     };
 
     const handleChange = (e) => {
@@ -78,8 +77,10 @@ function Emailjs({ isOpen, onClose, isOpenInfoToolTip }) {
                         onChange={handleChange}
                         placeholder='Your message'
                     />
+                    <button disabled={!isFormValid} type="submit"
+                        className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
+                        Отправить</button>
 
-                    <button type='submit'>Submit</button>
                 </form>
                 <button
                     aria-label='Close'

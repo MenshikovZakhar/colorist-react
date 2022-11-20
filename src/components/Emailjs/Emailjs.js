@@ -5,10 +5,11 @@ import { send } from 'emailjs-com';
 function Emailjs() {
     const [toSend, setToSend] = useState({
         from_name: '',
-        to_name: '',
+        phone: '',
         message: '',
-        reply_to: '',
     });
+    const [errors, setErrors] = useState({});
+    const [isFormValid, setIsFormValid] = useState(false);
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -28,6 +29,8 @@ function Emailjs() {
 
     const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
+        setErrors({ ...errors, [e.target.name]: e.target.validationMessage });
+        setIsFormValid(e.target.closest('form').checkValidity());
     };
 
     return (
@@ -35,32 +38,33 @@ function Emailjs() {
             <form onSubmit={onSubmit}>
                 <input
                     type='text'
-                    name='from_name'
+                    name='name'
                     placeholder='from name'
-                    value={toSend.from_name}
+                    value={toSend.name || ''}
                     onChange={handleChange}
+                    pattern="[а-яА-Яa-zA-ZёË\- ]{2,}"
+                    required
                 />
+                <span className="register__error auth__error">{errors.name}</span>
+
                 <input
-                    type='text'
-                    name='to_name'
-                    placeholder='to name'
-                    value={toSend.to_name}
+                    type="tel"
+                    name='phone'
+                    placeholder='tel'
+                    value={toSend.tel}
                     onChange={handleChange}
+                    pattern="[0-9]{11}"
+                    required
                 />
-                <input
+                <span className="register__error auth__error">{errors.phone}</span>
+                <textarea
                     type='text'
                     name='message'
+                    value={toSend.message || ''}
+                    onChange={handleChange}
                     placeholder='Your message'
-                    value={toSend.message}
-                    onChange={handleChange}
                 />
-                <input
-                    type='text'
-                    name='reply_to'
-                    placeholder='Your email'
-                    value={toSend.reply_to}
-                    onChange={handleChange}
-                />
+
                 <button type='submit'>Submit</button>
             </form>
 

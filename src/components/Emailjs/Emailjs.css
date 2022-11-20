@@ -30,3 +30,8 @@
     width: auto;
     margin: 20px auto;
 }
+
+
+.emailjs__close:hover {
+    opacity: 0.6;
+}

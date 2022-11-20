@@ -30,6 +30,7 @@ function Emailjs({ isOpen, onClose }) {
             });
 
         setToSend('');
+        onClose();
     };
 
     const handleChange = (e) => {

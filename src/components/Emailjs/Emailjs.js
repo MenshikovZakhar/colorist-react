@@ -4,7 +4,7 @@ import { send } from 'emailjs-com';
 
 function Emailjs() {
     const [toSend, setToSend] = useState({
-        from_name: '',
+        name: '',
         phone: '',
         message: '',
     });
@@ -25,6 +25,8 @@ function Emailjs() {
             .catch((err) => {
                 console.log('FAILED...', err);
             });
+
+        setToSend('');
     };
 
     const handleChange = (e) => {
@@ -51,7 +53,7 @@ function Emailjs() {
                     type="tel"
                     name='phone'
                     placeholder='tel'
-                    value={toSend.tel}
+                    value={toSend.phone || ''}
                     onChange={handleChange}
                     pattern="[0-9]{11}"
                     required

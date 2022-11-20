@@ -25,6 +25,7 @@ function Main() {
                 <Partners />
             </main>
             <Footer />
+
         </>
     );
 }

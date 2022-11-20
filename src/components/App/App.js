@@ -16,22 +16,22 @@ import ServicesMe_2 from '../ServicesMe/ServicesMe_2';
 import ServicesMe_3 from '../ServicesMe/ServicesMe_3';
 import ServicesMe_4 from '../ServicesMe/ServicesMe_4';
 import { useState } from 'react';
-import { InfoToolTip } from '../InfoToolTip/InfoToolTip';
+import { ImagePopup } from '../ImagePopup/ImagePopup';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import Emailjs from '../Emailjs/Emailjs';
 function App() {
   const [selectedCard, setSelectedCard] = useState({});
-  const [isInfoTooltipOpen, setInfoTooltip] = useState(false);
+  const [isImagePopup, setImagePopup] = useState(false);
   const [isAppointmentpOpen, setAppointmentpOpen] = useState(false);
   const closePopupsMessage = () => {
-    setInfoTooltip(false);
+    setImagePopup(false);
     setAppointmentpOpen(false);
   };
 
   //открытие попапа с картинкой
   const handleCardClick = (card) => {
     setSelectedCard(card);
-    setInfoTooltip(true);
+    setImagePopup(true);
   };
 
   //открытие попапа онлайн записи
@@ -103,8 +103,8 @@ function App() {
         isOpen={isAppointmentpOpen}
         onClose={closePopupsMessage}
       />
-      <InfoToolTip
-        isOpen={isInfoTooltipOpen}
+      <ImagePopup
+        isOpen={isImagePopup}
         onClose={closePopupsMessage}
         card={selectedCard}
       />

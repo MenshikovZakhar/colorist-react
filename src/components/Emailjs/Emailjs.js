@@ -2,7 +2,7 @@ import './Emailjs.css';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import classNames from 'classnames';
-function Emailjs({ isOpen, onClose }) {
+function Emailjs({ isOpen, onClose, isOpenInfoToolTip }) {
     const classPopup = classNames(`popup`, {
         popup_opened: isOpen
     });
@@ -31,6 +31,7 @@ function Emailjs({ isOpen, onClose }) {
 
         setToSend('');
         onClose();
+
     };
 
     const handleChange = (e) => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
-import './InfoToolTip.css';
+import './ImagePopup.css';
 
-export const InfoToolTip = ({ isOpen, onClose, card }) => {
+export const ImagePopup = ({ isOpen, onClose, card }) => {
     const classPopup = classNames(`popup`, {
         popup_opened: isOpen
     });

@@ -7,3 +7,26 @@
     color: #EE3465;
     min-height: 12px;
 }
+
+.emailjs__close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/close.svg);
+    background-color: unset;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.emailjs {
+    position: relative;
+    max-width: 85vw;
+    max-height: 85vh;
+    width: auto;
+    margin: 20px auto;
+}

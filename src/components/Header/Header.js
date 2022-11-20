@@ -4,7 +4,7 @@ import './Header.css';
 import logo from '../../images/logo_1.png';
 import Navigation from '../Navigation/Navigation';
 
-function Header() {
+function Header({ onAppointment }) {
     const [fixedHeader, setFixedHeader] = useState(false);
 
     useEffect(() => {
@@ -21,6 +21,7 @@ function Header() {
             <Link to='/' className='header__link'>
                 <img className='header__logo' src={logo} alt='logo' />
             </Link>
+            <button onClick={onAppointment} type="button" className="profile__add-button">Записаться</button>
             <Navigation />
         </header>
     );

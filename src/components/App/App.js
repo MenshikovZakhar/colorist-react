@@ -18,24 +18,34 @@ import ServicesMe_4 from '../ServicesMe/ServicesMe_4';
 import { useState } from 'react';
 import { InfoToolTip } from '../InfoToolTip/InfoToolTip';
 import PageNotFound from '../PageNotFound/PageNotFound';
-
+import Emailjs from '../Emailjs/Emailjs';
 function App() {
   const [selectedCard, setSelectedCard] = useState({});
   const [isInfoTooltipOpen, setInfoTooltip] = useState(false);
+  const [isAppointmentpOpen, setAppointmentpOpen] = useState(false);
   const closePopupsMessage = () => {
     setInfoTooltip(false);
+    setAppointmentpOpen(false);
   };
+
   //открытие попапа с картинкой
   const handleCardClick = (card) => {
     setSelectedCard(card);
     setInfoTooltip(true);
   };
 
+  //открытие попапа онлайн записи
+  const handleAppointment = () => {
+    setAppointmentpOpen(true)
+  }
+
   return (
     <div className='page'>
       <Switch>
         <Route exact path='/'>
-          <Main />
+          <Main
+            onAppointment={handleAppointment}
+          />
         </Route>
         <Route exact path='/about'>
           <AboutMe />
@@ -89,7 +99,10 @@ function App() {
           <PageNotFound />
         </Route>
       </Switch>
-
+      <Emailjs
+        isOpen={isAppointmentpOpen}
+        onClose={closePopupsMessage}
+      />
       <InfoToolTip
         isOpen={isInfoTooltipOpen}
         onClose={closePopupsMessage}

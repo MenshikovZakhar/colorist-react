@@ -7,7 +7,7 @@ import Сommunication from './Сommunication/Сommunication';
 import Partners from './Partners/Partners';
 import Emailjs from '../Emailjs/Emailjs';
 import { Helmet } from 'react-helmet-async';
-function Main() {
+function Main({ onAppointment }) {
     return (
         <>
             <Helmet>
@@ -16,7 +16,9 @@ function Main() {
                 <link rel="canonical" href="/" />
                 <meta name="yandex-verification" content="66f9e7d8e1547925" />
             </Helmet>
-            <Header />
+            <Header
+                onAppointment={onAppointment}
+            />
             <main className='content'>
                 <About />
                 <Services />

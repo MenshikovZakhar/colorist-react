@@ -1,8 +1,11 @@
 import './Emailjs.css';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
-
-function Emailjs() {
+import classNames from 'classnames';
+function Emailjs({ isOpen, onClose }) {
+    const classPopup = classNames(`popup`, {
+        popup_opened: isOpen
+    });
     const [toSend, setToSend] = useState({
         name: '',
         phone: '',
@@ -35,41 +38,54 @@ function Emailjs() {
         setIsFormValid(e.target.closest('form').checkValidity());
     };
 
+    const handleMouseDown = (e) => {
+        if (e.target === e.currentTarget) {
+            onClose();
+        }
+    };
+
     return (
-        <div className="emailjs">
-            <form onSubmit={onSubmit}>
-                <input
-                    type='text'
-                    name='name'
-                    placeholder='from name'
-                    value={toSend.name || ''}
-                    onChange={handleChange}
-                    pattern="[а-яА-Яa-zA-ZёË\- ]{2,}"
-                    required
-                />
-                <span className="register__error auth__error">{errors.name}</span>
+        <div className={classPopup} onMouseDown={handleMouseDown}>
+            <div className="emailjs">
+                <form onSubmit={onSubmit}>
+                    <input
+                        type='text'
+                        name='name'
+                        placeholder='from name'
+                        value={toSend.name || ''}
+                        onChange={handleChange}
+                        pattern="[а-яА-Яa-zA-ZёË\- ]{2,}"
+                        required
+                    />
+                    <span className="register__error auth__error">{errors.name}</span>
 
-                <input
-                    type="tel"
-                    name='phone'
-                    placeholder='tel'
-                    value={toSend.phone || ''}
-                    onChange={handleChange}
-                    pattern="[0-9]{11}"
-                    required
-                />
-                <span className="register__error auth__error">{errors.phone}</span>
-                <textarea
-                    type='text'
-                    name='message'
-                    value={toSend.message || ''}
-                    onChange={handleChange}
-                    placeholder='Your message'
-                />
+                    <input
+                        type="tel"
+                        name='phone'
+                        placeholder='tel'
+                        value={toSend.phone || ''}
+                        onChange={handleChange}
+                        pattern="[0-9]{11}"
+                        required
+                    />
+                    <span className="register__error auth__error">{errors.phone}</span>
+                    <textarea
+                        type='text'
+                        name='message'
+                        value={toSend.message || ''}
+                        onChange={handleChange}
+                        placeholder='Your message'
+                    />
 
-                <button type='submit'>Submit</button>
-            </form>
-
+                    <button type='submit'>Submit</button>
+                </form>
+                <button
+                    aria-label='Close'
+                    className='emailjs__close'
+                    type='button'
+                    onClick={() => onClose(false)}
+                ></button>
+            </div>
         </div>
     );
 }

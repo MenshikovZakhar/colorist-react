@@ -9,3 +9,9 @@ export const NUMBER_OF_CARDS_LESS_767 = 6;
 export const ADD_NUMBER_CARD_3 = 4;
 export const ADD_NUMBER_CARD_2 = 3;
 export const ADD_NUMBER_CARD_1 = 2;
+
+// Сообщения об успехе операции
+export const SAVE_MOVIE_MESSAGE = 'Фильм сохранён';
+
+// Ошибки
+export const NOT_FOUND_MESSAGE = 'Ничего не найдено';

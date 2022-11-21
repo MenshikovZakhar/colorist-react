@@ -10,8 +10,8 @@
 
 .emailjs__close {
     position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 0px;
+    right: 0px;
     cursor: pointer;
     width: 20px;
     height: 20px;
@@ -60,4 +60,9 @@
 .auth__submit-button:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+.emailjs__message {
+    color: white;
+    font-size: 20px;
 }

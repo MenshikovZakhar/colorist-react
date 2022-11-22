@@ -7,6 +7,7 @@ import Сommunication from './Сommunication/Сommunication';
 import Partners from './Partners/Partners';
 import Emailjs from '../Emailjs/Emailjs';
 import { Helmet } from 'react-helmet-async';
+import ScrollToTop from "react-scroll-to-top";
 function Main({ onAppointment }) {
     return (
         <>
@@ -20,6 +21,7 @@ function Main({ onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='content'>
+                <ScrollToTop smooth />
                 <About />
                 <Services />
                 <Сommunication />

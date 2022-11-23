@@ -12,6 +12,7 @@ import location_3 from '../../images/location-3.svg';
 import location_4 from '../../images/location-4.svg';
 import './Contacts.css';
 import { Helmet } from 'react-helmet-async';
+import ScrollToTop from "react-scroll-to-top";
 function Contacts() {
     return (
         <>
@@ -22,6 +23,7 @@ function Contacts() {
             </Helmet>
             <Header />
             <main className='contacts'>
+                <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <div className='map__description'>
 
 

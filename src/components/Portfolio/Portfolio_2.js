@@ -6,6 +6,7 @@ import { arrayPortfolio_2 } from '../../constants/arrayPortfolio';
 import './Portfolio.css';
 import Consultation from '../Price/Consultation/Consultation';
 import { Helmet } from 'react-helmet-async';
+import ScrollToTop from "react-scroll-to-top";
 function Portfolio_2({ onCardClick }) {
     return (
         <>
@@ -16,6 +17,7 @@ function Portfolio_2({ onCardClick }) {
             </Helmet>
             <Header />
             <main className='portfolio'>
+                <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <>
                     <PortfolioNav />
                 </>

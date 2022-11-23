@@ -6,7 +6,7 @@ import price__img_3 from '../../images/price__img-3.png';
 import './Price.css';
 import Consultation from './Consultation/Consultation';
 import { Helmet } from 'react-helmet-async';
-
+import ScrollToTop from "react-scroll-to-top";
 function Price() {
     return (
         <>
@@ -17,6 +17,7 @@ function Price() {
             </Helmet>
             <Header />
             <main className='price'>
+                <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <div className='price-description'>
                     <div className='price__description'>
 

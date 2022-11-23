@@ -5,7 +5,7 @@ import Services from './Services/Services';
 import Portfolio from './Portfolio/Portfolio';
 import Сommunication from './Сommunication/Сommunication';
 import Partners from './Partners/Partners';
-import Emailjs from '../Emailjs/Emailjs';
+import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
 function Main({ onAppointment }) {
@@ -21,7 +21,7 @@ function Main({ onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='content'>
-                <ScrollToTop smooth />
+                <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <About />
                 <Services />
                 <Сommunication />

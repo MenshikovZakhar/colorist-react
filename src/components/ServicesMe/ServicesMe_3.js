@@ -6,6 +6,7 @@ import { arrayPortfolio_9 } from '../../constants/arrayPortfolio';
 import Image from '../Image/Image_2';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import ScrollToTop from "react-scroll-to-top";
 function ServicesMe_3({ onCardClick }) {
     return (
         <>
@@ -16,6 +17,7 @@ function ServicesMe_3({ onCardClick }) {
             </Helmet>
             <Header />
             <main className='servicesme'>
+                <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <section className='servicesme__description'>
                     <div className='servicesme-description'>
                         <div className='servicesme-title'>

@@ -11,6 +11,7 @@ import vk from '../../images/vk_2.svg';
 import phone from '../../images/phone_2.png';
 import whatsapp from '../../images/whatsapp_2.svg';
 import { Helmet } from 'react-helmet-async';
+import ScrollToTop from "react-scroll-to-top";
 function AboutMe() {
     return (
         <>
@@ -21,6 +22,7 @@ function AboutMe() {
             </Helmet>
             <Header />
             <main className='aboutme'>
+                <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <section className="about">
                     <div className="about__description-text">
                         <p className="about__description-paragraph">

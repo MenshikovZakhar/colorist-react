@@ -25,9 +25,7 @@
 
 .emailjs {
     position: relative;
-    max-width: 85vw;
-    max-height: 85vh;
-    width: auto;
+    max-width: 35vw;
     margin: 20px auto;
     background-color: white;
 }
@@ -66,4 +64,13 @@
 .emailjs__message {
     color: white;
     font-size: 20px;
+}
+
+.emailjs__textarea {
+    width: 300px;
+    height: 300px;
+}
+
+.emailjs__form {
+    padding-left: 20px;
 }

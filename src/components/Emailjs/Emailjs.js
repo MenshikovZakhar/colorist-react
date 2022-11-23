@@ -2,6 +2,11 @@ import './Emailjs.css';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import classNames from 'classnames';
+import instagram from '../../images/instagram.svg';
+import telegram from '../../images/telegram.svg';
+import vk from '../../images/vk.svg';
+import phone from '../../images/phone.svg';
+import whatsapp from '../../images/whatsapp.svg';
 import {
     NOT_FOUND_MESSAGE,
     SAVE_MOVIE_MESSAGE,
@@ -58,8 +63,9 @@ function Emailjs({ isOpen, onClose, }) {
         <div className={classPopup} onMouseDown={handleMouseDown}>
             {isEmailjsOpen ? (<h1 className='emailjs__message'>{messageAcceptAuth}</h1>) :
                 (<div className="emailjs">
-                    <form onSubmit={onSubmit}>
+                    <form onSubmit={onSubmit} className="emailjs__form">
                         <input
+                            className='emailjs__input'
                             type='text'
                             name='name'
                             placeholder='from name'
@@ -71,6 +77,7 @@ function Emailjs({ isOpen, onClose, }) {
                         <span className="register__error auth__error">{errors.name}</span>
 
                         <input
+                            className='emailjs__input'
                             type="tel"
                             name='phone'
                             placeholder='tel'
@@ -81,6 +88,7 @@ function Emailjs({ isOpen, onClose, }) {
                         />
                         <span className="register__error auth__error">{errors.phone}</span>
                         <textarea
+                            className='emailjs__textarea'
                             type='text'
                             name='message'
                             value={toSend.message || ''}
@@ -90,7 +98,23 @@ function Emailjs({ isOpen, onClose, }) {
                         <button disabled={!isFormValid} type="submit"
                             className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
                             Отправить</button>
-
+                        <div className='iqons'>
+                            <a href="tel:+79514840077">
+                                <img className='iqons__logo' src={phone} alt='logo' />
+                            </a>
+                            <a href="https://wa.me/79514840077" target="_blank" rel="noreferrer">
+                                <img className='iqons__logo' src={whatsapp} alt='logo' />
+                            </a>
+                            <a href="https://instagram.com/valeria_colorist?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+                                <img className='iqons__logo' src={instagram} alt='logo' />
+                            </a>
+                            <a href="https://t.me/Valeria_Smolentseva" target="_blank" rel="noreferrer">
+                                <img className='iqons__logo' src={telegram} alt='logo' />
+                            </a>
+                            <a href="https://vk.com/public200598040" target="_blank" rel="noreferrer">
+                                <img className='iqons__logo' src={vk} alt='logo' />
+                            </a>
+                        </div>
                     </form>
 
                 </div>)

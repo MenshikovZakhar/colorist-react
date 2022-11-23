@@ -21,7 +21,7 @@ function Main({ onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='content'>
-                <ScrollToTop smooth className="scrolltop" svgPath="none" />
+                <ScrollToTop height='40' width='40' smooth className="scrolltop" svgPath="none" />
                 <About />
                 <Services />
                 <Сommunication />

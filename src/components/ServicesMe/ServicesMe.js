@@ -5,7 +5,7 @@ import Services from '../Main/Services/Services';
 import Consultation from '../Price/Consultation/Consultation';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-function ServicesMe() {
+function ServicesMe({ onAppointment }) {
     return (
         <>
             <Helmet>
@@ -13,7 +13,9 @@ function ServicesMe() {
                 <meta name="description" content="окрашивание волос, тонирование волос, женские стрижки Челябинск" />
                 <link rel="canonical" href="/services" />
             </Helmet>
-            <Header />
+            <Header
+                onAppointment={onAppointment}
+            />
             <main className='servicesme'>
                 <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <Services />

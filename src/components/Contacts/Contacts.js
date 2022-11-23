@@ -13,7 +13,7 @@ import location_4 from '../../images/location-4.svg';
 import './Contacts.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-function Contacts() {
+function Contacts({ onAppointment }) {
     return (
         <>
             <Helmet>
@@ -21,7 +21,9 @@ function Contacts() {
                 <meta name="description" content="Телефон, Адрес, Режим работы, Валерия Смоленцева" />
                 <link rel="canonical" href='/contacts' />
             </Helmet>
-            <Header />
+            <Header
+                onAppointment={onAppointment}
+            />
             <main className='contacts'>
                 <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <div className='map__description'>

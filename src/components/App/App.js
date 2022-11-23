@@ -49,52 +49,52 @@ function App() {
           />
         </Route>
         <Route exact path='/about'>
-          <AboutMe />
+          <AboutMe onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/services'>
-          <ServicesMe />
+          <ServicesMe onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/services_1'>
-          <ServicesMe_1 onCardClick={handleCardClick} />
+          <ServicesMe_1 onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/services_2'>
-          <ServicesMe_2 onCardClick={handleCardClick} />
+          <ServicesMe_2 onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/services_3'>
-          <ServicesMe_3 onCardClick={handleCardClick} />
+          <ServicesMe_3 onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/services_4'>
-          <ServicesMe_4 onCardClick={handleCardClick} />
+          <ServicesMe_4 onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/price'>
-          <Price />
+          <Price onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/portfolio'>
           <Portfolio
-            onCardClick={handleCardClick} />
+            onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/portfolio_1'>
           <Portfolio_1
-            onCardClick={handleCardClick} />
+            onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/portfolio_2'>
           <Portfolio_2
-            onCardClick={handleCardClick} />
+            onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/portfolio_3'>
           <Portfolio_3
-            onCardClick={handleCardClick} />
+            onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/portfolio_4'>
           <Portfolio_4
-            onCardClick={handleCardClick} />
+            onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/portfolio_5'>
           <Portfolio_5
-            onCardClick={handleCardClick} />
+            onCardClick={handleCardClick} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/contacts'>
-          <Contacts />
+          <Contacts onAppointment={handleAppointment} />
         </Route>
         <Route path='*'>
           <PageNotFound />

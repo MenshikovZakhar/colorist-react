@@ -7,7 +7,7 @@ import './Portfolio.css';
 import Consultation from '../Price/Consultation/Consultation';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-function Portfolio_2({ onCardClick }) {
+function Portfolio_2({ onCardClick, onAppointment }) {
     return (
         <>
             <Helmet>
@@ -15,7 +15,9 @@ function Portfolio_2({ onCardClick }) {
                 <meta name="description" content="Портфолио работ Airtouch, Shatush, Balayage, Мелирование" />
                 <link rel="canonical" href='/portfolio_2' />
             </Helmet>
-            <Header />
+            <Header
+                onAppointment={onAppointment}
+            />
             <main className='portfolio'>
                 <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <>

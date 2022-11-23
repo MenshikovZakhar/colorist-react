@@ -7,7 +7,7 @@ import Image from '../Image/Image_2';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-function ServicesMe_2({ onCardClick }) {
+function ServicesMe_2({ onCardClick, onAppointment }) {
     return (
         <>
             <Helmet>
@@ -15,7 +15,9 @@ function ServicesMe_2({ onCardClick }) {
                 <meta name="description" content="Тонирование волос Челябинск" />
                 <link rel="canonical" href="/services_2" />
             </Helmet>
-            <Header />
+            <Header
+                onAppointment={onAppointment}
+            />
             <main className='servicesme'>
                 <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <section className='servicesme__description'>

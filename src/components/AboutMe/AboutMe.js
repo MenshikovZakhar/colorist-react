@@ -12,7 +12,8 @@ import phone from '../../images/phone_2.png';
 import whatsapp from '../../images/whatsapp_2.svg';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-function AboutMe() {
+
+function AboutMe({ onAppointment }) {
     return (
         <>
             <Helmet>
@@ -20,7 +21,9 @@ function AboutMe() {
                 <meta name="description" content="Валерия Смоленцева Парикмахер широкого профиля, колорист Челябинск" />
                 <link rel="canonical" href="/about" />
             </Helmet>
-            <Header />
+            <Header
+                onAppointment={onAppointment}
+            />
             <main className='aboutme'>
                 <ScrollToTop smooth className="scrolltop" svgPath="none" />
                 <section className="about">

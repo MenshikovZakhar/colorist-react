@@ -11,6 +11,8 @@ import {
     NOT_FOUND_MESSAGE,
     SAVE_MOVIE_MESSAGE,
 } from '../../constants/index';
+import success from '../../images/success.png';
+import error from '../../images/error.png';
 function Emailjs({ isOpen, onClose, }) {
     const classPopup = classNames(`popup`, {
         popup_opened: isOpen
@@ -24,6 +26,7 @@ function Emailjs({ isOpen, onClose, }) {
     const [errors, setErrors] = useState({});
     const [isFormValid, setIsFormValid] = useState(false);
     const [messageAcceptAuth, setMessageAcceptAuth] = useState('');
+    const [imgAcceptAuth, setImgAcceptAuth] = useState('');
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -36,10 +39,12 @@ function Emailjs({ isOpen, onClose, }) {
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 setMessageAcceptAuth(SAVE_MOVIE_MESSAGE);
+                setImgAcceptAuth(success);
             })
             .catch((err) => {
                 console.log('FAILED...', err);
                 setMessageAcceptAuth(NOT_FOUND_MESSAGE);
+                setImgAcceptAuth(error);
             });
 
         setToSend('');
@@ -51,6 +56,8 @@ function Emailjs({ isOpen, onClose, }) {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
         setErrors({ ...errors, [e.target.name]: e.target.validationMessage });
         setIsFormValid(e.target.closest('form').checkValidity());
+        setImgAcceptAuth("")
+        setMessageAcceptAuth("");
     };
 
     const handleMouseDown = (e) => {
@@ -59,16 +66,18 @@ function Emailjs({ isOpen, onClose, }) {
         }
     };
 
+
+
     return (
         <div className={classPopup} onMouseDown={handleMouseDown}>
-            {isEmailjsOpen ? (<h1 className='emailjs__message'>{messageAcceptAuth}</h1>) :
+            {isEmailjsOpen ? (<div className="emailjs__message"> <h1 className='emailjs__title'>{messageAcceptAuth}</h1><img className="popup__info-image" src={imgAcceptAuth} /></div>) :
                 (<div className="emailjs">
                     <form onSubmit={onSubmit} className="emailjs__form">
                         <input
                             className='emailjs__input'
                             type='text'
                             name='name'
-                            placeholder='from name'
+                            placeholder='Введите Ваше Имя'
                             value={toSend.name || ''}
                             onChange={handleChange}
                             pattern="[а-яА-Яa-zA-ZёË\- ]{2,}"
@@ -80,7 +89,7 @@ function Emailjs({ isOpen, onClose, }) {
                             className='emailjs__input'
                             type="tel"
                             name='phone'
-                            placeholder='tel'
+                            placeholder='Введите Ваш телефон'
                             value={toSend.phone || ''}
                             onChange={handleChange}
                             pattern="[0-9]{11}"
@@ -93,7 +102,7 @@ function Emailjs({ isOpen, onClose, }) {
                             name='message'
                             value={toSend.message || ''}
                             onChange={handleChange}
-                            placeholder='Your message'
+                            placeholder='Укажите желаемый вид, оказываемых услуг, время и удобную для Вас дату'
                         />
                         <button disabled={!isFormValid} type="submit"
                             className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>

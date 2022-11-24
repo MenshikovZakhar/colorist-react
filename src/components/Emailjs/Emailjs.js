@@ -111,7 +111,7 @@ function Emailjs({ isOpen, onClose, }) {
                             Отправить</button>
 
                         <p className='emailjs__text_2'>Также для связи со мной Вы можете воспользоваться любым из доступных способов.</p>
-                        <div className='iqons'>
+                        <div className='emailjs__iqons'>
                             <a href="tel:+79514840077">
                                 <img className='iqons__logo' src={phone} alt='logo' />
                             </a>

@@ -25,9 +25,10 @@
 
 .emailjs {
     position: relative;
-    max-width: 35vw;
     margin: 20px auto;
     background-color: white;
+    border-radius: 15px;
+    max-width: 450px;
 }
 
 
@@ -39,12 +40,12 @@
     background-color: #2BE080;
     border-radius: 3px;
     border: none;
-    width: 100%;
+    width: 410px;
     height: 45px;
     outline: none;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
@@ -52,8 +53,9 @@
 }
 
 .auth__submit-button_disabled {
-    background-color: #F8F8F8;
-    color: #C2C2C2;
+    background-color: #e1e1e1;
+    color: #7e7e7e;
+    width: 410px;
 }
 
 .auth__submit-button:hover {
@@ -73,16 +75,16 @@
 .emailjs__text_2 {
     color: #140800;
     font-size: 20px;
-    padding-top: 10px;
-    margin: 0 0 30px 0;
+    margin: 20px 0 10px 0;
+    width: 400px;
+    text-align: center;
 }
 
 .emailjs__text {
     color: #140800;
     font-size: 20px;
     text-align: center;
-    padding-top: 10px;
-    margin: 0 0 30px 0;
+    margin: 10px 0 20px 0;
 }
 
 .emailjs__message {
@@ -99,9 +101,84 @@
 }
 
 .emailjs__form {
-    padding-left: 70px;
+    padding-left: 23px;
 }
 
 .emailjs__input {
     width: 400px;
+}
+
+.emailjs__iqons {
+    margin-left: 0px;
+}
+
+@media(max-width: 550px) {
+    .emailjs {
+        max-width: 350px;
+    }
+
+    .emailjs__input {
+        width: 300px;
+    }
+
+    .emailjs__textarea {
+        width: 300px;
+        height: 200px;
+    }
+
+    .auth__submit-button_disabled {
+        width: 310px;
+    }
+
+    .emailjs__text_2 {
+        width: 300px;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .emailjs {
+        max-width: 300px;
+    }
+
+    .emailjs__title {
+        font-size: 22px;
+    }
+
+    .emailjs__text {
+        font-size: 18px;
+    }
+
+    .emailjs__text_2 {
+        font-size: 18px;
+        margin: 20px 0 10px 0;
+        width: 280px;
+        text-align: center;
+    }
+
+    .emailjs__form {
+        padding-left: 10px;
+    }
+
+    .emailjs__input {
+        width: 270px;
+    }
+
+    .emailjs__textarea {
+        width: 270px;
+        height: 180px;
+    }
+
+    .auth__submit-button_disabled {
+        width: 280px;
+    }
+
+    .auth__submit-button {
+        width: 280px;
+    }
+
+    .emailjs__iqons {
+        margin-left: 15px;
+    }
+
 }

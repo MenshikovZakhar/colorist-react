@@ -63,6 +63,7 @@ function Emailjs({ isOpen, onClose, }) {
     const handleMouseDown = (e) => {
         if (e.target === e.currentTarget) {
             onClose();
+            setEmailjsOpen(false)
         }
     };
 
@@ -70,7 +71,7 @@ function Emailjs({ isOpen, onClose, }) {
 
     return (
         <div className={classPopup} onMouseDown={handleMouseDown}>
-            {isEmailjsOpen ? (<div className="emailjs__message"> <h2 className='emailjs__title'>{messageAcceptAuth}</h2><img className="popup__info-image" src={imgAcceptAuth} /></div>) :
+            {isEmailjsOpen ? (<div className="emailjs__message"> <h2 className='emailjs__title_2'>{messageAcceptAuth}</h2><img className="info-image" src={imgAcceptAuth} /></div>) :
                 (<div className="emailjs">
                     <h2 className='emailjs__title'>Оставьте Вашу заявку.</h2>
                     <p className='emailjs__text'>Я свяжусь с Вами в ближайшее время.</p>

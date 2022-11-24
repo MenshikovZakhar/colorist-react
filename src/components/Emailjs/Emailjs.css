@@ -88,9 +88,9 @@
 }
 
 .emailjs__message {
-    background-color: #F8F8F8;
+    background-color: #ffffff;
     width: 400px;
-    margin: 0 auto;
+    margin: 100px auto;
     min-height: 200px;
     border-radius: 20px;
 }
@@ -112,9 +112,27 @@
     margin-left: 0px;
 }
 
+.info-image {
+    width: 150px;
+    height: 170px;
+    margin-left: 130px;
+}
+
+.emailjs__title_2 {
+    color: #140800;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
 @media(max-width: 550px) {
     .emailjs {
         max-width: 350px;
+    }
+
+    .emailjs__title_2 {
+        font-size: 20px;
     }
 
     .emailjs__input {
@@ -132,6 +150,18 @@
 
     .emailjs__text_2 {
         width: 300px;
+    }
+
+    .emailjs__message {
+        width: 300px;
+    }
+
+    .auth__submit-button {
+        width: 310px;
+    }
+
+    .info-image {
+        margin-left: 90px;
     }
 }
 
@@ -181,4 +211,21 @@
         margin-left: 15px;
     }
 
+    .emailjs__message {
+        width: 250px;
+    }
+
+    .emailjs__title_2 {
+        font-size: 18px;
+    }
+
+    .info-image {
+        width: 100px;
+        height: 120px;
+        margin-left: 130px;
+    }
+
+    .info-image {
+        margin-left: 80px;
+    }
 }

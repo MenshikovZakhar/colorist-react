@@ -1,5 +1,5 @@
 import './Emailjs.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { send } from 'emailjs-com';
 import classNames from 'classnames';
 import instagram from '../../images/instagram.svg';
@@ -7,6 +7,7 @@ import telegram from '../../images/telegram.svg';
 import vk from '../../images/vk.svg';
 import phone from '../../images/phone.svg';
 import whatsapp from '../../images/whatsapp.svg';
+import { Preloader } from '../Preloader/Preloader';
 import {
     NOT_FOUND_MESSAGE,
     SAVE_MOVIE_MESSAGE,
@@ -58,6 +59,7 @@ function Emailjs({ isOpen, onClose, }) {
         setIsFormValid(e.target.closest('form').checkValidity());
         setImgAcceptAuth("")
         setMessageAcceptAuth("");
+        setIsLoading(false);
     };
 
     const handleMouseDown = (e) => {
@@ -67,11 +69,20 @@ function Emailjs({ isOpen, onClose, }) {
         }
     };
 
+    const [isLoading, setIsLoading] = useState(true);
 
+
+    useEffect(() => {
+        setIsLoading(false);
+    }, [setIsLoading]);
 
     return (
         <div className={classPopup} onMouseDown={handleMouseDown}>
-            {isEmailjsOpen ? (<div className="emailjs__message"> <h2 className='emailjs__title_2'>{messageAcceptAuth}</h2><img className="info-image" src={imgAcceptAuth} /></div>) :
+            {isEmailjsOpen ? (<div className="emailjs__message"> <h2 className='emailjs__title_2'>{messageAcceptAuth}</h2>
+                {isLoading ? null :
+                    <Preloader />
+                }
+                <img onLoad={() => setIsLoading(true)} style={isLoading ? {} : { display: 'none' }} className="info-image" src={imgAcceptAuth} alt="Отправках" /></div>) :
                 (<div className="emailjs">
                     <h2 className='emailjs__title'>Оставьте Вашу заявку.</h2>
                     <p className='emailjs__text'>Я свяжусь с Вами в ближайшее время.</p>

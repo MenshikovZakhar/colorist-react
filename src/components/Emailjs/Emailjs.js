@@ -70,8 +70,10 @@ function Emailjs({ isOpen, onClose, }) {
 
     return (
         <div className={classPopup} onMouseDown={handleMouseDown}>
-            {isEmailjsOpen ? (<div className="emailjs__message"> <h1 className='emailjs__title'>{messageAcceptAuth}</h1><img className="popup__info-image" src={imgAcceptAuth} /></div>) :
+            {isEmailjsOpen ? (<div className="emailjs__message"> <h2 className='emailjs__title'>{messageAcceptAuth}</h2><img className="popup__info-image" src={imgAcceptAuth} /></div>) :
                 (<div className="emailjs">
+                    <h2 className='emailjs__title'>Оставьте Вашу заявку.</h2>
+                    <p className='emailjs__text'>Я свяжусь с Вами в ближайшее время.</p>
                     <form onSubmit={onSubmit} className="emailjs__form">
                         <input
                             className='emailjs__input'
@@ -107,6 +109,8 @@ function Emailjs({ isOpen, onClose, }) {
                         <button disabled={!isFormValid} type="submit"
                             className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
                             Отправить</button>
+
+                        <p className='emailjs__text_2'>Также для связи со мной Вы можете воспользоваться любым из доступных способов.</p>
                         <div className='iqons'>
                             <a href="tel:+79514840077">
                                 <img className='iqons__logo' src={phone} alt='logo' />

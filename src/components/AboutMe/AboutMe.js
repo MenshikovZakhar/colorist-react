@@ -25,7 +25,7 @@ function AboutMe({ onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='aboutme'>
-                <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+
                 <section className="about">
                     <div className="about__description-text">
                         <p className="about__description-paragraph">

@@ -25,7 +25,7 @@ function Contacts({ onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='contacts'>
-                <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+
                 <div className='map__description'>
 
 

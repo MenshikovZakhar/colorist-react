@@ -17,7 +17,7 @@ function ServicesMe({ onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='servicesme'>
-                <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+
                 <Services />
                 <Consultation />
             </main>

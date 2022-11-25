@@ -19,7 +19,7 @@ function Portfolio({ onCardClick, onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='portfolio'>
-                <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+
                 <>
                     <PortfolioNav />
                 </>

@@ -20,7 +20,7 @@ function ServicesMe_4({ onCardClick, onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='servicesme'>
-                <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+
                 <section className='servicesme__description'>
                     <div className='servicesme-description'>
                         <div className='servicesme-title'>

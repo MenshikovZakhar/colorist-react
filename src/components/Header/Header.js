@@ -21,7 +21,7 @@ function Header({ onAppointment }) {
             <Link to='/' className='header__link'>
                 <img className='header__logo' src={logo} alt='logo' />
             </Link>
-            <button onClick={onAppointment} type="button" className="profile__add-button">Записаться</button>
+            <button onClick={onAppointment} type="button" className="header__add">Записаться<br /> онлайн</button>
             <Navigation />
         </header>
     );

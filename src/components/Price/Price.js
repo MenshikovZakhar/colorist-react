@@ -19,7 +19,7 @@ function Price({ onAppointment }) {
                 onAppointment={onAppointment}
             />
             <main className='price'>
-
+                <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
                 <div className='price-description'>
                     <div className='price__description'>
 

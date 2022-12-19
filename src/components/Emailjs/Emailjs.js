@@ -149,7 +149,7 @@ function Emailjs({ isOpen, onClose, }) {
                 aria-label='Close'
                 className='emailjs__close'
                 type='button'
-                onClick={() => { setEmailjsOpen(false); onClose(false) }}
+                onClick={() => { setToSend(''); setEmailjsOpen(false); onClose(false) }}
             ></button>
 
         </div>

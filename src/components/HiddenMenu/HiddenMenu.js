@@ -26,7 +26,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             to='/about'
             className={({ isActive }) =>
               isActive
-                ? 'nav-movie__link-adapt active-adapt'
+                ? 'nav-movie__link-adapt active'
                 : 'nav-movie__link-adapt'
             }
             onClick={onClickCloseMenu}
@@ -37,7 +37,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             to='/services'
             className={({ isActive }) =>
               isActive
-                ? 'nav-movie__link-adapt active-adapt'
+                ? 'nav-movie__link-adapt active'
                 : 'nav-movie__link-adapt'
             }
             onClick={onClickCloseMenu}
@@ -48,7 +48,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             to='/price'
             className={({ isActive }) =>
               isActive
-                ? 'nav-movie__link-adapt active-adapt'
+                ? 'nav-movie__link-adapt active'
                 : 'nav-movie__link-adapt'
             }
             onClick={onClickCloseMenu}
@@ -59,7 +59,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             to='/portfolio'
             className={({ isActive }) =>
               isActive
-                ? 'nav-movie__link-adapt active-adapt'
+                ? 'nav-movie__link-adapt active'
                 : 'nav-movie__link-adapt'
             }
             onClick={onClickCloseMenu}
@@ -70,7 +70,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             to='/contacts'
             className={({ isActive }) =>
               isActive
-                ? 'nav-movie__link-adapt active-adapt'
+                ? 'nav-movie__link-adapt active'
                 : 'nav-movie__link-adapt'
             }
             onClick={onClickCloseMenu}

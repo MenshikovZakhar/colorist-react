@@ -29,6 +29,7 @@ function Emailjs({ isOpen, onClose, }) {
     const [messageAcceptAuth, setMessageAcceptAuth] = useState('');
     const [imgAcceptAuth, setImgAcceptAuth] = useState('');
 
+
     const onSubmit = (e) => {
         e.preventDefault();
         send(

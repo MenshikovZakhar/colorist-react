@@ -46,6 +46,7 @@ function App() {
         <Route exact path='/'>
           <Main
             onAppointment={handleAppointment}
+            onCardClick={handleCardClick}
           />
         </Route>
         <Route exact path='/about'>

@@ -58,6 +58,33 @@ import slide54 from '../images/Portfolio/slide54.jpg';
 import slide55 from '../images/Portfolio/slide55.jpg';
 
 
+import slide56 from "../images/certificates__img-1.jpg"
+import slide57 from "../images/certificates__img-2.jpg"
+import slide58 from "../images/certificates__img-3.jpg"
+import slide59 from "../images/certificates__img-4.jpg"
+import slide60 from "../images/certificates__img-5.jpg"
+import slide61 from "../images/certificates__img-6.jpg"
+import slide62 from "../images/certificates__img-7.jpg"
+import slide63 from "../images/certificates__img-8.jpg"
+import slide64 from "../images/certificates__img-9.jpg"
+import slide65 from "../images/certificates__img-10.jpg"
+
+
+export const arrayCertificates = [
+    { src: slide56 },
+    { src: slide57 },
+    { src: slide58 },
+    { src: slide59 },
+    { src: slide60 },
+    { src: slide61 },
+    { src: slide62 },
+    { src: slide63 },
+    { src: slide64 },
+    { src: slide65 },
+]
+
+
+
 export const arrayPortfolio_1 = [
     { src: slide1 },
     { src: slide2 },

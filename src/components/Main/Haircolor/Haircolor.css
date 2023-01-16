@@ -1,0 +1,42 @@
+.haircolor-me {
+    background-color: #140800;
+}
+
+.haircolor__description {
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    border: 7px #585858;
+    border-style: ridge;
+    padding: 20px 0;
+}
+
+.haircolor-me__description {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 900px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.haircolor-me__description-text {
+    margin-top: 0px;
+    align-items: center;
+    display: flex;
+    width: 900px;
+}
+
+.haircolor__description-photo {
+    width: 200px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.haircolor__description-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    text-indent: 30px;
+}

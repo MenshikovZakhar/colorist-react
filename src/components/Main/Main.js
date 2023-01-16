@@ -5,10 +5,12 @@ import Services from './Services/Services';
 import Portfolio from './Portfolio/Portfolio';
 import Сommunication from './Сommunication/Сommunication';
 import Partners from './Partners/Partners';
+import Haircolor from './Haircolor/Haircolor';
 import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-function Main({ onAppointment }) {
+import Сertificates from '../Сertificates/Сertificates';
+function Main({ onAppointment, onCardClick }) {
     return (
         <>
             <Helmet>
@@ -26,6 +28,7 @@ function Main({ onAppointment }) {
                 <Services />
                 <Сommunication />
                 <Portfolio />
+                <Сertificates onCardClick={onCardClick} />
                 <Partners />
             </main>
             <Footer />

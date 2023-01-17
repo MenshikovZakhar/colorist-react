@@ -3,9 +3,9 @@ import InfiniteCarousel from 'react-leaf-carousel';
 import './Сertificates.css';
 import { arrayCertificates } from '../../constants/arrayPortfolio';
 import Image from '../Image/Image_3';
-const handleDragStart = (e) => e.preventDefault();
 
 const Сertificates = ({ onCardClick }) => {
+
 
     return (
         <div className='certificates'>
@@ -109,9 +109,8 @@ const Сertificates = ({ onCardClick }) => {
                     pauseOnHover={true}
                     cycleInterval={5000}
                     duration={1000}
-
-
                 >
+
 
                     {arrayCertificates.map((image, index) => {
 

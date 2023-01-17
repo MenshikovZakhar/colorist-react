@@ -411,7 +411,7 @@
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 350px) {
     .about {
         width: 290px;
     }

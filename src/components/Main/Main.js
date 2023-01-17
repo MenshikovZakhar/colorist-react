@@ -9,8 +9,8 @@ import Haircolor from './Haircolor/Haircolor';
 import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-import Сertificates from '../Сertificates/Сertificates';
-function Main({ onAppointment, onCardClick }) {
+
+function Main({ onAppointment }) {
     return (
         <>
             <Helmet>
@@ -28,7 +28,7 @@ function Main({ onAppointment, onCardClick }) {
                 <Services />
                 <Сommunication />
                 <Portfolio />
-                <Сertificates onCardClick={onCardClick} />
+
                 <Partners />
             </main>
             <Footer />

@@ -2,6 +2,8 @@
     background-color: #ffffff;
     border: 7px #585858;
     border-style: ridge;
+    max-width: 1400px;
+    margin: 10px auto 0;
 }
 
 .certificates__img {
@@ -10,19 +12,24 @@
 }
 
 .certificates__description {
-    max-width: 1400px;
     margin: 0 auto;
     background-color: #ffffff;
 }
 
-.certificates__title {
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 50px;
-    text-align: center;
-    margin: 10px auto 0;
-    color: #140800;
+
+
+@media(max-width: 1430px) {
+    .certificates {
+        max-width: 1200px;
+    }
 }
+
+@media(max-width: 1230px) {
+    .certificates {
+        max-width: 1000px;
+    }
+}
+
 
 @media(max-width: 1099px) {
     .certificates__description {
@@ -30,55 +37,108 @@
         margin: 0 auto;
     }
 
-    .certificates__img {
-        height: 120px;
+}
+
+
+@media(max-width: 1050px) {
+    .certificates__description {
+        max-width: 900px;
+    }
+
+}
+
+@media(max-width: 930px) {
+    .certificates__description {
+        max-width: 800px;
+    }
+
+}
+
+@media(max-width: 850px) {
+    .certificates__description {
+        max-width: 750px;
+        margin: 0 auto;
     }
 }
 
-@media(max-width: 849px) {
+@media(max-width: 800px) {
+    .certificates__description {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media(max-width: 740px) {
+    .certificates__description {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 690px) {
     .certificates__description {
         max-width: 600px;
         margin: 0 auto;
     }
 }
 
-@media(max-width: 499px) {
+@media(max-width: 630px) {
     .certificates__description {
-        max-width: 380px;
+        max-width: 550px;
         margin: 0 auto;
     }
-
-    .certificates__img {
-        height: 80px;
-    }
-
-    .certificates__title {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
 }
 
 
-@media(max-width: 390px) {
+@media(max-width: 590px) {
+    .certificates__description {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 530px) {
+    .certificates__description {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 490px) {
+    .certificates__description {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 450px) {
+    .certificates__description {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 420px) {
+    .certificates__description {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 380px) {
     .certificates__description {
         max-width: 320px;
         margin: 0 auto;
     }
-
-    .certificates__img {
-        height: 80px;
-    }
-
-    .certificates__title {
-        font-size: 25px;
-        line-height: 25px;
-    }
-
-    .certificates__img {
-        height: 60px;
-    }
 }
+
+
+
 
 
 @media(max-width: 350px) {

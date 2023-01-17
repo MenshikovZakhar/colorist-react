@@ -46,11 +46,10 @@ function App() {
         <Route exact path='/'>
           <Main
             onAppointment={handleAppointment}
-            onCardClick={handleCardClick}
           />
         </Route>
         <Route exact path='/about'>
-          <AboutMe onAppointment={handleAppointment} />
+          <AboutMe onAppointment={handleAppointment} onCardClick={handleCardClick} />
         </Route>
         <Route exact path='/services'>
           <ServicesMe onAppointment={handleAppointment} />

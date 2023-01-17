@@ -14,12 +14,19 @@
 .certificates__description {
     margin: 0 auto;
     background-color: #ffffff;
+    max-width: 1400px;
 }
 
 
 
 @media(max-width: 1430px) {
     .certificates {
+        max-width: 1200px;
+    }
+
+    .certificates__description {
+        margin: 0 auto;
+        background-color: #ffffff;
         max-width: 1200px;
     }
 }

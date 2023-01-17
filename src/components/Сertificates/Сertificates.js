@@ -105,11 +105,11 @@ const Сertificates = ({ onCardClick }) => {
                     slidesToScroll={1}
                     slidesToShow={7}
                     arrows={true}
-                    autoCycle={false}
-                    pauseOnHover={false}
-                    cycleInterval={3000}
+                    autoCycle={true}
+                    pauseOnHover={true}
+                    cycleInterval={5000}
                     duration={1000}
-                    adaptiveHeight={true}
+
 
                 >
 

@@ -18,7 +18,7 @@
     height: 250px;
     margin: 0 auto;
     cursor: pointer;
-    overflow: hidden;
+
     border: 3px #140800;
     border-style: ridge;
 }

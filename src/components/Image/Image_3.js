@@ -7,7 +7,9 @@ function Image({ image, onCardClick }) {
     }
 
     return (
-        <img className="image_3" image={image} src={image.src} onClick={handleClick} />
+        <div>
+            <img className="image_3" image={image} src={image.src} onClick={handleClick} />
+        </div>
     )
 }
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import InfiniteCarousel from 'react-leaf-carousel';
 import './Сertificates.css';
+import Image from '../Image/Image_3';
+import { arrayCertificates } from '../../constants/arrayPortfolio';
 import slide1 from "../../images/certificates__img-1.jpg"
 import slide2 from "../../images/certificates__img-2.jpg"
 import slide3 from "../../images/certificates__img-3.jpg"
@@ -13,11 +15,10 @@ import slide9 from "../../images/certificates__img-9.jpg"
 import slide10 from "../../images/certificates__img-10.jpg"
 const handleDragStart = (e) => e.preventDefault();
 
-const Сertificates = () => {
+const Сertificates = ({ onCardClick }) => {
     return (
         <div className='partners'>
             <div className='partners__description'>
-                <h1 className="partners__title">Партнёры</h1>
                 <InfiniteCarousel
                     breakpoints={[
                         {
@@ -53,69 +54,20 @@ const Сertificates = () => {
                     adaptiveHeight={true}
 
                 >
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide1}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide2}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide3}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide4}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide5}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide6}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide7}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide8}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            className='partners__img'
-                            alt=''
-                            src={slide9}
-                        />
-                    </div>
+
+                    {arrayCertificates.map((image, index) => {
+
+
+                        return (
+
+                            <Image key={index}
+                                src={image.src}
+                                image={image}
+                                onCardClick={onCardClick}
+                            />
+                        )
+                    })
+                    }
                 </InfiniteCarousel>
             </div>
         </div>

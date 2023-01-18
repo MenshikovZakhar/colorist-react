@@ -1,12 +1,19 @@
 import React from 'react';
 import InfiniteCarousel from 'react-leaf-carousel';
 import './Сertificates.css';
-import { arrayCertificates } from '../../constants/arrayPortfolio';
-import Image from '../Image/Image_3';
+
+import slide1 from "../../images/certificates__img-1.jpg"
+import slide2 from "../../images/certificates__img-2.jpg"
+import slide3 from "../../images/certificates__img-3.jpg"
+import slide4 from "../../images/certificates__img-4.jpg"
+import slide5 from "../../images/certificates__img-5.jpg"
+import slide6 from "../../images/certificates__img-6.jpg"
+import slide7 from "../../images/certificates__img-7.jpg"
+import slide8 from "../../images/certificates__img-8.jpg"
+import slide9 from "../../images/certificates__img-9.jpg"
+import slide10 from "../../images/certificates__img-10.jpg"
 
 const Сertificates = ({ onCardClick }) => {
-
-
     return (
         <div className='certificates'>
             <div className='certificates__description'>
@@ -109,25 +116,82 @@ const Сertificates = ({ onCardClick }) => {
                     pauseOnHover={true}
                     cycleInterval={5000}
                     duration={1000}
+
                 >
-
-
-                    {arrayCertificates.map((image, index) => {
-
-
-                        return (
-
-                            <Image key={index}
-                                src={image.src}
-                                image={image}
-                                onCardClick={onCardClick}
-                            />
-                        )
-                    })
-                    }
-
-
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide1}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide2}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide3}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide4}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide5}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide6}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide7}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide8}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide9}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            className='image_3'
+                            alt=''
+                            src={slide10}
+                        />
+                    </div>
                 </InfiniteCarousel>
+
+
+
             </div>
         </div>
     );

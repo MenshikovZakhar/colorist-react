@@ -14,14 +14,7 @@
     overflow: hidden;
 }
 
-.image_3 {
-    height: 250px;
-    margin: 0 auto;
-    cursor: pointer;
 
-    border: 3px #140800;
-    border-style: ridge;
-}
 
 .image__img {
     width: 100%;

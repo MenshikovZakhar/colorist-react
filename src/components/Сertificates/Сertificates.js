@@ -13,7 +13,7 @@ import slide7 from "../../images/certificates__img-7.jpg"
 import slide8 from "../../images/certificates__img-8.jpg"
 import slide9 from "../../images/certificates__img-9.jpg"
 import slide10 from "../../images/certificates__img-10.jpg"
-const handleDragStart = (e) => e.preventDefault();
+
 
 const Сertificates = ({ onCardClick }) => {
     return (
@@ -46,8 +46,8 @@ const Сertificates = ({ onCardClick }) => {
 
                     slidesToScroll={1}
                     slidesToShow={7}
-                    arrows={false}
-                    autoCycle={true}
+                    arrows={true}
+                    autoCycle={false}
                     pauseOnHover={false}
                     cycleInterval={3000}
                     duration={1000}

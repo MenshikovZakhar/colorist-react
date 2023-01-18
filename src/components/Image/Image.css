@@ -109,6 +109,12 @@
 }
 
 
+@media(max-width: 390px) {
+    .image_3 {
+        height: 130px;
+    }
+}
+
 @media(max-width: 375px) {
     .image {
         width: 150px;

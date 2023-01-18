@@ -1,113 +1,40 @@
 import React from 'react';
 import InfiniteCarousel from 'react-leaf-carousel';
 import './Сertificates.css';
-import { useState, useEffect } from 'react';
-import slide1 from "../../images/certificates__img-1.jpg"
-import slide2 from "../../images/certificates__img-2.jpg"
-import slide3 from "../../images/certificates__img-3.jpg"
-import slide4 from "../../images/certificates__img-4.jpg"
-import slide5 from "../../images/certificates__img-5.jpg"
-import slide6 from "../../images/certificates__img-6.jpg"
-import slide7 from "../../images/certificates__img-7.jpg"
-import slide8 from "../../images/certificates__img-8.jpg"
-import slide9 from "../../images/certificates__img-9.jpg"
-import slide10 from "../../images/certificates__img-10.jpg"
+import slide1 from "../../images/brands__img-1.png"
+import slide2 from "../../images/brands__img-2.png"
+import slide3 from "../../images/brands__img-3.png"
+import slide4 from "../../images/brands__img-4.png"
+import slide5 from "../../images/brands__img-5.png"
+import slide6 from "../../images/brands__img-6.png"
+import slide7 from "../../images/brands__img-7.png"
+import slide8 from "../../images/brands__img-8.png"
+import slide9 from "../../images/brands__img-9.png"
+const handleDragStart = (e) => e.preventDefault();
 
-const Сertificates = ({ onCardClick }) => {
-
-    const [state, setState] = useState(7);
-
-    useEffect(() => {
-        setState(7);
-    }, []);
+const Сertificates = () => {
     return (
-        <div className='certificates'>
-            <div className='certificates__description'>
-
+        <div className='partners'>
+            <div className='partners__description'>
+                <h1 className="partners__title">Партнёры</h1>
                 <InfiniteCarousel
                     breakpoints={[
-
                         {
-                            breakpoint: 421,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 1,
-                            },
-                        },
-
-                        {
-                            breakpoint: 451,
-                            settings: {
-                                slidesToShow: 4,
-                                slidesToScroll: 1,
-                            },
-                        },
-
-                        {
-                            breakpoint: 501,
-                            settings: {
-                                slidesToShow: 4,
-                                slidesToScroll: 1,
-                            },
-                        },
-
-                        {
-                            breakpoint: 591,
-                            settings: {
-                                slidesToShow: 4,
-                                slidesToScroll: 1,
-                            },
-                        },
-
-                        {
-                            breakpoint: 631,
-                            settings: {
-                                slidesToShow: 4,
-                                slidesToScroll: 1,
-                            },
-                        },
-
-
-                        {
-                            breakpoint: 691,
-                            settings: {
-                                slidesToShow: 4,
-                                slidesToScroll: 1,
-                            },
-                        },
-
-                        {
-                            breakpoint: 741,
-                            settings: {
-                                slidesToShow: 4,
-                                slidesToScroll: 1,
-                            },
-                        },
-
-                        {
-                            breakpoint: 801,
-                            settings: {
-                                slidesToShow: 4,
-                                slidesToScroll: 1,
-                            },
-                        },
-
-                        {
-                            breakpoint: 851,
+                            breakpoint: 500,
                             settings: {
                                 slidesToShow: 4,
                                 slidesToScroll: 1,
                             },
                         },
                         {
-                            breakpoint: 1051,
+                            breakpoint: 850,
                             settings: {
                                 slidesToShow: 4,
                                 slidesToScroll: 1,
                             },
                         },
                         {
-                            breakpoint: 1231,
+                            breakpoint: 1100,
                             settings: {
                                 slidesToShow: 5,
                                 slidesToScroll: 1,
@@ -116,91 +43,84 @@ const Сertificates = ({ onCardClick }) => {
                     ]}
 
                     slidesToScroll={1}
-                    slidesToShow={state}
-                    arrows={true}
-                    autoCycle={false}
-                    pauseOnHover={true}
-                    cycleInterval={5000}
+                    slidesToShow={7}
+                    arrows={false}
+                    autoCycle={true}
+                    pauseOnHover={false}
+                    cycleInterval={3000}
                     duration={1000}
+                    adaptiveHeight={true}
 
                 >
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide1}
                         />
                     </div>
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide2}
                         />
                     </div>
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide3}
                         />
                     </div>
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide4}
                         />
                     </div>
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide5}
                         />
                     </div>
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide6}
                         />
                     </div>
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide7}
                         />
                     </div>
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide8}
                         />
                     </div>
                     <div>
                         <img
-                            className='image_3'
+                            className='partners__img'
                             alt=''
                             src={slide9}
                         />
                     </div>
-                    <div>
-                        <img
-                            className='image_3'
-                            alt=''
-                            src={slide10}
-                        />
-                    </div>
                 </InfiniteCarousel>
-
-
-
             </div>
         </div>
     );
 }
+
+
 
 export default Сertificates;

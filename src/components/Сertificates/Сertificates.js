@@ -1,7 +1,7 @@
 import React from 'react';
 import InfiniteCarousel from 'react-leaf-carousel';
 import './Сertificates.css';
-
+import { useState, useEffect } from 'react';
 import slide1 from "../../images/certificates__img-1.jpg"
 import slide2 from "../../images/certificates__img-2.jpg"
 import slide3 from "../../images/certificates__img-3.jpg"
@@ -14,6 +14,12 @@ import slide9 from "../../images/certificates__img-9.jpg"
 import slide10 from "../../images/certificates__img-10.jpg"
 
 const Сertificates = ({ onCardClick }) => {
+
+    const [state, setState] = useState(7);
+
+    useEffect(() => {
+        setState(7);
+    }, []);
     return (
         <div className='certificates'>
             <div className='certificates__description'>
@@ -110,7 +116,7 @@ const Сertificates = ({ onCardClick }) => {
                     ]}
 
                     slidesToScroll={1}
-                    slidesToShow={7}
+                    slidesToShow={state}
                     arrows={true}
                     autoCycle={false}
                     pauseOnHover={true}

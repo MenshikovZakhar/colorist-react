@@ -28,7 +28,7 @@ function Main({ onAppointment }) {
                 <Services />
                 <Сommunication />
                 <Portfolio />
-
+                <Haircolor />
                 <Partners />
             </main>
             <Footer />

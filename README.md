@@ -18,10 +18,9 @@
 4. БЭМ,
 5. JavaScript,
 6. React, 
-7. Razzle,
-8. JSX,
-9. React Router,
-10. Grid Layout и FLexbox,
+7. JSX,
+8. React Router,
+9. Grid Layout и FLexbox,
 
 ## 💻 Как развернуть проект
 

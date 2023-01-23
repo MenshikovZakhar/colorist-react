@@ -10,6 +10,11 @@ import ScrollToTop from "react-scroll-to-top";
 function Portfolio({ onCardClick, onAppointment }) {
     return (
         <>
+            <Helmet>
+                <title>Портфолио работ окрашивание волос в один тон</title>
+                <meta name="description" content="Портфолио работ окрашивание волос в один тон Челябинск" />
+                <link rel="canonical" href='/portfolio_4' />
+            </Helmet>
             <Header
                 onAppointment={onAppointment}
             />

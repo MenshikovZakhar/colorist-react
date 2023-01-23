@@ -10,6 +10,11 @@ import ScrollToTop from "react-scroll-to-top";
 function Price({ onAppointment }) {
     return (
         <>
+            <Helmet>
+                <title> Валерия Смоленцева Стоимость услуг</title>
+                <meta name="description" content="cтоимость окрашивания волос, cтоимость тонирования волос, cтоимость женские стрижки Челябинск" />
+                <link rel="canonical" href='/price' />
+            </Helmet>
             <Header
                 onAppointment={onAppointment}
             />

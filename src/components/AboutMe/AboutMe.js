@@ -12,11 +12,15 @@ import phone from '../../images/phone_2.png';
 import whatsapp from '../../images/whatsapp_2.svg';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-
+import Сertificates from '../Сertificates/Сertificates';
 function AboutMe({ onAppointment, onCardClick }) {
     return (
         <>
-
+            <Helmet>
+                <title>Валерия Смоленцева парикмахер колорист</title>
+                <meta name="description" content="Валерия Смоленцева Парикмахер широкого профиля, колорист Челябинск" />
+                <link rel="canonical" href="/about" />
+            </Helmet>
             <Header
                 onAppointment={onAppointment}
             />
@@ -81,7 +85,7 @@ function AboutMe({ onAppointment, onCardClick }) {
                     </div>
 
                 </section>
-
+                <Сertificates onCardClick={onCardClick} />
             </main>
             <Footer />
         </>

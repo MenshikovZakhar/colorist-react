@@ -11,11 +11,6 @@ import ScrollToTop from "react-scroll-to-top";
 function ServicesMe_1({ onCardClick, onAppointment }) {
     return (
         <>
-            <Helmet>
-                <title>Сложное окрашивания волос в Челябинске</title>
-                <meta name="description" content="Сложное окрашивание волос, Airtouch, Shatush, Balayage, Мелирование Челябинск" />
-                <link rel="canonical" href="/services_1" />
-            </Helmet>
             <Header
                 onAppointment={onAppointment}
             />

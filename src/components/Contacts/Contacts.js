@@ -16,11 +16,6 @@ import ScrollToTop from "react-scroll-to-top";
 function Contacts({ onAppointment }) {
     return (
         <>
-            <Helmet>
-                <title>Контакты</title>
-                <meta name="description" content="Телефон, Адрес, Режим работы, Валерия Смоленцева" />
-                <link rel="canonical" href='/contacts' />
-            </Helmet>
             <Header
                 onAppointment={onAppointment}
             />

@@ -8,11 +8,6 @@ import ScrollToTop from "react-scroll-to-top";
 function ServicesMe({ onAppointment }) {
     return (
         <>
-            <Helmet>
-                <title>Услуги</title>
-                <meta name="description" content="окрашивание волос, тонирование волос, женские стрижки Челябинск" />
-                <link rel="canonical" href="/services" />
-            </Helmet>
             <Header
                 onAppointment={onAppointment}
             />

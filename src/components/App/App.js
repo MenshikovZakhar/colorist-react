@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Main from '../Main/Main';
 import AboutMe from '../AboutMe/AboutMe';
@@ -42,64 +42,29 @@ function App() {
 
   return (
     <div className='page'>
-      <Switch>
-        <Route exact path='/'>
-          <Main
-            onAppointment={handleAppointment}
-          />
-        </Route>
-        <Route exact path='/about'>
-          <AboutMe onAppointment={handleAppointment} onCardClick={handleCardClick} />
-        </Route>
-        <Route exact path='/services'>
-          <ServicesMe onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/services_1'>
-          <ServicesMe_1 onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/services_2'>
-          <ServicesMe_2 onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/services_3'>
-          <ServicesMe_3 onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/services_4'>
-          <ServicesMe_4 onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/price'>
-          <Price onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/portfolio'>
-          <Portfolio
-            onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/portfolio_1'>
-          <Portfolio_1
-            onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/portfolio_2'>
-          <Portfolio_2
-            onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/portfolio_3'>
-          <Portfolio_3
-            onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/portfolio_4'>
-          <Portfolio_4
-            onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/portfolio_5'>
-          <Portfolio_5
-            onCardClick={handleCardClick} onAppointment={handleAppointment} />
-        </Route>
-        <Route exact path='/contacts'>
-          <Contacts onAppointment={handleAppointment} />
-        </Route>
-        <Route path='*'>
-          <PageNotFound />
-        </Route>
-      </Switch>
+      <Routes>
+
+        <Route path="/" element={<Main onAppointment={handleAppointment} />} />
+
+        <Route exact path='/about' element={<AboutMe onAppointment={handleAppointment} onCardClick={handleCardClick} />} />
+
+        <Route exact path='/services' element={<ServicesMe onAppointment={handleAppointment} />} />
+
+        <Route exact path='/services_1' element={<ServicesMe_1 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/services_2' element={<ServicesMe_2 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/services_3' element={<ServicesMe_3 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/services_4' element={<ServicesMe_4 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/price' element={<Price />} onAppointment={handleAppointment} />
+        <Route exact path='/portfolio' element={<Portfolio onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/portfolio_1' element={<Portfolio_1 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/portfolio_2' element={<Portfolio_2 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/portfolio_3' element={<Portfolio_3 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/portfolio_4' element={<Portfolio_4 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/portfolio_5' element={<Portfolio_5 onCardClick={handleCardClick} onAppointment={handleAppointment} />} />
+        <Route exact path='/contacts' element={<Contacts onAppointment={handleAppointment} />} />
+        <Route exact path='*' element={<PageNotFound />} />
+
+      </Routes>
       <Emailjs
         isOpen={isAppointmentpOpen}
         onClose={closePopupsMessage}

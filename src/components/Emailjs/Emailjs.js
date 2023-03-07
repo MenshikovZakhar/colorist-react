@@ -107,7 +107,7 @@ function Emailjs({ isOpen, onClose, }) {
                             placeholder='Введите Ваш телефон'
                             value={toSend.phone || ''}
                             onChange={handleChange}
-                            pattern="[0-9]{11}"
+                            pattern="^((8|\+7)[\- ]?)?\(?\d{3,5}\)?[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}(([\- ]?\d{1})?[\- ]?\d{1})?$"
                             required
                         />
                         <span className="register__error auth__error">{errors.phone}</span>

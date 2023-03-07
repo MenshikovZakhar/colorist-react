@@ -1,4 +1,5 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import React from 'react';
 import './App.css';
 import Main from '../Main/Main';
 import AboutMe from '../AboutMe/AboutMe';
@@ -42,6 +43,7 @@ function App() {
 
   return (
     <div className='page'>
+
       <Routes>
 
         <Route path="/" element={<Main onAppointment={handleAppointment} />} />
@@ -65,6 +67,7 @@ function App() {
         <Route exact path='*' element={<PageNotFound />} />
 
       </Routes>
+
       <Emailjs
         isOpen={isAppointmentpOpen}
         onClose={closePopupsMessage}
